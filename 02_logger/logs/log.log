@@ -1,0 +1,32 @@
+[INFO ] 24-10-14 22:24:51 [LoggerApplication:50] - Starting LoggerApplication using Java 17.0.2 with PID 8792 (D:\jinju\07_SpringBoot\02_logger\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\02_logger)
+[DEBUG] 24-10-14 22:24:51 [LoggerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-14 22:24:51 [LoggerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-14 22:24:53 [LoggerApplication:56] - Started LoggerApplication in 2.274 seconds (process running for 2.872)
+[INFO ] 24-10-14 22:25:20 [HomeController:32] - >>>> Proxy-Client-IP : null
+[INFO ] 24-10-14 22:25:20 [HomeController:36] - >>>> WL-Proxy-Client-IP : null
+[INFO ] 24-10-14 22:25:20 [HomeController:40] - >>>> HTTP_CLIENT_IP : null
+[INFO ] 24-10-14 22:25:20 [HomeController:44] - >>>> HTTP_X_FORWARDED_FOR : null
+[DEBUG] 24-10-14 22:25:20 [HomeController:51] - >>>> Client IP : 0:0:0:0:0:0:0:1
+[DEBUG] 24-10-14 22:25:20 [HomeController:56] - >>>> User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+[DEBUG] 24-10-14 22:25:20 [HomeController:65] - >>>> User-Agent : {"user_agent": {"family": "Chrome", "major": "129", "minor": "0", "patch": "0"}, "os": {"family": "Windows", "major": "10", "minor": "", "patch": "", "patch_minor": ""}, "device": {"family": "Other"}}
+[DEBUG] 24-10-14 22:25:20 [HomeController:72] - browserFamily : Chrome
+[DEBUG] 24-10-14 22:25:20 [HomeController:73] - browserMajor : 129
+[DEBUG] 24-10-14 22:25:20 [HomeController:74] - browserMinor : 0
+[DEBUG] 24-10-14 22:25:20 [HomeController:81] - osFamily : Windows
+[DEBUG] 24-10-14 22:25:20 [HomeController:82] - osMajor : 10
+[DEBUG] 24-10-14 22:25:20 [HomeController:83] - osMinor : null
+[DEBUG] 24-10-14 22:25:20 [HomeController:88] - deviceFamily : Other
+[INFO ] 24-10-14 22:25:46 [HomeController:32] - >>>> Proxy-Client-IP : null
+[INFO ] 24-10-14 22:25:46 [HomeController:36] - >>>> WL-Proxy-Client-IP : null
+[INFO ] 24-10-14 22:25:46 [HomeController:40] - >>>> HTTP_CLIENT_IP : null
+[INFO ] 24-10-14 22:25:46 [HomeController:44] - >>>> HTTP_X_FORWARDED_FOR : null
+[DEBUG] 24-10-14 22:25:46 [HomeController:51] - >>>> Client IP : 172.30.1.40
+[DEBUG] 24-10-14 22:25:46 [HomeController:56] - >>>> User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+[DEBUG] 24-10-14 22:25:46 [HomeController:65] - >>>> User-Agent : {"user_agent": {"family": "Chrome", "major": "129", "minor": "0", "patch": "0"}, "os": {"family": "Windows", "major": "10", "minor": "", "patch": "", "patch_minor": ""}, "device": {"family": "Other"}}
+[DEBUG] 24-10-14 22:25:46 [HomeController:72] - browserFamily : Chrome
+[DEBUG] 24-10-14 22:25:46 [HomeController:73] - browserMajor : 129
+[DEBUG] 24-10-14 22:25:46 [HomeController:74] - browserMinor : 0
+[DEBUG] 24-10-14 22:25:46 [HomeController:81] - osFamily : Windows
+[DEBUG] 24-10-14 22:25:46 [HomeController:82] - osMajor : 10
+[DEBUG] 24-10-14 22:25:46 [HomeController:83] - osMinor : null
+[DEBUG] 24-10-14 22:25:46 [HomeController:88] - deviceFamily : Other

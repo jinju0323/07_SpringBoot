@@ -1,0 +1,28 @@
+[INFO ] 24-10-15 01:28:13 [InterceptorApplication:50] - Starting InterceptorApplication using Java 17.0.2 with PID 11232 (D:\jinju\07_SpringBoot\03_interceptor\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\03_interceptor)
+[DEBUG] 24-10-15 01:28:13 [InterceptorApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-15 01:28:13 [InterceptorApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-15 01:28:15 [InterceptorApplication:56] - Started InterceptorApplication in 2.307 seconds (process running for 2.854)
+[INFO ] 24-10-15 01:28:22 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 01:28:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 01:28:22 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-15 01:28:22 [MyInterceptor:111] - running time : 177(ms)
+[INFO ] 24-10-15 01:28:25 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 01:28:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 01:28:25 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-15 01:28:25 [MyInterceptor:90] - - REFERER : time=2623, url=http://localhost:8080/
+[INFO ] 24-10-15 01:28:25 [MyInterceptor:111] - running time : 49(ms)
+[INFO ] 24-10-15 01:28:36 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 01:28:36 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 01:28:36 [MyInterceptor:74] - [GET] http://localhost:8080/hi
+[INFO ] 24-10-15 01:28:36 [MyInterceptor:90] - - REFERER : time=11340, url=http://localhost:8080/hello
+[INFO ] 24-10-15 01:28:36 [MyInterceptor:111] - running time : 33(ms)
+[INFO ] 24-10-15 01:28:40 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 01:28:41 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 01:28:41 [MyInterceptor:74] - [GET] http://localhost:8080/bye
+[INFO ] 24-10-15 01:28:41 [MyInterceptor:90] - - REFERER : time=4522, url=http://localhost:8080/hi
+[INFO ] 24-10-15 01:28:41 [MyInterceptor:111] - running time : 38(ms)
+[INFO ] 24-10-15 01:28:42 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 01:28:42 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 01:28:42 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-15 01:28:42 [MyInterceptor:90] - - REFERER : time=1021, url=http://localhost:8080/bye
+[INFO ] 24-10-15 01:28:42 [MyInterceptor:111] - running time : 25(ms)
