@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import kr.jinju.cookie_session.helpers.UtilHelper;
-import org.springframework.web.bind.annotation.RequestBody;
 
 
 

@@ -1,528 +1,564 @@
-[INFO ] 24-10-16 10:19:43 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19708 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:19:43 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:19:43 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:19:46 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.693 seconds (process running for 3.502)
-[INFO ] 24-10-16 10:19:49 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:19:49 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:19:49 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 10:19:49 [MyInterceptor:111] - running time : 325(ms)
-[INFO ] 24-10-16 10:19:51 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:19:51 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:19:51 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:19:51 [MyInterceptor:90] - - REFERER : time=2002, url=http://localhost:8080/
-[INFO ] 24-10-16 10:19:51 [MyInterceptor:111] - running time : 59(ms)
-[INFO ] 24-10-16 10:19:52 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:19:52 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:19:52 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:19:52 [MyInterceptor:90] - - REFERER : time=468, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:19:57 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:19:57 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:19:57 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:19:57 [MyInterceptor:90] - - REFERER : time=5955, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:19:57 [MyInterceptor:111] - running time : 60(ms)
-[INFO ] 24-10-16 10:19:58 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:19:58 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:19:58 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:19:58 [MyInterceptor:90] - - REFERER : time=595, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:19:58 [MyInterceptor:111] - running time : 36(ms)
-[INFO ] 24-10-16 10:20:02 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:20:02 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:20:02 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:20:02 [MyInterceptor:90] - - REFERER : time=3880, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:20:02 [MyInterceptor:111] - running time : 27(ms)
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:90] - - REFERER : time=891, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:111] - running time : 25(ms)
-[INFO ] 24-10-16 10:20:03 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:20:04 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:20:04 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:20:04 [MyInterceptor:90] - - REFERER : time=951, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:20:04 [MyInterceptor:111] - running time : 21(ms)
-[INFO ] 24-10-16 10:21:17 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19708 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:21:17 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:21:17 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:21:19 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.462 seconds (process running for 96.985)
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:90] - - REFERER : time=-194, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:111] - running time : 194(ms)
-[INFO ] 24-10-16 10:21:22 [MyInterceptor:111] - running time : 204(ms)
-[INFO ] 24-10-16 10:21:23 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19708 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:21:23 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:21:23 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:21:24 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.976 seconds (process running for 102.389)
-[INFO ] 24-10-16 10:21:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:24 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:21:24 [MyInterceptor:111] - running time : 37(ms)
-[INFO ] 24-10-16 10:21:25 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:25 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:21:25 [MyInterceptor:90] - - REFERER : time=918, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:21:25 [MyInterceptor:111] - running time : 29(ms)
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:90] - - REFERER : time=451, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:111] - running time : 71(ms)
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:90] - - REFERER : time=358, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:21:26 [MyInterceptor:111] - running time : 28(ms)
-[INFO ] 24-10-16 10:21:27 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:21:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:21:27 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:21:27 [MyInterceptor:90] - - REFERER : time=319, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:21:27 [MyInterceptor:111] - running time : 27(ms)
-[INFO ] 24-10-16 10:24:13 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:13 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:13 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:13 [MyInterceptor:90] - - REFERER : time=165939, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:24:13 [MyInterceptor:111] - running time : 101(ms)
-[INFO ] 24-10-16 10:24:14 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:14 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:14 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:14 [MyInterceptor:90] - - REFERER : time=1401, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:14 [MyInterceptor:111] - running time : 35(ms)
-[INFO ] 24-10-16 10:24:15 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:15 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:15 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:15 [MyInterceptor:90] - - REFERER : time=653, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:15 [MyInterceptor:111] - running time : 63(ms)
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:90] - - REFERER : time=763, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:111] - running time : 45(ms)
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:90] - - REFERER : time=780, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:16 [MyInterceptor:111] - running time : 30(ms)
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:90] - - REFERER : time=1304, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:111] - running time : 35(ms)
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:90] - - REFERER : time=432, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:18 [MyInterceptor:111] - running time : 36(ms)
-[INFO ] 24-10-16 10:24:19 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:19 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:19 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:24:19 [MyInterceptor:90] - - REFERER : time=440, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:19 [MyInterceptor:111] - running time : 24(ms)
-[INFO ] 24-10-16 10:24:20 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:20 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:20 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:20 [MyInterceptor:90] - - REFERER : time=1318, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:24:20 [MyInterceptor:111] - running time : 21(ms)
-[INFO ] 24-10-16 10:24:21 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:21 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:21 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:21 [MyInterceptor:90] - - REFERER : time=748, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:21 [MyInterceptor:111] - running time : 35(ms)
-[INFO ] 24-10-16 10:24:22 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:22 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:22 [MyInterceptor:90] - - REFERER : time=858, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:22 [MyInterceptor:111] - running time : 57(ms)
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:90] - - REFERER : time=1026, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:111] - running time : 28(ms)
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:90] - - REFERER : time=570, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:23 [MyInterceptor:111] - running time : 30(ms)
-[INFO ] 24-10-16 10:24:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:24 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:24:24 [MyInterceptor:90] - - REFERER : time=551, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:24:24 [MyInterceptor:111] - running time : 29(ms)
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:90] - - REFERER : time=703, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:111] - running time : 154(ms)
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:90] - - REFERER : time=224, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:24:25 [MyInterceptor:111] - running time : 54(ms)
-[INFO ] 24-10-16 10:34:21 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 3936 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:34:21 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:34:21 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:34:23 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.937 seconds (process running for 3.866)
-[INFO ] 24-10-16 10:34:52 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:34:52 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:34:52 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 10:34:52 [MyInterceptor:111] - running time : 203(ms)
-[INFO ] 24-10-16 10:34:53 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:34:53 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:34:53 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:34:53 [MyInterceptor:90] - - REFERER : time=1454, url=http://localhost:8080/
-[INFO ] 24-10-16 10:34:53 [MyInterceptor:111] - running time : 71(ms)
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:90] - - REFERER : time=280, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:111] - running time : 37(ms)
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:90] - - REFERER : time=316, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:111] - running time : 33(ms)
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:90] - - REFERER : time=244, url=http://localhost:8080/session/home
-[INFO ] 24-10-16 10:34:54 [MyInterceptor:111] - running time : 39(ms)
-[INFO ] 24-10-16 10:55:38 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 3936 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:55:38 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:55:38 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:55:40 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.56 seconds (process running for 1280.608)
-[INFO ] 24-10-16 10:58:05 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 3936 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 10:58:05 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 10:58:05 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 10:58:07 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.389 seconds (process running for 1427.676)
-[INFO ] 24-10-16 10:58:17 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:58:17 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:58:17 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
-[INFO ] 24-10-16 10:58:17 [MyInterceptor:111] - running time : 106(ms)
-[INFO ] 24-10-16 10:58:19 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 10:58:20 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 10:58:20 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 10:58:20 [MyInterceptor:90] - - REFERER : time=2146, url=http://localhost:8080/session/login
-[INFO ] 24-10-16 10:58:20 [MyInterceptor:111] - running time : 130(ms)
-[INFO ] 24-10-16 11:05:13 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 3856 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 11:05:13 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 11:05:13 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 11:05:15 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.954 seconds (process running for 3.68)
-[INFO ] 24-10-16 11:05:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 11:05:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 11:05:25 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 11:05:25 [MyInterceptor:111] - running time : 187(ms)
-[INFO ] 24-10-16 11:05:26 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 11:05:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 11:05:26 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 11:05:26 [MyInterceptor:90] - - REFERER : time=1378, url=http://localhost:8080/
-[INFO ] 24-10-16 11:05:26 [MyInterceptor:111] - running time : 84(ms)
-[INFO ] 24-10-16 12:08:20 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18028 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:08:20 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:08:20 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:08:23 [CookieSessionApplication:56] - Started CookieSessionApplication in 3.311 seconds (process running for 4.737)
-[INFO ] 24-10-16 12:08:28 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:08:28 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:08:28 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 12:08:28 [MyInterceptor:111] - running time : 204(ms)
-[INFO ] 24-10-16 12:08:29 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:08:29 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:08:29 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:08:29 [MyInterceptor:90] - - REFERER : time=1287, url=http://localhost:8080/
-[INFO ] 24-10-16 12:08:29 [MyInterceptor:111] - running time : 52(ms)
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/save
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:81] - param <-- cookie_name = name
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:81] - param <-- cookie_time = 5
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:81] - param <-- cookie_var = 심진주
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:90] - - REFERER : time=15317, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:111] - running time : 55(ms)
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:90] - - REFERER : time=16, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:08:44 [MyInterceptor:111] - running time : 37(ms)
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/save
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:81] - param <-- cookie_name = name
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:81] - param <-- cookie_time = 10
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:81] - param <-- cookie_var = 심진주
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:90] - - REFERER : time=17805, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:111] - running time : 45(ms)
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:90] - - REFERER : time=16, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:09:02 [MyInterceptor:111] - running time : 43(ms)
-[INFO ] 24-10-16 12:16:21 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:16:21 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:16:21 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:16:23 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.837 seconds (process running for 4.013)
-[INFO ] 24-10-16 12:16:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:25 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 12:16:25 [MyInterceptor:111] - running time : 225(ms)
-[INFO ] 24-10-16 12:16:26 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:26 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:26 [MyInterceptor:90] - - REFERER : time=1388, url=http://localhost:8080/
-[INFO ] 24-10-16 12:16:26 [MyInterceptor:111] - running time : 78(ms)
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/save
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:81] - param <-- cookie_name = name
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:81] - param <-- cookie_time = 10
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:81] - param <-- cookie_var = 심진주
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:90] - - REFERER : time=8612, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:111] - running time : 66(ms)
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:90] - - REFERER : time=12, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:35 [MyInterceptor:111] - running time : 55(ms)
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/save
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:81] - param <-- cookie_name = age
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:81] - param <-- cookie_time = 5
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:81] - param <-- cookie_var = 3
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:90] - - REFERER : time=7618, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:111] - running time : 58(ms)
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:90] - - REFERER : time=5, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:43 [MyInterceptor:111] - running time : 49(ms)
-[INFO ] 24-10-16 12:16:46 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:46 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:46 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:46 [MyInterceptor:90] - - REFERER : time=3493, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:46 [MyInterceptor:111] - running time : 36(ms)
-[INFO ] 24-10-16 12:16:47 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:47 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:47 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:47 [MyInterceptor:90] - - REFERER : time=1234, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:47 [MyInterceptor:111] - running time : 28(ms)
-[INFO ] 24-10-16 12:16:50 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 12:16:50 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 12:16:50 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:50 [MyInterceptor:90] - - REFERER : time=2532, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 12:16:50 [MyInterceptor:111] - running time : 25(ms)
-[INFO ] 24-10-16 12:39:57 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:39:57 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:39:57 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:39:58 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.429 seconds (process running for 1419.331)
-[INFO ] 24-10-16 12:50:41 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:50:41 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:50:41 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:50:43 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.617 seconds (process running for 2063.578)
-[INFO ] 24-10-16 12:51:47 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:51:47 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:51:47 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:51:50 [CookieSessionApplication:56] - Started CookieSessionApplication in 4.031 seconds (process running for 2131.26)
-[INFO ] 24-10-16 12:51:52 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:51:52 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:51:52 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:51:53 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.555 seconds (process running for 2134.31)
-[INFO ] 24-10-16 12:52:00 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:52:00 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:52:00 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:52:01 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.417 seconds (process running for 2142.452)
-[INFO ] 24-10-16 12:52:04 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 18260 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 12:52:04 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 12:52:04 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 12:52:06 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.138 seconds (process running for 2146.997)
-[INFO ] 24-10-16 15:19:48 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 6468 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:19:48 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:19:48 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:19:51 [CookieSessionApplication:56] - Started CookieSessionApplication in 3.197 seconds (process running for 4.165)
-[INFO ] 24-10-16 15:19:54 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:19:55 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:19:55 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 15:19:55 [MyInterceptor:111] - running time : 236(ms)
-[INFO ] 24-10-16 15:19:57 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:19:57 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:19:57 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:19:57 [MyInterceptor:90] - - REFERER : time=2579, url=http://localhost:8080/
-[INFO ] 24-10-16 15:19:57 [MyInterceptor:111] - running time : 89(ms)
-[INFO ] 24-10-16 15:20:00 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:20:00 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:20:00 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:20:00 [MyInterceptor:90] - - REFERER : time=2341, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:20:00 [MyInterceptor:111] - running time : 61(ms)
-[INFO ] 24-10-16 15:20:02 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:20:02 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:20:02 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:20:02 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:20:02 [MyInterceptor:90] - - REFERER : time=2474, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:48 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 6468 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:22:48 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:22:48 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:22:50 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.137 seconds (process running for 182.957)
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:111] - running time : 65(ms)
-[INFO ] 24-10-16 15:22:50 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:51 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:51 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:51 [MyInterceptor:90] - - REFERER : time=29, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:51 [MyInterceptor:111] - running time : 37(ms)
-[INFO ] 24-10-16 15:22:52 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 6468 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:22:52 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:22:52 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:22:53 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.43 seconds (process running for 185.943)
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:56] - [Client] 127.0.0.1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:111] - running time : 40(ms)
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:56] - [Client] 127.0.0.1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:90] - - REFERER : time=14, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:53 [MyInterceptor:111] - running time : 89(ms)
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:56] - [Client] 127.0.0.1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:90] - - REFERER : time=1453, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:111] - running time : 59(ms)
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:56] - [Client] 127.0.0.1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:90] - - REFERER : time=17, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:22:55 [MyInterceptor:111] - running time : 37(ms)
-[INFO ] 24-10-16 15:24:15 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:90] - - REFERER : time=80725, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:111] - running time : 539(ms)
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:90] - - REFERER : time=160, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:111] - running time : 49(ms)
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:90] - - REFERER : time=-49, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:111] - running time : 128(ms)
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:90] - - REFERER : time=54, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:24:16 [MyInterceptor:111] - running time : 84(ms)
-[INFO ] 24-10-16 15:24:18 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 6468 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:24:18 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:24:18 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:24:22 [CookieSessionApplication:56] - Started CookieSessionApplication in 4.757 seconds (process running for 275.115)
-[INFO ] 24-10-16 15:24:24 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 6468 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:24:24 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:24:24 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:24:25 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.695 seconds (process running for 278.443)
-[INFO ] 24-10-16 15:25:34 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 11200 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
-[DEBUG] 24-10-16 15:25:34 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-16 15:25:34 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-10-16 15:25:36 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.789 seconds (process running for 3.629)
-[INFO ] 24-10-16 15:25:39 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:25:40 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:25:40 [MyInterceptor:74] - [GET] http://localhost:8080/
-[INFO ] 24-10-16 15:25:40 [MyInterceptor:111] - running time : 216(ms)
-[INFO ] 24-10-16 15:25:41 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:25:41 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:25:41 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:25:41 [MyInterceptor:90] - - REFERER : time=1759, url=http://localhost:8080/
-[INFO ] 24-10-16 15:25:42 [MyInterceptor:111] - running time : 86(ms)
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:74] - [POST] http://localhost:8080/cookie/popup_close
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:81] - param <-- no-open = Y
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:90] - - REFERER : time=1767, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:111] - running time : 66(ms)
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:90] - - REFERER : time=9, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:25:43 [MyInterceptor:111] - running time : 51(ms)
-[INFO ] 24-10-16 15:26:17 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:17 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:17 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:26:17 [MyInterceptor:90] - - REFERER : time=33623, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:17 [MyInterceptor:111] - running time : 44(ms)
-[INFO ] 24-10-16 15:26:20 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:20 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:20 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:20 [MyInterceptor:90] - - REFERER : time=3105, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:26:20 [MyInterceptor:111] - running time : 50(ms)
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:90] - - REFERER : time=1323, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:111] - running time : 41(ms)
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:90] - - REFERER : time=483, url=http://localhost:8080/cookie/home
-[INFO ] 24-10-16 15:26:22 [MyInterceptor:111] - running time : 31(ms)
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:90] - - REFERER : time=1489, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:111] - running time : 24(ms)
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:90] - - REFERER : time=381, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:111] - running time : 27(ms)
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:90] - - REFERER : time=137, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:111] - running time : 25(ms)
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:90] - - REFERER : time=133, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:111] - running time : 21(ms)
-[INFO ] 24-10-16 15:26:24 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:25 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:25 [MyInterceptor:90] - - REFERER : time=145, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:25 [MyInterceptor:111] - running time : 22(ms)
-[INFO ] 24-10-16 15:26:26 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:26 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:26 [MyInterceptor:90] - - REFERER : time=1283, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:26 [MyInterceptor:111] - running time : 21(ms)
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:90] - - REFERER : time=871, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:111] - running time : 23(ms)
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:90] - - REFERER : time=772, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:27 [MyInterceptor:111] - running time : 19(ms)
-[INFO ] 24-10-16 15:26:30 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:30 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:30 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:30 [MyInterceptor:90] - - REFERER : time=2486, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:30 [MyInterceptor:111] - running time : 20(ms)
-[INFO ] 24-10-16 15:26:42 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:42 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:42 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:42 [MyInterceptor:90] - - REFERER : time=12406, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:42 [MyInterceptor:111] - running time : 17(ms)
-[INFO ] 24-10-16 15:26:43 [MyInterceptor:39] - -------------- new client connect --------------
-[INFO ] 24-10-16 15:26:43 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
-[INFO ] 24-10-16 15:26:43 [MyInterceptor:74] - [GET] http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:43 [MyInterceptor:90] - - REFERER : time=959, url=http://localhost:8080/cookie/popup
-[INFO ] 24-10-16 15:26:43 [MyInterceptor:111] - running time : 19(ms)
+[INFO ] 24-10-17 10:03:31 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 16784 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:03:31 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:03:31 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-10-17 10:03:33 [AnnotationConfigServletWebServerApplicationContext:633] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+[ERROR] 24-10-17 10:03:33 [SpringApplication:859] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.jinju.cookie_session.CookieSessionApplication.main(CookieSessionApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 21 common frames omitted
+[INFO ] 24-10-17 10:04:05 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 23140 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:04:05 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:04:05 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-10-17 10:04:07 [AnnotationConfigServletWebServerApplicationContext:633] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+[ERROR] 24-10-17 10:04:07 [SpringApplication:859] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.jinju.cookie_session.CookieSessionApplication.main(CookieSessionApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 21 common frames omitted
+[INFO ] 24-10-17 10:07:26 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 17876 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:07:26 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:07:26 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-10-17 10:07:28 [AnnotationConfigServletWebServerApplicationContext:633] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+[ERROR] 24-10-17 10:07:28 [SpringApplication:859] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.jinju.cookie_session.CookieSessionApplication.main(CookieSessionApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 21 common frames omitted
+[INFO ] 24-10-17 10:08:05 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 7228 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:08:05 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:08:05 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-10-17 10:08:07 [AnnotationConfigServletWebServerApplicationContext:633] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+[ERROR] 24-10-17 10:08:07 [SpringApplication:859] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.jinju.cookie_session.CookieSessionApplication.main(CookieSessionApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'sessionController' method 
+kr.jinju.cookie_session.controllers.SessionController#home()
+to {GET [/session/login]}: There is already 'sessionController' bean method
+kr.jinju.cookie_session.controllers.SessionController#save(HttpServletRequest, String, int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 21 common frames omitted
+[INFO ] 24-10-17 10:10:16 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19804 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:10:16 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:10:16 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:10:19 [CookieSessionApplication:56] - Started CookieSessionApplication in 3.079 seconds (process running for 4.05)
+[INFO ] 24-10-17 10:10:24 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:10:25 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:10:25 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-17 10:10:25 [MyInterceptor:111] - running time : 199(ms)
+[INFO ] 24-10-17 10:10:27 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:10:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:10:27 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:10:27 [MyInterceptor:90] - - REFERER : time=2240, url=http://localhost:8080/
+[INFO ] 24-10-17 10:10:27 [MyInterceptor:111] - running time : 153(ms)
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:74] - [POST] http://localhost:8080/session/save;jsessionid=195B03417F88CEC7F387EF1954CF5C34
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:81] - param <-- user_age = 24
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:90] - - REFERER : time=7713, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:10:35 [MyInterceptor:111] - running time : 63(ms)
+[INFO ] 24-10-17 10:12:05 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19804 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:12:05 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:12:05 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:12:06 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.909 seconds (process running for 111.78)
+[INFO ] 24-10-17 10:12:08 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19804 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:12:08 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:12:08 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:12:09 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.208 seconds (process running for 114.725)
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:74] - [POST] http://localhost:8080/session/save;jsessionid=195B03417F88CEC7F387EF1954CF5C34
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:81] - param <-- user_age = 24
+[INFO ] 24-10-17 10:12:13 [MyInterceptor:111] - running time : 82(ms)
+[INFO ] 24-10-17 10:12:14 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:12:14 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:12:14 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:12:14 [MyInterceptor:90] - - REFERER : time=1248, url=http://localhost:8080/session/save;jsessionid=195B03417F88CEC7F387EF1954CF5C34
+[INFO ] 24-10-17 10:12:14 [MyInterceptor:111] - running time : 56(ms)
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:74] - [POST] http://localhost:8080/session/save
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:81] - param <-- user_age = 24
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:90] - - REFERER : time=7173, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:12:21 [MyInterceptor:111] - running time : 50(ms)
+[INFO ] 24-10-17 10:12:52 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 19804 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:12:52 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:12:52 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:12:56 [CookieSessionApplication:56] - Started CookieSessionApplication in 3.611 seconds (process running for 161.376)
+[INFO ] 24-10-17 10:14:26 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 1960 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:14:26 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:14:26 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:14:28 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.864 seconds (process running for 3.707)
+[INFO ] 24-10-17 10:14:31 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:14:31 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:14:31 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-17 10:14:31 [MyInterceptor:111] - running time : 202(ms)
+[INFO ] 24-10-17 10:14:32 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:14:32 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:14:32 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:14:32 [MyInterceptor:90] - - REFERER : time=1021, url=http://localhost:8080/
+[INFO ] 24-10-17 10:14:32 [MyInterceptor:111] - running time : 93(ms)
+[INFO ] 24-10-17 10:14:38 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:74] - [POST] http://localhost:8080/session/save
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:81] - param <-- user_age = 24
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:90] - - REFERER : time=6612, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:14:39 [MyInterceptor:111] - running time : 58(ms)
+[ERROR] 24-10-17 10:14:39 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-5] Exception processing template "/session/save": Error resolving template [/session/save], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/session/save], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-17 10:14:39 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/session/save], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/session/save], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-17 10:15:05 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 1960 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:15:05 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:15:05 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:15:06 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.577 seconds (process running for 41.643)
+[INFO ] 24-10-17 10:19:14 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 7904 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:19:14 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:19:14 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:19:16 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.983 seconds (process running for 3.703)
+[INFO ] 24-10-17 10:19:24 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:19:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:19:24 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-17 10:19:24 [MyInterceptor:111] - running time : 290(ms)
+[INFO ] 24-10-17 10:19:27 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:19:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:19:27 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:19:27 [MyInterceptor:90] - - REFERER : time=2984, url=http://localhost:8080/
+[INFO ] 24-10-17 10:19:27 [MyInterceptor:111] - running time : 108(ms)
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:74] - [POST] http://localhost:8080/session/save
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:81] - param <-- user_age = 24
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:90] - - REFERER : time=4834, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:111] - running time : 78(ms)
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:90] - - REFERER : time=7, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:19:32 [MyInterceptor:111] - running time : 48(ms)
+[INFO ] 24-10-17 10:22:06 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 7904 (D:\jinju\07_SpringBoot\05_cookie_session\build\classes\java\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:22:06 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:22:06 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:22:07 [CookieSessionApplication:56] - Started CookieSessionApplication in 1.167 seconds (process running for 174.628)
+[INFO ] 24-10-17 10:24:54 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 14272 (D:\jinju\07_SpringBoot\05_cookie_session\bin\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:24:54 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:24:54 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:24:57 [CookieSessionApplication:56] - Started CookieSessionApplication in 2.964 seconds (process running for 3.743)
+[INFO ] 24-10-17 10:25:09 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:25:09 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:25:09 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-17 10:25:09 [MyInterceptor:111] - running time : 209(ms)
+[INFO ] 24-10-17 10:25:10 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:25:10 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:25:10 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:25:10 [MyInterceptor:90] - - REFERER : time=1116, url=http://localhost:8080/
+[INFO ] 24-10-17 10:25:10 [MyInterceptor:111] - running time : 113(ms)
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:74] - [POST] http://localhost:8080/session/save
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:81] - param <-- user_name = 이름
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:81] - param <-- user_age = 20
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:90] - - REFERER : time=5302, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:111] - running time : 69(ms)
+[INFO ] 24-10-17 10:25:15 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 10:25:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 10:25:16 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 10:25:16 [MyInterceptor:90] - - REFERER : time=7, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 10:25:16 [MyInterceptor:111] - running time : 59(ms)
+[INFO ] 24-10-17 10:29:53 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 14272 (D:\jinju\07_SpringBoot\05_cookie_session\bin\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 10:29:53 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 10:29:53 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 10:29:53 [CookieSessionApplication:56] - Started CookieSessionApplication in 0.765 seconds (process running for 300.291)
+[INFO ] 24-10-17 12:47:37 [CookieSessionApplication:50] - Starting CookieSessionApplication using Java 17.0.2 with PID 668 (D:\jinju\07_SpringBoot\05_cookie_session\bin\main started by user in D:\jinju\07_SpringBoot\05_cookie_session)
+[DEBUG] 24-10-17 12:47:37 [CookieSessionApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-17 12:47:37 [CookieSessionApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-17 12:47:40 [CookieSessionApplication:56] - Started CookieSessionApplication in 3.373 seconds (process running for 4.295)
+[INFO ] 24-10-17 12:48:18 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:18 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:18 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-17 12:48:18 [MyInterceptor:111] - running time : 214(ms)
+[INFO ] 24-10-17 12:48:20 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:20 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:20 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:20 [MyInterceptor:90] - - REFERER : time=1959, url=http://localhost:8080/
+[INFO ] 24-10-17 12:48:21 [MyInterceptor:111] - running time : 104(ms)
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:74] - [POST] http://localhost:8080/session/save
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:81] - param <-- user_name = 심진주
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:81] - param <-- user_age = 20
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:90] - - REFERER : time=5410, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:111] - running time : 80(ms)
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:74] - [GET] http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:90] - - REFERER : time=12, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:26 [MyInterceptor:111] - running time : 45(ms)
+[INFO ] 24-10-17 12:48:27 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:27 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:27 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:27 [MyInterceptor:90] - - REFERER : time=748, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:27 [MyInterceptor:111] - running time : 61(ms)
+[INFO ] 24-10-17 12:48:41 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:41 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:41 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:41 [MyInterceptor:90] - - REFERER : time=14517, url=http://localhost:8080/session/home
+[INFO ] 24-10-17 12:48:41 [MyInterceptor:111] - running time : 64(ms)
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:74] - [POST] http://localhost:8080/session/login_ok
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:81] - param <-- user_id = jinju
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:81] - param <-- user_password = 1234
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:90] - - REFERER : time=6103, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:111] - running time : 39(ms)
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:90] - - REFERER : time=7, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:48 [MyInterceptor:111] - running time : 30(ms)
+[INFO ] 24-10-17 12:48:51 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:74] - [GET] http://localhost:8080/session/logout
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:90] - - REFERER : time=3847, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:111] - running time : 21(ms)
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:90] - - REFERER : time=9, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:52 [MyInterceptor:111] - running time : 23(ms)
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:74] - [POST] http://localhost:8080/session/login_ok
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:81] - param <-- user_id = jinju
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:81] - param <-- user_password = 12
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:90] - - REFERER : time=4143, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:48:56 [MyInterceptor:111] - running time : 25(ms)
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:74] - [POST] http://localhost:8080/session/login_ok
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:81] - param <-- user_id = jinj
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:81] - param <-- user_password = 1234
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:90] - - REFERER : time=5309, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:01 [MyInterceptor:111] - running time : 22(ms)
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:74] - [POST] http://localhost:8080/session/login_ok
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:81] - param <-- user_id = jinju
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:81] - param <-- user_password = 1234
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:81] - param <-- remember_id = Y
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:90] - - REFERER : time=4764, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:111] - running time : 32(ms)
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:90] - - REFERER : time=9, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:06 [MyInterceptor:111] - running time : 24(ms)
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:74] - [GET] http://localhost:8080/session/logout
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:90] - - REFERER : time=1263, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:111] - running time : 21(ms)
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:90] - - REFERER : time=4, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:07 [MyInterceptor:111] - running time : 17(ms)
+[INFO ] 24-10-17 12:49:10 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:10 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:10 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:10 [MyInterceptor:90] - - REFERER : time=2331, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:10 [MyInterceptor:111] - running time : 20(ms)
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:74] - [POST] http://localhost:8080/session/login_ok
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:81] - param <-- user_id = jinju
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:81] - param <-- user_password = 1234
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:81] - param <-- remember_id = Y
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:90] - - REFERER : time=23536, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:111] - running time : 22(ms)
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:74] - [GET] http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:90] - - REFERER : time=11, url=http://localhost:8080/session/login
+[INFO ] 24-10-17 12:49:33 [MyInterceptor:111] - running time : 20(ms)
