@@ -1,0 +1,1387 @@
+[INFO ] 24-10-18 11:53:17 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 19308 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 11:53:17 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 11:53:17 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 11:53:20 [MailerApplication:56] - Started MailerApplication in 3.037 seconds (process running for 3.855)
+[INFO ] 24-10-18 11:53:22 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 11:53:22 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 11:53:22 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 11:53:22 [MyInterceptor:117] - running time : 203(ms)
+[WARN ] 24-10-18 11:54:47 [DefaultHandlerExceptionResolver:247] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[WARN ] 24-10-18 11:55:06 [DefaultHandlerExceptionResolver:247] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[INFO ] 24-10-18 12:03:32 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 12:03:32 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 12:03:32 [MyInterceptor:80] - [GET] http://localhost:8080/index
+[INFO ] 24-10-18 12:03:32 [MyInterceptor:96] - - REFERER : time=610057, url=http://localhost:8080/
+[INFO ] 24-10-18 12:03:52 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 19308 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 12:03:52 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 12:03:52 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 12:03:54 [MailerApplication:56] - Started MailerApplication in 1.75 seconds (process running for 638.136)
+[INFO ] 24-10-18 12:03:58 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 12:03:59 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 12:03:59 [MyInterceptor:80] - [GET] http://localhost:8080/index
+[INFO ] 24-10-18 12:21:04 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 19308 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 12:21:04 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 12:21:04 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 12:21:09 [MailerApplication:56] - Started MailerApplication in 5.95 seconds (process running for 1672.993)
+[INFO ] 24-10-18 12:21:16 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 19308 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 12:21:16 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 12:21:16 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 12:21:17 [MailerApplication:56] - Started MailerApplication in 1.411 seconds (process running for 1680.965)
+[INFO ] 24-10-18 12:21:20 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 19308 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 12:21:20 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 12:21:20 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 12:21:22 [MailerApplication:56] - Started MailerApplication in 2.449 seconds (process running for 1686.313)
+[INFO ] 24-10-18 12:56:23 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 11704 (D:\jinju\07_SpringBoot\07_mailer\bin\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 12:56:23 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 12:56:23 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 12:56:25 [MailerApplication:56] - Started MailerApplication in 3.019 seconds (process running for 3.809)
+[INFO ] 24-10-18 12:56:29 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 12:56:29 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 12:56:29 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 12:56:29 [MyInterceptor:117] - running time : 203(ms)
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- sender-name = 진주발신구글
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- sender-email = tlawlswn28@gmail.com
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- receiver-name = 진주수신네이버
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- receiver-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- subject = 스트링부트 메일 예제 연습
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:87] - param <-- content = <figure class="image image-style-side"><img src="https://velog.velcdn.com/images/tjddus0302/post/ae83a522-524a-4cea-93cc-8d2902da246f/image.jpeg" alt="post-thumbnail"></figure><p>스프링부트 메일 예제 실습</p>
+[INFO ] 24-10-18 12:59:55 [MyInterceptor:96] - - REFERER : time=205811, url=http://localhost:8080/
+[DEBUG] 24-10-18 12:59:55 [MailController:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 12:59:55 [MailController:42] - SenderName: 진주발신구글
+[DEBUG] 24-10-18 12:59:55 [MailController:43] - SenderEmail: tlawlswn28@gmail.com
+[DEBUG] 24-10-18 12:59:55 [MailController:44] - RecvName: 진주수신네이버
+[DEBUG] 24-10-18 12:59:55 [MailController:45] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 12:59:55 [MailController:46] - Subject: 스트링부트 메일 예제 연습
+[DEBUG] 24-10-18 12:59:55 [MailController:47] - Content: <figure class="image image-style-side"><img src="https://velog.velcdn.com/images/tjddus0302/post/ae83a522-524a-4cea-93cc-8d2902da246f/image.jpeg" alt="post-thumbnail"></figure><p>스프링부트 메일 예제 실습</p>
+[DEBUG] 24-10-18 12:59:55 [MailController:48] - ----------------------------------------------------------------
+[ERROR] 24-10-18 12:59:57 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.mail.MailAuthenticationException: Authentication failed] with root cause
+jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-71ea333f003sm467502b3a.78 - gsmtp
+
+	at org.eclipse.angus.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:954)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:865)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:769)
+	at jakarta.mail.Service.connect(Service.java:345)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:480)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:399)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350)
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101)
+	at kr.jinju.mailer.controllers.MailController.postMethodName(MailController.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 13:58:50 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 20048 (D:\jinju\07_SpringBoot\07_mailer\bin\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 13:58:50 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 13:58:50 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 13:58:52 [MailerApplication:56] - Started MailerApplication in 2.972 seconds (process running for 3.639)
+[INFO ] 24-10-18 13:58:56 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 13:58:56 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 13:58:56 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 13:58:56 [MyInterceptor:117] - running time : 207(ms)
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- sender-name = 진주발신네이버
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- receiver-name = 진주아이클라우드
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- receiver-email = tlawlswn28@icloud.com
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- subject = 스프링부트 메일 예제
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:87] - param <-- content = <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>&nbsp;</p><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p><p>&nbsp;</p><p>스프링부트 메일 예제입니다.</p>
+[INFO ] 24-10-18 14:01:25 [MyInterceptor:96] - - REFERER : time=149619, url=http://localhost:8080/
+[DEBUG] 24-10-18 14:01:25 [MailController:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 14:01:25 [MailController:42] - SenderName: 진주발신네이버
+[DEBUG] 24-10-18 14:01:25 [MailController:43] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 14:01:25 [MailController:44] - RecvName: 진주아이클라우드
+[DEBUG] 24-10-18 14:01:25 [MailController:45] - RecvEmail: tlawlswn28@icloud.com
+[DEBUG] 24-10-18 14:01:25 [MailController:46] - Subject: 스프링부트 메일 예제
+[DEBUG] 24-10-18 14:01:25 [MailController:47] - Content: <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>&nbsp;</p><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p><p>&nbsp;</p><p>스프링부트 메일 예제입니다.</p>
+[DEBUG] 24-10-18 14:01:25 [MailController:48] - ----------------------------------------------------------------
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:117] - running time : 702(ms)
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:96] - - REFERER : time=11, url=http://localhost:8080/
+[INFO ] 24-10-18 14:01:26 [MyInterceptor:117] - running time : 42(ms)
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- sender-name = 진주네이버
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- receiver-name = 진주아이클라우드
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- receiver-email = tlawlswn28@icloud.com
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- subject = 이메일 발송 연습
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:87] - param <-- content = <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>&nbsp;</p><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p>
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:96] - - REFERER : time=247427, url=http://localhost:8080/
+[DEBUG] 24-10-18 14:05:34 [MailController:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 14:05:34 [MailController:42] - SenderName: 진주네이버
+[DEBUG] 24-10-18 14:05:34 [MailController:43] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 14:05:34 [MailController:44] - RecvName: 진주아이클라우드
+[DEBUG] 24-10-18 14:05:34 [MailController:45] - RecvEmail: tlawlswn28@icloud.com
+[DEBUG] 24-10-18 14:05:34 [MailController:46] - Subject: 이메일 발송 연습
+[DEBUG] 24-10-18 14:05:34 [MailController:47] - Content: <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>&nbsp;</p><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p>
+[DEBUG] 24-10-18 14:05:34 [MailController:48] - ----------------------------------------------------------------
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:117] - running time : 316(ms)
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:96] - - REFERER : time=5, url=http://localhost:8080/
+[INFO ] 24-10-18 14:05:34 [MyInterceptor:117] - running time : 30(ms)
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- sender-name = 진주네이버
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- receiver-name = 진주다음
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- receiver-email = 08he@hanmail.net
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- subject = 이메일 발송 연습
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:87] - param <-- content = <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p>
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:96] - - REFERER : time=201113, url=http://localhost:8080/
+[DEBUG] 24-10-18 14:08:55 [MailController:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 14:08:55 [MailController:42] - SenderName: 진주네이버
+[DEBUG] 24-10-18 14:08:55 [MailController:43] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 14:08:55 [MailController:44] - RecvName: 진주다음
+[DEBUG] 24-10-18 14:08:55 [MailController:45] - RecvEmail: 08he@hanmail.net
+[DEBUG] 24-10-18 14:08:55 [MailController:46] - Subject: 이메일 발송 연습
+[DEBUG] 24-10-18 14:08:55 [MailController:47] - Content: <figure class="image"><img src="https://blog.kakaocdn.net/dn/dw1JIS/btsmOKB1bXY/v5TwWBNuvlbxhCJif3bjdK/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdw1JIS%2FbtsmOKB1bXY%2Fv5TwWBNuvlbxhCJif3bjdK%2Fimg.png" sizes="100vw" width="358"></figure><p>스프링 프레임워크(Spring Framework)는 자바(Java) 기반의 애플리케이션 프레임워크로 엔터프라이즈급 애플리케이션을 개발하기위한 기능을 제공합니다. 스프링(Spring)은 목적에 따라서 다양한 프로젝트를 제공하는데, 그중 하나가 스프링 부트(Spring Boot)입니다.</p>
+[DEBUG] 24-10-18 14:08:55 [MailController:48] - ----------------------------------------------------------------
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:117] - running time : 405(ms)
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:96] - - REFERER : time=6, url=http://localhost:8080/
+[INFO ] 24-10-18 14:08:55 [MyInterceptor:117] - running time : 27(ms)
+[INFO ] 24-10-18 17:22:11 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 9528 (D:\jinju\07_SpringBoot\07_mailer\bin\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 17:22:11 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 17:22:11 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 17:22:14 [MailerApplication:56] - Started MailerApplication in 3.596 seconds (process running for 4.62)
+[INFO ] 24-10-18 17:22:27 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:22:27 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:22:27 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-18 17:22:27 [MyInterceptor:117] - running time : 214(ms)
+[INFO ] 24-10-18 17:22:49 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:22:49 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:22:49 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:22:49 [MyInterceptor:96] - - REFERER : time=21539, url=http://localhost:8080/
+[INFO ] 24-10-18 17:22:49 [MyInterceptor:117] - running time : 64(ms)
+[ERROR] 24-10-18 17:22:49 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-7] Exception processing template "order_result": Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-18 17:22:49 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:22:58 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:22:58 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:22:58 [MyInterceptor:80] - [GET] http://localhost:8080/order
+[INFO ] 24-10-18 17:22:58 [MyInterceptor:117] - running time : 75(ms)
+[INFO ] 24-10-18 17:23:28 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:23:28 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:23:28 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:23:28 [MyInterceptor:96] - - REFERER : time=29744, url=http://localhost:8080/order
+[INFO ] 24-10-18 17:23:28 [MyInterceptor:117] - running time : 64(ms)
+[ERROR] 24-10-18 17:23:28 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "order_result": Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-18 17:23:28 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:23:45 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:23:45 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:23:45 [MyInterceptor:80] - [GET] http://localhost:8080/order
+[INFO ] 24-10-18 17:23:45 [MyInterceptor:117] - running time : 118(ms)
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:80] - [POST] http://localhost:8080/order_ok
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:87] - param <-- order-name = 심진주
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:87] - param <-- order-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:87] - param <-- order-price = 38000
+[INFO ] 24-10-18 17:23:55 [MyInterceptor:96] - - REFERER : time=10174, url=http://localhost:8080/order
+[ERROR] 24-10-18 17:23:55 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.UnknownFormatConversionException: Conversion = '일'] with root cause
+java.util.UnknownFormatConversionException: Conversion = '일'
+	at java.base/java.util.Formatter.parse(Formatter.java:2750)
+	at java.base/java.util.Formatter.format(Formatter.java:2671)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4140)
+	at kr.jinju.mailer.controllers.OrderController.orderOk(OrderController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:24:44 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 9528 (D:\jinju\07_SpringBoot\07_mailer\bin\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 17:24:44 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 17:24:44 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 17:24:45 [MailerApplication:56] - Started MailerApplication in 0.819 seconds (process running for 155.36)
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:80] - [POST] http://localhost:8080/order_ok
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:87] - param <-- order-name = 심진주
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:87] - param <-- order-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:87] - param <-- order-price = 38000
+[DEBUG] 24-10-18 17:24:48 [OrderController:67] - 메일 템플릿 경로: src/main/resources/mail_templates/order_result.html
+[DEBUG] 24-10-18 17:24:48 [MailHelper:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 17:24:48 [MailHelper:42] - RecvName: null
+[DEBUG] 24-10-18 17:24:48 [MailHelper:43] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 17:24:48 [MailHelper:44] - Subject: 심진주님의 주문이 완료되었습니다.
+[DEBUG] 24-10-18 17:24:48 [MailHelper:45] - Content: <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결제 완료 알림</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .email-body {
+        padding: 20px;
+        color: #333333;
+      }
+      .email-body h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .email-body p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .order-details {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .order-details h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .order-details p {
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      .email-footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .logo-img {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .logo-img img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">
+        <h1>결제가 완료되었습니다</h1>
+      </div>
+      <div class="email-body">
+        <p class="logo-img">
+          <img
+            src="https://img.megastudyacademy.co.kr/campus/intra/logo/B0002/2022111413335616684004367613.png"
+          />
+        </p>
+        <h1>안녕하세요, {{userName}}님!</h1>
+        <p>
+          고객님의 주문이 성공적으로 결제되었습니다. 아래 주문 내역을 확인해
+          주세요.
+        </p>
+        <div class="order-details">
+          <h2>주문 상세 정보</h2>
+          <p><strong>주문 번호:</strong> 202410180078</p>
+          <p><strong>주문 상품:</strong> 내가 주문한 상품명</p>
+          <p><strong>주문 수량:</strong> 1</p>
+          <p><strong>결제 일자:</strong> 2024년 10월 18일</p>
+          <p><strong>총 결제 금액:</strong> 38000원</p>
+        </div>
+        <p>
+          주문 상품은 빠른 시일 내에 발송될 예정입니다. 배송 진행 상황은 별도의
+          이메일로 알려드리겠습니다.
+        </p>
+        <p>추가 문의 사항이 있으시면 언제든지 저희 고객센터로 연락해 주세요.</p>
+        <p>감사합니다.</p>
+      </div>
+      <div class="email-footer">
+        <p>© 2024 메가스터디 IT 아카데미. All rights reserved.</p>
+        <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+[DEBUG] 24-10-18 17:24:48 [MailHelper:46] - ----------------------------------------------------------------
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:117] - running time : 759(ms)
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:96] - - REFERER : time=8, url=http://localhost:8080/order
+[INFO ] 24-10-18 17:24:48 [MyInterceptor:117] - running time : 46(ms)
+[ERROR] 24-10-18 17:24:48 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "order_result": Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-18 17:24:48 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:80] - [POST] http://localhost:8080/order_ok
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:87] - param <-- order-name = 심진주
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:87] - param <-- order-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:87] - param <-- order-price = 38000
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:96] - - REFERER : time=2467, url=http://localhost:8080/order
+[DEBUG] 24-10-18 17:24:51 [OrderController:67] - 메일 템플릿 경로: src/main/resources/mail_templates/order_result.html
+[DEBUG] 24-10-18 17:24:51 [MailHelper:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 17:24:51 [MailHelper:42] - RecvName: null
+[DEBUG] 24-10-18 17:24:51 [MailHelper:43] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 17:24:51 [MailHelper:44] - Subject: 심진주님의 주문이 완료되었습니다.
+[DEBUG] 24-10-18 17:24:51 [MailHelper:45] - Content: <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결제 완료 알림</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .email-body {
+        padding: 20px;
+        color: #333333;
+      }
+      .email-body h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .email-body p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .order-details {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .order-details h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .order-details p {
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      .email-footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .logo-img {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .logo-img img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">
+        <h1>결제가 완료되었습니다</h1>
+      </div>
+      <div class="email-body">
+        <p class="logo-img">
+          <img
+            src="https://img.megastudyacademy.co.kr/campus/intra/logo/B0002/2022111413335616684004367613.png"
+          />
+        </p>
+        <h1>안녕하세요, {{userName}}님!</h1>
+        <p>
+          고객님의 주문이 성공적으로 결제되었습니다. 아래 주문 내역을 확인해
+          주세요.
+        </p>
+        <div class="order-details">
+          <h2>주문 상세 정보</h2>
+          <p><strong>주문 번호:</strong> 202410180078</p>
+          <p><strong>주문 상품:</strong> 내가 주문한 상품명</p>
+          <p><strong>주문 수량:</strong> 1</p>
+          <p><strong>결제 일자:</strong> 2024년 10월 18일</p>
+          <p><strong>총 결제 금액:</strong> 38000원</p>
+        </div>
+        <p>
+          주문 상품은 빠른 시일 내에 발송될 예정입니다. 배송 진행 상황은 별도의
+          이메일로 알려드리겠습니다.
+        </p>
+        <p>추가 문의 사항이 있으시면 언제든지 저희 고객센터로 연락해 주세요.</p>
+        <p>감사합니다.</p>
+      </div>
+      <div class="email-footer">
+        <p>© 2024 메가스터디 IT 아카데미. All rights reserved.</p>
+        <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+[DEBUG] 24-10-18 17:24:51 [MailHelper:46] - ----------------------------------------------------------------
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:117] - running time : 381(ms)
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:96] - - REFERER : time=6, url=http://localhost:8080/order
+[INFO ] 24-10-18 17:24:51 [MyInterceptor:117] - running time : 35(ms)
+[ERROR] 24-10-18 17:24:51 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-6] Exception processing template "order_result": Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-18 17:24:51 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:25:57 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 7400 (D:\jinju\07_SpringBoot\07_mailer\bin\main started by user in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-18 17:25:57 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-18 17:25:57 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-18 17:26:00 [MailerApplication:56] - Started MailerApplication in 3.104 seconds (process running for 3.967)
+[INFO ] 24-10-18 17:26:02 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:26:02 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:26:02 [MyInterceptor:80] - [GET] http://localhost:8080/order
+[INFO ] 24-10-18 17:26:02 [MyInterceptor:117] - running time : 400(ms)
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:80] - [POST] http://localhost:8080/order_ok
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:87] - param <-- order-name = 심진주
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:87] - param <-- order-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:87] - param <-- order-price = 38000
+[INFO ] 24-10-18 17:26:12 [MyInterceptor:96] - - REFERER : time=9430, url=http://localhost:8080/order
+[DEBUG] 24-10-18 17:26:12 [OrderController:67] - 메일 템플릿 경로: src/main/resources/mail_templates/order_result.html
+[DEBUG] 24-10-18 17:26:12 [MailHelper:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 17:26:12 [MailHelper:42] - RecvName: null
+[DEBUG] 24-10-18 17:26:12 [MailHelper:43] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 17:26:12 [MailHelper:44] - Subject: 심진주님의 주문이 완료되었습니다.
+[DEBUG] 24-10-18 17:26:12 [MailHelper:45] - Content: <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결제 완료 알림</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .email-body {
+        padding: 20px;
+        color: #333333;
+      }
+      .email-body h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .email-body p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .order-details {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .order-details h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .order-details p {
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      .email-footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .logo-img {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .logo-img img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">
+        <h1>결제가 완료되었습니다</h1>
+      </div>
+      <div class="email-body">
+        <p class="logo-img">
+          <img
+            src="https://img.megastudyacademy.co.kr/campus/intra/logo/B0002/2022111413335616684004367613.png"
+          />
+        </p>
+        <h1>안녕하세요, {{userName}}님!</h1>
+        <p>
+          고객님의 주문이 성공적으로 결제되었습니다. 아래 주문 내역을 확인해
+          주세요.
+        </p>
+        <div class="order-details">
+          <h2>주문 상세 정보</h2>
+          <p><strong>주문 번호:</strong> 202410180078</p>
+          <p><strong>주문 상품:</strong> 내가 주문한 상품명</p>
+          <p><strong>주문 수량:</strong> 1</p>
+          <p><strong>결제 일자:</strong> 2024년 10월 18일</p>
+          <p><strong>총 결제 금액:</strong> 38000원</p>
+        </div>
+        <p>
+          주문 상품은 빠른 시일 내에 발송될 예정입니다. 배송 진행 상황은 별도의
+          이메일로 알려드리겠습니다.
+        </p>
+        <p>추가 문의 사항이 있으시면 언제든지 저희 고객센터로 연락해 주세요.</p>
+        <p>감사합니다.</p>
+      </div>
+      <div class="email-footer">
+        <p>© 2024 메가스터디 IT 아카데미. All rights reserved.</p>
+        <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+[DEBUG] 24-10-18 17:26:12 [MailHelper:46] - ----------------------------------------------------------------
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:117] - running time : 713(ms)
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:96] - - REFERER : time=7, url=http://localhost:8080/order
+[INFO ] 24-10-18 17:26:13 [MyInterceptor:117] - running time : 59(ms)
+[ERROR] 24-10-18 17:26:13 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "order_result": Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-10-18 17:26:13 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order_result], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:80] - [POST] http://localhost:8080/order_ok
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:87] - param <-- order-name = 심진주
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:87] - param <-- order-email = tlawlswn28@naver.com
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:87] - param <-- order-price = 38000
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:96] - - REFERER : time=496992, url=http://localhost:8080/order
+[DEBUG] 24-10-18 17:34:30 [OrderController:67] - 메일 템플릿 경로: src/main/resources/mail_templates/order_result.html
+[DEBUG] 24-10-18 17:34:30 [MailHelper:41] - ----------------------------------------------------------------
+[DEBUG] 24-10-18 17:34:30 [MailHelper:42] - RecvName: null
+[DEBUG] 24-10-18 17:34:30 [MailHelper:43] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-18 17:34:30 [MailHelper:44] - Subject: 심진주님의 주문이 완료되었습니다.
+[DEBUG] 24-10-18 17:34:30 [MailHelper:45] - Content: <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결제 완료 알림</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .email-body {
+        padding: 20px;
+        color: #333333;
+      }
+      .email-body h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .email-body p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .order-details {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .order-details h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .order-details p {
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      .email-footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .email-footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .logo-img {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .logo-img img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">
+        <h1>결제가 완료되었습니다</h1>
+      </div>
+      <div class="email-body">
+        <p class="logo-img">
+          <img
+            src="https://img.megastudyacademy.co.kr/campus/intra/logo/B0002/2022111413335616684004367613.png"
+          />
+        </p>
+        <h1>안녕하세요, {{userName}}님!</h1>
+        <p>
+          고객님의 주문이 성공적으로 결제되었습니다. 아래 주문 내역을 확인해
+          주세요.
+        </p>
+        <div class="order-details">
+          <h2>주문 상세 정보</h2>
+          <p><strong>주문 번호:</strong> 202410180078</p>
+          <p><strong>주문 상품:</strong> 내가 주문한 상품명</p>
+          <p><strong>주문 수량:</strong> 1</p>
+          <p><strong>결제 일자:</strong> 2024년 10월 18일</p>
+          <p><strong>총 결제 금액:</strong> 38000원</p>
+        </div>
+        <p>
+          주문 상품은 빠른 시일 내에 발송될 예정입니다. 배송 진행 상황은 별도의
+          이메일로 알려드리겠습니다.
+        </p>
+        <p>추가 문의 사항이 있으시면 언제든지 저희 고객센터로 연락해 주세요.</p>
+        <p>감사합니다.</p>
+      </div>
+      <div class="email-footer">
+        <p>© 2024 메가스터디 IT 아카데미. All rights reserved.</p>
+        <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+[DEBUG] 24-10-18 17:34:30 [MailHelper:46] - ----------------------------------------------------------------
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:117] - running time : 342(ms)
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:96] - - REFERER : time=6, url=http://localhost:8080/order
+[INFO ] 24-10-18 17:34:30 [MyInterceptor:117] - running time : 40(ms)
