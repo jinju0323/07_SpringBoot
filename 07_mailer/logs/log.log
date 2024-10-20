@@ -1385,3 +1385,221 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [order
 [INFO ] 24-10-18 17:34:30 [MyInterceptor:80] - [GET] http://localhost:8080/order_result
 [INFO ] 24-10-18 17:34:30 [MyInterceptor:96] - - REFERER : time=6, url=http://localhost:8080/order
 [INFO ] 24-10-18 17:34:30 [MyInterceptor:117] - running time : 40(ms)
+[INFO ] 24-10-20 21:29:57 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 12264 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-20 21:29:57 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-20 21:29:57 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-20 21:29:59 [MailerApplication:56] - Started MailerApplication in 2.279 seconds (process running for 2.881)
+[INFO ] 24-10-20 21:30:05 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:30:06 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:30:06 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-20 21:30:06 [MyInterceptor:117] - running time : 188(ms)
+[INFO ] 24-10-20 21:57:54 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 10456 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-20 21:57:54 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-20 21:57:54 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-20 21:57:56 [MailerApplication:56] - Started MailerApplication in 2.206 seconds (process running for 2.864)
+[INFO ] 24-10-20 21:58:01 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:58:02 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:58:02 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-20 21:58:02 [MyInterceptor:117] - running time : 198(ms)
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- sender-name = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- sender-email = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- receiver-name = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- receiver-email = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- subject = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:87] - param <-- content = 
+[INFO ] 24-10-20 21:58:13 [MyInterceptor:96] - - REFERER : time=11281, url=http://localhost:8080/
+[DEBUG] 24-10-20 21:58:13 [MailController:42] - ----------------------------------------------------------------
+[DEBUG] 24-10-20 21:58:13 [MailController:43] - SenderName: 
+[DEBUG] 24-10-20 21:58:13 [MailController:44] - SenderEmail: 
+[DEBUG] 24-10-20 21:58:13 [MailController:45] - RecvName: 
+[DEBUG] 24-10-20 21:58:13 [MailController:46] - RecvEmail: 
+[DEBUG] 24-10-20 21:58:13 [MailController:47] - Subject: 
+[DEBUG] 24-10-20 21:58:13 [MailController:48] - Content: 
+[DEBUG] 24-10-20 21:58:13 [MailController:49] - ----------------------------------------------------------------
+[ERROR] 24-10-20 21:58:13 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.mail.MailSendException: Failed messages: jakarta.mail.internet.AddressException: Empty address in string ``''; message exceptions (1) are:
+Failed message 1: jakarta.mail.internet.AddressException: Empty address in string ``''] with root cause
+org.springframework.mail.MailSendException: Failed messages: jakarta.mail.internet.AddressException: Empty address in string ``''
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:453)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350)
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101)
+	at kr.jinju.mailer.controllers.MailController.postMethodName(MailController.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- sender-name = ㄹ
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- sender-email = ㅀ
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- receiver-name = ㅎ
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- receiver-email = ㅎ
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- subject = ㅎ
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:87] - param <-- content = <p>ㅎ</p>
+[INFO ] 24-10-20 21:58:33 [MyInterceptor:96] - - REFERER : time=31209, url=http://localhost:8080/
+[DEBUG] 24-10-20 21:58:33 [MailController:42] - ----------------------------------------------------------------
+[DEBUG] 24-10-20 21:58:33 [MailController:43] - SenderName: ㄹ
+[DEBUG] 24-10-20 21:58:33 [MailController:44] - SenderEmail: ㅀ
+[DEBUG] 24-10-20 21:58:33 [MailController:45] - RecvName: ㅎ
+[DEBUG] 24-10-20 21:58:33 [MailController:46] - RecvEmail: ㅎ
+[DEBUG] 24-10-20 21:58:33 [MailController:47] - Subject: ㅎ
+[DEBUG] 24-10-20 21:58:33 [MailController:48] - Content: <p>ㅎ</p>
+[DEBUG] 24-10-20 21:58:33 [MailController:49] - ----------------------------------------------------------------
+[ERROR] 24-10-20 21:58:33 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.mail.MailSendException: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+; message exceptions (1) are:
+Failed message 1: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+] with root cause
+org.springframework.mail.MailSendException: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 553 5.1.2 The sender address is not a valid RFC-5321 address 29KJg92OQWCznKlu4Wf8GA - nsmtp
+
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:453)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350)
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101)
+	at kr.jinju.mailer.controllers.MailController.postMethodName(MailController.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:80] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- sender-name = 나
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- receiver-name = 진주
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- receiver-email = tlawlswn28@naver.com
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- subject = 
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:87] - param <-- content = <p>ㅎ</p>
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:96] - - REFERER : time=80217, url=http://localhost:8080/
+[DEBUG] 24-10-20 21:59:22 [MailController:42] - ----------------------------------------------------------------
+[DEBUG] 24-10-20 21:59:22 [MailController:43] - SenderName: 나
+[DEBUG] 24-10-20 21:59:22 [MailController:44] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-20 21:59:22 [MailController:45] - RecvName: 진주
+[DEBUG] 24-10-20 21:59:22 [MailController:46] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-20 21:59:22 [MailController:47] - Subject: 
+[DEBUG] 24-10-20 21:59:22 [MailController:48] - Content: <p>ㅎ</p>
+[DEBUG] 24-10-20 21:59:22 [MailController:49] - ----------------------------------------------------------------
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:117] - running time : 373(ms)
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:44] - -------------- new client connect --------------
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:80] - [GET] http://localhost:8080/
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:96] - - REFERER : time=7, url=http://localhost:8080/
+[INFO ] 24-10-20 21:59:22 [MyInterceptor:117] - running time : 25(ms)
+[INFO ] 24-10-20 22:00:53 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 10456 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-20 22:00:53 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-20 22:00:53 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-20 22:00:54 [MailerApplication:56] - Started MailerApplication in 1.284 seconds (process running for 181.057)
+[INFO ] 24-10-20 22:00:56 [MailerApplication:50] - Starting MailerApplication using Java 17.0.2 with PID 10456 (D:\jinju\07_SpringBoot\07_mailer\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\07_mailer)
+[DEBUG] 24-10-20 22:00:56 [MailerApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-20 22:00:56 [MailerApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-20 22:00:57 [MailerApplication:56] - Started MailerApplication in 0.684 seconds (process running for 183.402)
