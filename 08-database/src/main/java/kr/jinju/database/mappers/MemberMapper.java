@@ -102,7 +102,7 @@ public interface MemberMapper {
             "birthdate, tel, postcode, addr1, addr2, " + 
             "profile_img, is_out, reg_date, edit_date " + 
             "FROM members " +
-            "ORDER BY id DESC;")
+            "ORDER BY id;")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("memberMap")
     public List<Member> selectList(Member input);

@@ -1,4 +1,4 @@
-package kr.jinju.databasemysite.helpers;
+package kr.jinju.database.helpers;
 
 import java.io.UnsupportedEncodingException;
 

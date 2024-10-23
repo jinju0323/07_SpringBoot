@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Spring</title>
+    <link rel="stylesheet" th:href="@{/assets/css/common.css}" />
+  </head>
+  <body>
+    <div th:replace="~{fragments/header :: my-header}"></div>
+
+    <h2>회원 관리</h2>
+    <hr />
+    <table class="mytable">
+      <thead>
+        <tr>
+          <th>일련번호</th>
+          <th>이름</th>
+          <th>이메일</th>
+          <th>비밀번호</th>
+          <th>성별(M/F)</th>
+          <th>생년월일</th>
+          <th>연락처</th>
+          <th>우편번호</th>
+          <th>주소1</th>
+          <th>주소2</th>
+          <th>프로필 이미지</th>
+          <th>탈퇴여부</th>
+          <th>가입일시</th>
+          <th>변경일시</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="member : ${members}">
+          <td th:text="${member.id}"></td>
+          <td th:text="${member.name}"></td>
+          <td th:text="${member.email}"></td>
+          <td th:text="${member.userPw}"></td>
+          <td th:text="${member.gender}"></td>
+          <td th:text="${member.birthDate}"></td>
+          <td th:text="${member.tel}"></td>
+          <td th:text="${member.postcode}"></td>
+          <td th:text="${member.addr1}"></td>
+          <td th:text="${member.addr2}"></td>
+          <td th:text="${member.profileImg}"></td>
+          <td th:text="${member.isOut}"></td>
+          <td th:text="${member.regDate}"></td>
+          <td th:text="${member.editDate}"></td>
+          <td>
+            <a href="#">수정</a>
+            <a href="#">삭제</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

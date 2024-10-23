@@ -13,7 +13,7 @@ import kr.jinju.database.interceptors.MyInterceptor;
 public class MyWebConfig implements WebMvcConfigurer {
 
     // MyInteceptor 객체를 자동 주입 받는다.
-    // 이 과정에서 myInteceptor안에 @Autowired로 선언된 UtilHelper 객체도 자동 주입된다.
+    // 이 과정에서 myInteceptor안에 @Autowired로 선언된 WebHelper 객체도 자동 주입된다.
     @Autowired
     private MyInterceptor myInterceptor;
 

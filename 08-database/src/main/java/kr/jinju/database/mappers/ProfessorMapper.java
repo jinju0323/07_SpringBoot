@@ -90,9 +90,10 @@ public interface ProfessorMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    // 학과 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
+    // 교수 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
     @Select("SELECT profno, name, userid, position, " +
-            "sal, hiredate, comm, deptno FROM professor;")
+            "sal, hiredate, comm, deptno FROM professor " + 
+            "ORDER BY profno;")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("professorMap")
     public List<Professor> selectList(Professor input);

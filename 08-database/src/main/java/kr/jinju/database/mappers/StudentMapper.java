@@ -96,7 +96,8 @@ public interface StudentMapper {
      */
     // 학생 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
     @Select("SELECT studno, name, userid, grade, idnum, birthdate, " + 
-        "tel, height, weight, deptno, profno FROM student;")
+        "tel, height, weight, deptno, profno FROM student " + 
+        "ORDER BY studno;")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("studentMap")
     public List<Student> selectList(Student input);

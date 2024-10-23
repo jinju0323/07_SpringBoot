@@ -12,10 +12,10 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import kr.jinju.databasemysite.models.Members;
+import kr.jinju.databasemysite.models.Member;
 
 @Mapper
-public interface MembersMapper {
+public interface MemberMapper {
     /**
      * 학과 정보를 입력한다.
      * PK값은 파라미터로 전달된 INPUT 객체에 참조로 처리된다.
@@ -30,7 +30,7 @@ public interface MembersMapper {
             "VALUES (#{name}, #{email}, #{userPw}, #{gender}, #{birthDate}, " + 
             "#{tel}, #{postcode}, #{addr1}, #{addr2}, #{profileImg}, " + 
             "#{isOut}, #{regDate}, #{editDate});")
-    public int insert(Members input);
+    public int insert(Member input);
     
     // 키 프로퍼티는 빈즈 멤버변수 이름이다.
     // INSERT문에서 필요한 PK에 대한 옵션 정의
@@ -49,7 +49,7 @@ public interface MembersMapper {
             "SET name=#{name}, email=#{email}, user_pw=#{userPw}, gender=#{gender}, birthdate=#{birthDate}, " + 
             "tel=#{tel}, postcode=#{postcode}, addr1=#{addr1}, addr2=#{addr2}, profile_img=#{profileImg}, " + 
             "is_out=#{isOut}, reg_date=#{regDate}, edit_date=#{editDate} WHERE id=#{id};")
-    public int update(Members input);
+    public int update(Member input);
 
 
     /**
@@ -58,7 +58,7 @@ public interface MembersMapper {
      * @return 삭제한 데이터 수
      */
     @Delete("DELETE FROM members WHERE id=#{id};")
-    public int delete(Members input);
+    public int delete(Member input);
 
 
     /**
@@ -91,7 +91,7 @@ public interface MembersMapper {
         @Result(property = "regDate", column = "reg_date"),
         @Result(property = "editDate", column = "edit_date")
     })
-    public Members selectItem(Members input);
+    public Member selectItem(Member input);
 
 
     /**
@@ -107,5 +107,5 @@ public interface MembersMapper {
             "ORDER BY id DESC;")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("membersMap")
-    public List<Members> selectList(Members input);
+    public List<Member> selectList(Member input);
 }

@@ -1,103 +1,140 @@
-[INFO ] 24-10-22 16:17:03 [MemberServiceTest:50] - Starting MemberServiceTest using Java 17.0.2 with PID 1776 (started by user in D:\jinju\07_SpringBoot\08-database)
-[DEBUG] 24-10-22 16:17:03 [MemberServiceTest:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-22 16:17:03 [MemberServiceTest:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-10-22 16:17:04 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-10-22 16:17:05 [MemberServiceTest:56] - Started MemberServiceTest in 2.429 seconds (process running for 3.377)
-[DEBUG] 24-10-22 16:17:06 [insert:135] - ==>  Preparing: INSERT INTO members (name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
-[DEBUG] 24-10-22 16:17:06 [insert:135] - ==> Parameters: 테스트회원(String), test@naver.com(String), 123456(String), M(String), 20010101(String), 02)1234-1234(String), 1234(String), 테스트주소1(String), 테스트주소2(String), 테스트이미지(String), N(String), 20241020(String), 20241020(String)
-[INFO ] 24-10-22 16:17:06 [sqlonly:228] - INSERT INTO members (name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date) VALUES ('테스트회원', 'test@naver.com', '123456', 'M', '20010101', '02)1234-1234', '1234', '테스트주소1', '테스트주소2', '테스트이미지', 'N', '20241020', '20241020');
+[INFO ] 24-10-23 15:56:33 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-23 15:56:33 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-23 15:56:33 [MyInterceptor:81] - [GET] http://localhost:8080/department
+[DEBUG] 24-10-23 15:56:33 [selectList:135] - ==>  Preparing: SELECT deptno, dname, loc FROM department ORDER BY deptno;
+[DEBUG] 24-10-23 15:56:33 [selectList:135] - ==> Parameters: 
+[INFO ] 24-10-23 15:56:33 [sqlonly:228] - SELECT deptno, dname, loc FROM department ORDER BY deptno;
 
-[DEBUG] 24-10-22 16:17:06 [insert:135] - <==    Updates: 1
-[INFO ] 24-10-22 16:17:06 [resultsettable:610] - 
-|--------------|
-|generated_key |
-|--------------|
-|6             |
-|--------------|
+[INFO ] 24-10-23 15:56:33 [resultsettable:610] - 
+|-------|-------|--------|
+|deptno |dname  |loc     |
+|-------|-------|--------|
+|101    |컴퓨터공학과 |1호관     |
+|102    |학과수정2  |강의실수정3  |
+|103    |hello  |world   |
+|201    |hello  |world   |
+|202    |hello  |world   |
+|315    |자바     |학원2     |
+|316    |수정학과   |수정위치    |
+|317    |�ڹ�    |�п�     |
+|319    |인터넷정보과 |공학관     |
+|320    |자바     |학원      |
+|321    |학과     |위치      |
+|322    |테스트 학과 |강남      |
+|324    |스프링학과  |강의실     |
+|325    |스프링학과  |강의실     |
+|326    |스프링학과  |강의실     |
+|327    |스프링학과  |강의실     |
+|328    |스프링학과  |강의실     |
+|329    |테스트학과  |테스트강의실  |
+|330    |테스트학과1 |테스트강의실2 |
+|331    |테스트학과2 |테스트강의실3 |
+|332    |테스트학과2 |테스트강의실3 |
+|333    |테스트학과2 |테스트강의실3 |
+|334    |테스트학과2 |테스트강의실3 |
+|335    |테스트학과2 |테스트강의실3 |
+|336    |테스트학과2 |테스트강의실3 |
+|337    |테스트학과2 |테스트강의실3 |
+|338    |테스트학과2 |테스트강의실3 |
+|339    |테스트학과2 |테스트강의실3 |
+|341    |테스트학과2 |테스트강의실3 |
+|342    |테스트학과2 |테스트강의실3 |
+|343    |테스트학과2 |테스트강의실3 |
+|-------|-------|--------|
 
-[DEBUG] 24-10-22 16:17:06 [selectItem:135] - ==>  Preparing: SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=?;
-[DEBUG] 24-10-22 16:17:06 [selectItem:135] - ==> Parameters: 6(Integer)
-[INFO ] 24-10-22 16:17:06 [sqlonly:228] - SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=6;
+[DEBUG] 24-10-23 15:56:33 [selectList:135] - <==      Total: 31
+[INFO ] 24-10-23 15:56:33 [MyInterceptor:118] - running time : 45(ms)
+[INFO ] 24-10-23 15:56:37 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-23 15:56:37 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-23 15:56:37 [MyInterceptor:81] - [GET] http://localhost:8080/department/detail/317
+[INFO ] 24-10-23 15:56:37 [MyInterceptor:97] - - REFERER : time=4499, url=http://localhost:8080/department
+[DEBUG] 24-10-23 15:56:37 [selectItem:135] - ==>  Preparing: SELECT deptno, dname, loc FROM department WHERE deptno=?;
+[DEBUG] 24-10-23 15:56:37 [selectItem:135] - ==> Parameters: 317(Integer)
+[INFO ] 24-10-23 15:56:37 [sqlonly:228] - SELECT deptno, dname, loc FROM department WHERE deptno=317;
 
-[INFO ] 24-10-22 16:17:06 [resultsettable:610] - 
-|---|------|---------------|--------|-------|--------------------|-------------|---------|-------|-------|------------|-------|--------------------|--------------------|
-|id |name  |email          |user_pw |gender |birthdate           |tel          |postcode |addr1  |addr2  |profile_img |is_out |reg_date            |edit_date           |
-|---|------|---------------|--------|-------|--------------------|-------------|---------|-------|-------|------------|-------|--------------------|--------------------|
-|6  |테스트회원 |test@naver.com |123456  |M      |2001-01-01 00:00:00 |02)1234-1234 |1234     |테스트주소1 |테스트주소2 |테스트이미지      |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|---|------|---------------|--------|-------|--------------------|-------------|---------|-------|-------|------------|-------|--------------------|--------------------|
+[INFO ] 24-10-23 15:56:37 [resultsettable:610] - 
+|-------|------|----|
+|deptno |dname |loc |
+|-------|------|----|
+|317    |�ڹ�   |�п� |
+|-------|------|----|
 
-[DEBUG] 24-10-22 16:17:06 [selectItem:135] - <==      Total: 1
-[DEBUG] 24-10-22 16:17:06 [MemberServiceTest:50] - result: Member(id=6, name=테스트회원, email=test@naver.com, userPw=123456, gender=M, birthDate=2001-01-01 00:00:00, tel=02)1234-1234, postcode=1234, addr1=테스트주소1, addr2=테스트주소2, profileImg=테스트이미지, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
-[INFO ] 24-10-22 16:18:35 [MemberServiceTest:50] - Starting MemberServiceTest using Java 17.0.2 with PID 11948 (started by user in D:\jinju\07_SpringBoot\08-database)
-[DEBUG] 24-10-22 16:18:35 [MemberServiceTest:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-22 16:18:35 [MemberServiceTest:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-10-22 16:18:36 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-10-22 16:18:37 [MemberServiceTest:56] - Started MemberServiceTest in 2.532 seconds (process running for 3.47)
-[DEBUG] 24-10-22 16:18:39 [update:135] - ==>  Preparing: UPDATE members SET name=?, email=?, user_pw=?, gender=?, birthdate=?, tel=?, postcode=?, addr1=?, addr2=?, profile_img=?, is_out=?, reg_date=?, edit_date=? WHERE id=?;
-[DEBUG] 24-10-22 16:18:39 [update:135] - ==> Parameters: 테스트123(String), test123@naver.com(String), 78910(String), M(String), 20030303(String), 02)5555-1234(String), 1234(String), 테스트주소1-1(String), 테스트주소2-2(String), 테스트이미지2(String), N(String), 20241020(String), 20241020(String), 3(Integer)
-[INFO ] 24-10-22 16:18:39 [sqlonly:228] - UPDATE members SET name='테스트123', email='test123@naver.com', user_pw='78910', gender='M', birthdate='20030303', tel='02)5555-1234', postcode='1234', addr1='테스트주소1-1', addr2='테스트주소2-2', profile_img='테스트이미지2', is_out='N', reg_date='20241020', edit_date='20241020' WHERE id=3;
+[DEBUG] 24-10-23 15:56:37 [selectItem:135] - <==      Total: 1
+[INFO ] 24-10-23 15:56:37 [MyInterceptor:118] - running time : 22(ms)
+[INFO ] 24-10-23 15:56:42 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-23 15:56:42 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-23 15:56:42 [MyInterceptor:81] - [GET] http://localhost:8080/professor
+[INFO ] 24-10-23 15:56:42 [MyInterceptor:97] - - REFERER : time=4598, url=http://localhost:8080/department
+[DEBUG] 24-10-23 15:56:42 [selectList:135] - ==>  Preparing: SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor ORDER BY profno;
+[DEBUG] 24-10-23 15:56:42 [selectList:135] - ==> Parameters: 
+[INFO ] 24-10-23 15:56:42 [sqlonly:228] - SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor ORDER BY profno;
 
-[DEBUG] 24-10-22 16:18:39 [update:135] - <==    Updates: 1
-[DEBUG] 24-10-22 16:18:39 [selectItem:135] - ==>  Preparing: SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=?;
-[DEBUG] 24-10-22 16:18:39 [selectItem:135] - ==> Parameters: 3(Integer)
-[INFO ] 24-10-22 16:18:39 [sqlonly:228] - SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=3;
+[INFO ] 24-10-23 15:56:42 [resultsettable:610] - 
+|-------|------|----------|---------|-----|--------------------|-------|-------|
+|profno |name  |userid    |position |sal  |hiredate            |comm   |deptno |
+|-------|------|----------|---------|-----|--------------------|-------|-------|
+|9901   |김도훈   |capool    |교수       |500  |1982-06-12 00:00:00 |20     |101    |
+|9902   |이재우   |sweat413  |조교수      |320  |1995-04-12 00:00:00 |[null] |201    |
+|9903   |성연희   |pascal    |조교수      |360  |1993-03-17 00:00:00 |15     |101    |
+|9904   |염일웅   |blue77    |전임강사     |240  |1998-10-11 00:00:00 |[null] |102    |
+|9905   |권혁일   |refresh   |교수       |450  |1986-02-11 00:00:00 |25     |102    |
+|9906   |이만식   |pocari    |부교수      |420  |1988-07-11 00:00:00 |[null] |101    |
+|9907   |전은지   |totoro    |전임강사     |210  |2001-05-11 00:00:00 |[null] |101    |
+|9908   |남은혁   |bird13    |부교수      |400  |1990-10-18 00:00:00 |17     |202    |
+|9910   |심진주   |jinju0323 |총장       |9000 |2023-10-01 00:00:00 |500    |101    |
+|9912   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9914   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9915   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9916   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9917   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|-------|------|----------|---------|-----|--------------------|-------|-------|
 
-[INFO ] 24-10-22 16:18:39 [resultsettable:610] - 
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|id |name   |email             |user_pw |gender |birthdate           |tel          |postcode |addr1    |addr2    |profile_img |is_out |reg_date            |edit_date           |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|3  |테스트123 |test123@naver.com |78910   |M      |2003-03-03 00:00:00 |02)5555-1234 |1234     |테스트주소1-1 |테스트주소2-2 |테스트이미지2     |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
+[DEBUG] 24-10-23 15:56:42 [selectList:135] - <==      Total: 14
+[INFO ] 24-10-23 15:56:42 [MyInterceptor:118] - running time : 32(ms)
+[INFO ] 24-10-23 15:56:44 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-23 15:56:44 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-23 15:56:44 [MyInterceptor:81] - [GET] http://localhost:8080/professor/detail/9910
+[INFO ] 24-10-23 15:56:44 [MyInterceptor:97] - - REFERER : time=2375, url=http://localhost:8080/professor
+[DEBUG] 24-10-23 15:56:44 [selectItem:135] - ==>  Preparing: SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor WHERE profno=?;
+[DEBUG] 24-10-23 15:56:44 [selectItem:135] - ==> Parameters: 9910(Integer)
+[INFO ] 24-10-23 15:56:44 [sqlonly:228] - SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor WHERE profno=9910;
 
-[DEBUG] 24-10-22 16:18:39 [selectItem:135] - <==      Total: 1
-[DEBUG] 24-10-22 16:18:39 [MemberServiceTest:85] - result: Member(id=3, name=테스트123, email=test123@naver.com, userPw=78910, gender=M, birthDate=2003-03-03 00:00:00, tel=02)5555-1234, postcode=1234, addr1=테스트주소1-1, addr2=테스트주소2-2, profileImg=테스트이미지2, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
-[INFO ] 24-10-22 16:19:24 [MemberServiceTest:50] - Starting MemberServiceTest using Java 17.0.2 with PID 9180 (started by user in D:\jinju\07_SpringBoot\08-database)
-[DEBUG] 24-10-22 16:19:24 [MemberServiceTest:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-22 16:19:24 [MemberServiceTest:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-10-22 16:19:25 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-10-22 16:19:26 [MemberServiceTest:56] - Started MemberServiceTest in 2.375 seconds (process running for 3.321)
-[DEBUG] 24-10-22 16:19:27 [delete:135] - ==>  Preparing: DELETE FROM members WHERE id=?;
-[DEBUG] 24-10-22 16:19:27 [delete:135] - ==> Parameters: 4(Integer)
-[INFO ] 24-10-22 16:19:27 [sqlonly:228] - DELETE FROM members WHERE id=4;
+[INFO ] 24-10-23 15:56:44 [resultsettable:610] - 
+|-------|-----|----------|---------|-----|--------------------|-----|-------|
+|profno |name |userid    |position |sal  |hiredate            |comm |deptno |
+|-------|-----|----------|---------|-----|--------------------|-----|-------|
+|9910   |심진주  |jinju0323 |총장       |9000 |2023-10-01 00:00:00 |500  |101    |
+|-------|-----|----------|---------|-----|--------------------|-----|-------|
 
-[DEBUG] 24-10-22 16:19:27 [delete:135] - <==    Updates: 1
-[INFO ] 24-10-22 16:19:55 [MemberServiceTest:50] - Starting MemberServiceTest using Java 17.0.2 with PID 9972 (started by user in D:\jinju\07_SpringBoot\08-database)
-[DEBUG] 24-10-22 16:19:55 [MemberServiceTest:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-22 16:19:55 [MemberServiceTest:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-10-22 16:19:56 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-10-22 16:19:57 [MemberServiceTest:56] - Started MemberServiceTest in 2.538 seconds (process running for 3.485)
-[DEBUG] 24-10-22 16:19:58 [selectItem:135] - ==>  Preparing: SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=?;
-[DEBUG] 24-10-22 16:19:58 [selectItem:135] - ==> Parameters: 3(Integer)
-[INFO ] 24-10-22 16:19:58 [sqlonly:228] - SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members WHERE id=3;
+[DEBUG] 24-10-23 15:56:44 [selectItem:135] - <==      Total: 1
+[INFO ] 24-10-23 15:56:44 [MyInterceptor:118] - running time : 25(ms)
+[INFO ] 24-10-23 15:57:38 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-23 15:57:38 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-23 15:57:38 [MyInterceptor:81] - [GET] http://localhost:8080/professor
+[INFO ] 24-10-23 15:57:38 [MyInterceptor:97] - - REFERER : time=53263, url=http://localhost:8080/professor/detail/9910
+[DEBUG] 24-10-23 15:57:38 [selectList:135] - ==>  Preparing: SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor ORDER BY profno;
+[DEBUG] 24-10-23 15:57:38 [selectList:135] - ==> Parameters: 
+[INFO ] 24-10-23 15:57:38 [sqlonly:228] - SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor ORDER BY profno;
 
-[INFO ] 24-10-22 16:19:58 [resultsettable:610] - 
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|id |name   |email             |user_pw |gender |birthdate           |tel          |postcode |addr1    |addr2    |profile_img |is_out |reg_date            |edit_date           |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|3  |테스트123 |test123@naver.com |78910   |M      |2003-03-03 00:00:00 |02)5555-1234 |1234     |테스트주소1-1 |테스트주소2-2 |테스트이미지2     |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
+[INFO ] 24-10-23 15:57:38 [resultsettable:610] - 
+|-------|------|----------|---------|-----|--------------------|-------|-------|
+|profno |name  |userid    |position |sal  |hiredate            |comm   |deptno |
+|-------|------|----------|---------|-----|--------------------|-------|-------|
+|9901   |김도훈   |capool    |교수       |500  |1982-06-12 00:00:00 |20     |101    |
+|9902   |이재우   |sweat413  |조교수      |320  |1995-04-12 00:00:00 |[null] |201    |
+|9903   |성연희   |pascal    |조교수      |360  |1993-03-17 00:00:00 |15     |101    |
+|9904   |염일웅   |blue77    |전임강사     |240  |1998-10-11 00:00:00 |[null] |102    |
+|9905   |권혁일   |refresh   |교수       |450  |1986-02-11 00:00:00 |25     |102    |
+|9906   |이만식   |pocari    |부교수      |420  |1988-07-11 00:00:00 |[null] |101    |
+|9907   |전은지   |totoro    |전임강사     |210  |2001-05-11 00:00:00 |[null] |101    |
+|9908   |남은혁   |bird13    |부교수      |400  |1990-10-18 00:00:00 |17     |202    |
+|9910   |심진주   |jinju0323 |총장       |9000 |2023-10-01 00:00:00 |500    |101    |
+|9912   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9914   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9915   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9916   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|9917   |테스트이름 |abcd1234  |교수       |500  |2024-01-01 00:00:00 |20     |101    |
+|-------|------|----------|---------|-----|--------------------|-------|-------|
 
-[DEBUG] 24-10-22 16:19:58 [selectItem:135] - <==      Total: 1
-[DEBUG] 24-10-22 16:19:58 [MemberServiceTest:123] - result: Member(id=3, name=테스트123, email=test123@naver.com, userPw=78910, gender=M, birthDate=2003-03-03 00:00:00, tel=02)5555-1234, postcode=1234, addr1=테스트주소1-1, addr2=테스트주소2-2, profileImg=테스트이미지2, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
-[INFO ] 24-10-22 16:20:26 [MemberServiceTest:50] - Starting MemberServiceTest using Java 17.0.2 with PID 6816 (started by user in D:\jinju\07_SpringBoot\08-database)
-[DEBUG] 24-10-22 16:20:26 [MemberServiceTest:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
-[INFO ] 24-10-22 16:20:26 [MemberServiceTest:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-10-22 16:20:27 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-10-22 16:20:28 [MemberServiceTest:56] - Started MemberServiceTest in 2.386 seconds (process running for 3.324)
-[DEBUG] 24-10-22 16:20:30 [selectList:135] - ==>  Preparing: SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members ORDER BY id DESC;
-[DEBUG] 24-10-22 16:20:30 [selectList:135] - ==> Parameters: 
-[INFO ] 24-10-22 16:20:30 [sqlonly:228] - SELECT id, name, email, user_pw, gender, birthdate, tel, postcode, addr1, addr2, profile_img, is_out, reg_date, edit_date FROM members ORDER BY id DESC;
-
-[INFO ] 24-10-22 16:20:30 [resultsettable:610] - 
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|id |name   |email             |user_pw |gender |birthdate           |tel          |postcode |addr1    |addr2    |profile_img |is_out |reg_date            |edit_date           |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-|6  |테스트회원  |test@naver.com    |123456  |M      |2001-01-01 00:00:00 |02)1234-1234 |1234     |테스트주소1   |테스트주소2   |테스트이미지      |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|5  |테스트회원  |test@naver.com    |123456  |M      |2001-01-01 00:00:00 |02)1234-1234 |1234     |테스트주소1   |테스트주소2   |테스트이미지      |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|3  |테스트123 |test123@naver.com |78910   |M      |2003-03-03 00:00:00 |02)5555-1234 |1234     |테스트주소1-1 |테스트주소2-2 |테스트이미지2     |N      |2024-10-20 00:00:00 |2024-10-20 00:00:00 |
-|---|-------|------------------|--------|-------|--------------------|-------------|---------|---------|---------|------------|-------|--------------------|--------------------|
-
-[DEBUG] 24-10-22 16:20:30 [selectList:135] - <==      Total: 3
-[DEBUG] 24-10-22 16:20:30 [MemberServiceTest:146] - result: Member(id=6, name=테스트회원, email=test@naver.com, userPw=123456, gender=M, birthDate=2001-01-01 00:00:00, tel=02)1234-1234, postcode=1234, addr1=테스트주소1, addr2=테스트주소2, profileImg=테스트이미지, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
-[DEBUG] 24-10-22 16:20:30 [MemberServiceTest:146] - result: Member(id=5, name=테스트회원, email=test@naver.com, userPw=123456, gender=M, birthDate=2001-01-01 00:00:00, tel=02)1234-1234, postcode=1234, addr1=테스트주소1, addr2=테스트주소2, profileImg=테스트이미지, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
-[DEBUG] 24-10-22 16:20:30 [MemberServiceTest:146] - result: Member(id=3, name=테스트123, email=test123@naver.com, userPw=78910, gender=M, birthDate=2003-03-03 00:00:00, tel=02)5555-1234, postcode=1234, addr1=테스트주소1-1, addr2=테스트주소2-2, profileImg=테스트이미지2, isOut=N, regDate=2024-10-20 00:00:00, editDate=2024-10-20 00:00:00)
+[DEBUG] 24-10-23 15:57:38 [selectList:135] - <==      Total: 14
+[INFO ] 24-10-23 15:57:38 [MyInterceptor:118] - running time : 29(ms)
