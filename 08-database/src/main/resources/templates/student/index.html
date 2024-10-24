@@ -11,6 +11,9 @@
 
     <h2>학생 관리</h2>
     <hr />
+    <div class="button-container">
+      <a class="mybutton blue" th:href="@{/student/add}">새 학생 등록</a>
+    </div>
     <table class="mytable">
       <thead>
         <tr>
@@ -23,7 +26,7 @@
           <th>학생 전화번호</th>
           <th>학생 키</th>
           <th>학생 몸무게</th>
-          <th>학생 학과번호</th>
+          <th>학생 학생번호</th>
           <th>담당교수의 일련번호</th>
         </tr>
       </thead>
@@ -55,9 +58,10 @@
           <td th:text="${student.weight}"></td>
           <td th:text="${student.deptNo}"></td>
           <td th:text="${student.profNo}"></td>
+
           <td>
-            <a href="#">수정</a>
-            <a href="#">삭제</a>
+            <a th:href="@{/student/edit/{studNo}(studNo=${student.studNo})}">수정</a>
+            <a th:href="@{/student/delete/{studNo}(studNo=${student.studNo})}">삭제</a>
           </td>
         </tr>
       </tbody>

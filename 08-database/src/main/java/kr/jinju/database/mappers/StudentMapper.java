@@ -31,7 +31,7 @@ public interface StudentMapper {
             "#{name}, #{userId}, #{grade}, #{idNum}, #{birthDate}, " + 
             "#{tel}, #{height}, #{weight}, #{deptNo}, #{profNo}" + 
             ");")
-    @Options(useGeneratedKeys = true, keyProperty = "deptNo", keyColumn = "deptno")
+    @Options(useGeneratedKeys = true, keyProperty = "studNo", keyColumn = "studno")
     public int insert(Student input);
 
     /**

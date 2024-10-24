@@ -58,13 +58,25 @@
           <td class="text-left" th:text="${student.deptNo}"></td>
         </tr>
         <tr>
-          <th>담당교수의 일련번호</th>
+          <th>담당교수 번호</th>
           <td class="text-left" th:text="${student.profNo}"></td>
         </tr>
       </tbody>
     </table>
     <div class="button-container">
-      <a class="mybutton blue" th:href="@{/student}">목록보기</a>
+      <a class="mybutton green" th:href="@{/student}">목록보기</a>
+
+      <a
+        class="mybutton blue"
+        th:href="@{/student/edit/{studNo}(studNo=${student.studNo})}"
+        >수정하기</a
+      >
+
+      <a
+        class="mybutton red"
+        th:href="@{/student/delete/{studNo}(studNo=${student.studNo})}"
+        >삭제하기</a
+      >
     </div>
   </body>
 </html>

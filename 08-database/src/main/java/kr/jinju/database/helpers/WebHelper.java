@@ -135,15 +135,15 @@ public class WebHelper {
 
     /**
      * HTTP 상태 코드를 설정하고 메시지를 출력한 후, 지정된 페이지로 이동한다.
-     * @param statusCdoe - HTTP 상태 코드 (예: 404)
+     * @param statusCode - HTTP 상태 코드 (예: 404)
      * @param url        - 이동할 URL
      * @param message    - 출력할 메시지
      */
-    public void redirect(int statusCdoe, String url, String message) {
+    public void redirect(int statusCode, String url, String message) {
         /** 알림 메시지 표시후 바로 이전 페이지로 이동 -> Helper에 이식 예정 */
         // HTTP 403 Forbidden 클라이언트 오류 상태 응답 코드는 서버에 요청이 전달되었지만,
         // 권한 때문에 거절되었다는 것을 의미
-        response.setStatus(statusCdoe);
+        response.setStatus(statusCode);
         response.setContentType("text/html; charset=UTF-8");
         
         PrintWriter out = null;
@@ -157,17 +157,17 @@ public class WebHelper {
 
         // message가 없으면 alert 표시
         if (message != null && !message.equals("")) {
-            out.println("<script>");
+            out.print("<script>");
             out.print("alert('" + message + "');");
-            out.println("</script>");
+            out.print("</script>");
         }
 
         // URL이 있으면 페이지 강제 이동
-        if (url != null && url.equals("")) {
+        if (url != null && !url.equals("")) {
             out.println("<meta http-equiv='refresh' content='0; url=" + url + "' />");
         } else {
             out.println("<script>");
-            out.print("history.back();");
+            out.println("history.back();");
             out.println("</script>");
         }
 
@@ -193,11 +193,11 @@ public class WebHelper {
 
     /**
      * HTTP 상태 코드를 설정하고 메시지를 출력한 후, 지정된 페이지로 이동한다.
-     * @param statusCdoe - HTTP 상태 코드 (예: 404)
+     * @param statusCode - HTTP 상태 코드 (예: 404)
      * @param url - 이동할 URL
      */
-    public void redirect(int statusCdoe, String url) {
-        this.redirect(statusCdoe, url, null);
+    public void redirect(int statusCode, String url) {
+        this.redirect(statusCode, url, null);
     }
 
     /**

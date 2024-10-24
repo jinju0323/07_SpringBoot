@@ -33,6 +33,18 @@
     </table>
     <div class="button-container">
       <a class="mybutton green" th:href="@{/department}">목록보기</a>
+
+      <a
+        class="mybutton blue"
+        th:href="@{/department/edit/{deptNo}(deptNo=${department.deptNo})}"
+        >수정하기</a
+      >
+
+      <a
+        class="mybutton red"
+        th:href="@{/department/delete/{deptNo}(deptNo=${department.deptNo})}"
+        >삭제하기</a
+      >
     </div>
   </body>
 </html>

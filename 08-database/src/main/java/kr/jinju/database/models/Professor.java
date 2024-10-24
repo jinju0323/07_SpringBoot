@@ -12,6 +12,6 @@ public class Professor {
     private String position;    // 교수 직급
     private int sal;            // 교수 급여
     private String hireDate;    // 교수 입사일
-    private int comm;           // 교수 보직수당
+    private Integer comm;       // 교수 보직수당
     private int deptNo;         // 학과 번호
 }
