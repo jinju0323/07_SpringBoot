@@ -1806,3 +1806,60 @@ kr.jinju.params.StringFormatException: 나이를 입력하세요
 [INFO ] 24-10-15 17:06:44 [MyInterceptor:81] - param <-- glasses = yes
 [INFO ] 24-10-15 17:06:44 [MyInterceptor:90] - - REFERER : time=778, url=http://localhost:8080/survey/step3?name=%EC%8B%AC%EC%A7%84%EC%A3%BC&age=24&group=student
 [INFO ] 24-10-15 17:06:44 [MyInterceptor:111] - running time : 35(ms)
+[INFO ] 24-10-15 17:27:38 [ParamsApplication:50] - Starting ParamsApplication using Java 17.0.2 with PID 9448 (D:\jinju\07_SpringBoot\04_params\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\04_params)
+[DEBUG] 24-10-15 17:27:38 [ParamsApplication:51] - Running with Spring Boot v3.3.4, Spring v6.1.13
+[INFO ] 24-10-15 17:27:38 [ParamsApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-10-15 17:27:41 [ParamsApplication:56] - Started ParamsApplication in 3.47 seconds (process running for 4.499)
+[INFO ] 24-10-15 17:27:52 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:27:52 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:27:52 [MyInterceptor:74] - [GET] http://localhost:8080/survey
+[INFO ] 24-10-15 17:27:52 [MyInterceptor:111] - running time : 215(ms)
+[INFO ] 24-10-15 17:30:24 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:30:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:30:24 [MyInterceptor:74] - [GET] http://localhost:8080/survey
+[INFO ] 24-10-15 17:30:24 [MyInterceptor:90] - - REFERER : time=152383, url=http://localhost:8080/survey
+[INFO ] 24-10-15 17:30:24 [MyInterceptor:111] - running time : 76(ms)
+[INFO ] 24-10-15 17:30:29 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:30:29 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:30:29 [MyInterceptor:74] - [GET] http://localhost:8080/path/home
+[INFO ] 24-10-15 17:30:29 [MyInterceptor:90] - - REFERER : time=4912, url=http://localhost:8080/survey
+[INFO ] 24-10-15 17:30:29 [MyInterceptor:111] - running time : 69(ms)
+[INFO ] 24-10-15 17:30:32 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:30:32 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:30:32 [MyInterceptor:74] - [GET] http://localhost:8080/survey
+[INFO ] 24-10-15 17:30:32 [MyInterceptor:90] - - REFERER : time=2754, url=http://localhost:8080/path/home
+[INFO ] 24-10-15 17:30:32 [MyInterceptor:111] - running time : 87(ms)
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:74] - [POST] http://localhost:8080/survey/step1
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:81] - param <-- name = 지예는바보다,,,
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:90] - - REFERER : time=344268, url=http://localhost:8080/survey
+[INFO ] 24-10-15 17:36:16 [MyInterceptor:111] - running time : 142(ms)
+[INFO ] 24-10-15 17:36:20 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:74] - [POST] http://localhost:8080/survey/step2
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:81] - param <-- name = 지예는바보다,,,
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:81] - param <-- age = 1
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:90] - - REFERER : time=3941, url=http://localhost:8080/survey/step1
+[INFO ] 24-10-15 17:36:21 [MyInterceptor:111] - running time : 109(ms)
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:74] - [GET] http://localhost:8080/survey/step3?name=%EC%A7%80%EC%98%88%EB%8A%94%EB%B0%94%EB%B3%B4%EB%8B%A4,,,&age=1&group=student
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:81] - param <-- name = 지예는바보다,,,
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:81] - param <-- age = 1
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:81] - param <-- group = student
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:90] - - REFERER : time=2163, url=http://localhost:8080/survey/step2
+[INFO ] 24-10-15 17:36:23 [MyInterceptor:111] - running time : 82(ms)
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:74] - [GET] http://localhost:8080/survey/step4?name=%EC%A7%80%EC%98%88%EB%8A%94%EB%B0%94%EB%B3%B4%EB%8B%A4,,,&age=1&group=student&glasses=no
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:81] - param <-- name = 지예는바보다,,,
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:81] - param <-- age = 1
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:81] - param <-- group = student
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:81] - param <-- glasses = no
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:90] - - REFERER : time=1567, url=http://localhost:8080/survey/step3?name=%EC%A7%80%EC%98%88%EB%8A%94%EB%B0%94%EB%B3%B4%EB%8B%A4,,,&age=1&group=student
+[INFO ] 24-10-15 17:36:24 [MyInterceptor:111] - running time : 72(ms)
+[INFO ] 24-10-15 17:40:56 [MyInterceptor:39] - -------------- new client connect --------------
+[INFO ] 24-10-15 17:40:57 [MyInterceptor:56] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 129.0
+[INFO ] 24-10-15 17:40:57 [MyInterceptor:74] - [GET] http://localhost:8080/
+[INFO ] 24-10-15 17:40:57 [MyInterceptor:111] - running time : 41(ms)
