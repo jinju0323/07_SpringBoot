@@ -24,7 +24,7 @@ public interface DepartmentMapper {
      */
 
     // @Insert 하고 import. ()안에 ""문자열로 감쌈. 마지막에 ;세미콜론 빼도된다.
-    @Insert("INSERT INTO department (dname, loc) VALUES (#{dname}, #{loc});")
+    @Insert("INSERT INTO department (dname, loc) VALUES (#{dname}, #{loc})")
     // INSERT문에서 필요한 PK에 대한 옵션 정의
     // useGeneratedKeys: AUTO_INCREMENT가 적용된 테이블인 경우 사용
     // keyProperty: 파라미터로 전달되는 MODEL 객체에서 PK에 대응되는 멤버변수
@@ -38,7 +38,7 @@ public interface DepartmentMapper {
      * @param input - 수정할 데이터에 대한 모델 객체
      * @return 수정한 데이터 수
      */
-    @Update("UPDATE department SET dname=#{dname}, loc=#{loc} WHERE deptno=#{deptNo};")
+    @Update("UPDATE department SET dname=#{dname}, loc=#{loc} WHERE deptno=#{deptNo}")
     public int update(Department input);
 
 
@@ -47,7 +47,7 @@ public interface DepartmentMapper {
      * @param input - 삭제할 데이터에 대한 모델 객체
      * @return 삭제한 데이터 수
      */
-    @Delete("DELETE FROM department WHERE deptno=#{deptNo};")
+    @Delete("DELETE FROM department WHERE deptno=#{deptNo}")
     public int delete(Department input);
 
 
@@ -56,7 +56,7 @@ public interface DepartmentMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    @Select("SELECT deptno, dname, loc FROM department WHERE deptno=#{deptNo};")
+    @Select("SELECT deptno, dname, loc FROM department WHERE deptno=#{deptNo}")
     // 조회 결과와 리턴할 MODEL 객체를 연결하기 위한 규칙 정의
     // property : MODEL 객체의 멤버변수 이름
     // column : SELECT문에 명시된 필드 이름(AS 옵션을 사용한 경우 별칭으로 명시)
@@ -77,7 +77,7 @@ public interface DepartmentMapper {
      */
     // 학과 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
     @Select("SELECT deptno, dname, loc FROM department " +
-            "ORDER BY deptno;")
+            "ORDER BY deptno DESC")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("departmentMap")
     public List<Department> selectList(Department input);

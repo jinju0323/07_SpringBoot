@@ -24,8 +24,11 @@ public interface ProfessorMapper {
      */
 
     // @Insert 하고 import. ()안에 ""문자열로 감쌈. 마지막에 ;세미콜론 빼도된다.
-    @Insert("INSERT INTO professor (name, userid, position, sal, hiredate, comm, deptno) " + 
-            "VALUES (#{name}, #{userId}, #{position}, #{sal}, #{hireDate}, #{comm}, #{deptNo});")    
+    @Insert("INSERT INTO professor (" + 
+                "name, userid, position, sal, hiredate, comm, deptno" + 
+            ") VALUES (" + 
+                "#{name}, #{userId}, #{position}, #{sal}, #{hireDate}, #{comm}, #{deptNo}" + 
+                ")")    
     // 키 프로퍼티는 빈즈 멤버변수 이름이다.
     // INSERT문에서 필요한 PK에 대한 옵션 정의
     // useGeneratedKeys: AUTO_INCREMENT가 적용된 테이블인 경우 사용
@@ -40,7 +43,15 @@ public interface ProfessorMapper {
      * @param input - 수정할 데이터에 대한 모델 객체
      * @return 수정한 데이터 수
      */
-    @Update("UPDATE professor SET name=#{name}, userid=#{userId}, position=#{position}, sal=#{sal}, hiredate=#{hireDate}, comm=#{comm}, deptno=#{deptNo} WHERE profno=#{profNo};")
+    @Update("UPDATE professor SET " + 
+                "name=#{name}, " + 
+                "userid=#{userId}, " + 
+                "position=#{position}, " + 
+                "sal=#{sal}, " + 
+                "hiredate=#{hireDate}, " + 
+                "comm=#{comm}, " + 
+                "deptno=#{deptNo} " + 
+            "WHERE profno=#{profNo}")
     public int update(Professor input);
 
 
@@ -49,11 +60,11 @@ public interface ProfessorMapper {
      * @param input - 삭제할 데이터에 대한 모델 객체
      * @return 삭제한 데이터 수
      */
-    @Delete("DELETE FROM professor WHERE profno=#{profNo};")
+    @Delete("DELETE FROM professor WHERE profno=#{profNo}")
     public int delete(Professor input);
 
     // 학과를 삭제하기 전에 학과에 소속된 교수 데이터를 삭제
-    @Delete("DELETE FROM professor WHERE deptno=#{deptNo};")
+    @Delete("DELETE FROM professor WHERE deptno=#{deptNo}")
     int deleteByDeptno(Professor input);
 
 
@@ -62,8 +73,11 @@ public interface ProfessorMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    @Select("SELECT profno, name, userid, position, sal, hiredate, comm, deptno " + 
-            "FROM professor WHERE profno=#{profNo};")
+    @Select("SELECT " + 
+                "profno, name, userid, position, sal, " + 
+                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, deptno " + 
+            "FROM professor " + 
+            "WHERE profno=#{profNo}")
     // 조회 결과와 리턴할 MODEL 객체를 연결하기 위한 규칙 정의
     // property : MODEL 객체의 멤버변수 이름
     // column : SELECT문에 명시된 필드 이름(AS 옵션을 사용한 경우 별칭으로 명시)
@@ -91,9 +105,10 @@ public interface ProfessorMapper {
      * @return 조회한 데이터 수
      */
     // 교수 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
-    @Select("SELECT profno, name, userid, position, " +
-            "sal, hiredate, comm, deptno FROM professor " + 
-            "ORDER BY profno;")
+    @Select("SELECT " + 
+                "profno, name, userid, position, sal, " + 
+                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, deptno " + 
+            "FROM professor")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("professorMap")
     public List<Professor> selectList(Professor input);

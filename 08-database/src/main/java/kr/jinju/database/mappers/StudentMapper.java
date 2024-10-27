@@ -25,12 +25,12 @@ public interface StudentMapper {
 
     // @Insert 하고 import. ()안에 ""문자열로 감쌈. 마지막에 ;세미콜론 빼도된다.
     @Insert("INSERT INTO student (" + 
-            "name, userid, grade, idnum, birthdate, " + 
-            "tel, height, weight, deptno, profno) " + 
-            "VALUES (" + 
-            "#{name}, #{userId}, #{grade}, #{idNum}, #{birthDate}, " + 
-            "#{tel}, #{height}, #{weight}, #{deptNo}, #{profNo}" + 
-            ");")
+                "name, userid, grade, idnum, birthdate, " + 
+                "tel, height, weight, deptno, profno" + 
+            ") VALUES (" + 
+                "#{name}, #{userId}, #{grade}, #{idNum}, #{birthDate}, " + 
+                "#{tel}, #{height}, #{weight}, #{deptNo}, #{profNo}" + 
+            ")")
     @Options(useGeneratedKeys = true, keyProperty = "studNo", keyColumn = "studno")
     public int insert(Student input);
 
@@ -39,8 +39,18 @@ public interface StudentMapper {
      * @param input - 수정할 데이터에 대한 모델 객체
      * @return 수정한 데이터 수
      */
-    @Update("UPDATE student SET name=#{name}, userid=#{userId}, grade=#{grade}, idnum=#{idNum}, birthdate=#{birthDate}, " + 
-            "tel=#{tel}, height=#{height}, weight=#{weight}, deptno=#{deptNo}, profno=#{profNo} WHERE studno=#{studNo};")
+    @Update("UPDATE student SET " + 
+                "name=#{name}, " + 
+                "userid=#{userId}, " + 
+                "grade=#{grade}, " + 
+                "idnum=#{idNum}, " + 
+                "birthdate=#{birthDate}, " + 
+                "tel=#{tel}, " + 
+                "height=#{height}, " + 
+                "weight=#{weight}, " + 
+                "deptno=#{deptNo}, " + 
+                "profno=#{profNo} " + 
+            "WHERE studno=#{studNo}")
     public int update(Student input);
 
 
@@ -49,11 +59,11 @@ public interface StudentMapper {
      * @param input - 삭제할 데이터에 대한 모델 객체
      * @return 삭제한 데이터 수
      */
-    @Delete("DELETE FROM student WHERE studno=#{studNo};")
+    @Delete("DELETE FROM student WHERE studno=#{studNo}")
     public int delete(Student input);
 
     // 학과를 삭제하기 전에 학과에 소속된 학생 데이터를 삭제
-    @Delete("DELETE FROM student WHERE deptno=#{deptNo};")
+    @Delete("DELETE FROM student WHERE deptno=#{deptNo}")
     int deleteByDeptno(Student input);
 
     // 교수를 삭제하기 전에 교수에게 소속된 학생들과의 연결을 해제
@@ -67,11 +77,12 @@ public interface StudentMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    @Select("SELECT studno, name, userid, grade, idnum, " + 
-            "birthdate, tel, height, weight, deptno, " + 
-            "profno " + 
+    @Select("SELECT " + 
+                "studno, name, userid, grade, idnum, " + 
+                "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
+                "tel, height, weight, deptno, profno " + 
             "FROM student " + 
-            "WHERE studno=#{studNo};")
+            "WHERE studno=#{studNo}")
 
     @Results(id = "studentMap", value = {
         @Result(property = "studNo", column = "studno"),
@@ -95,9 +106,11 @@ public interface StudentMapper {
      * @return 조회한 데이터 수
      */
     // 학생 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
-    @Select("SELECT studno, name, userid, grade, idnum, birthdate, " + 
-        "tel, height, weight, deptno, profno FROM student " + 
-        "ORDER BY studno;")
+    @Select("SELECT " + 
+                "studno, name, userid, grade, idnum, " + 
+                "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
+                "tel, height, weight, deptno, profno " + 
+            "FROM student")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("studentMap")
     public List<Student> selectList(Student input);
