@@ -111,7 +111,7 @@ public class ProfessorController {
         @RequestParam("position") String position,
         @RequestParam("sal") int sal,
         @RequestParam("hireDate") String hireDate,
-        @RequestParam(value = "comm", required = false) Integer comm,
+        @RequestParam(value = "comm", defaultValue = "") Integer comm,
         @RequestParam("deptNo") int deptNo) {
         
         // 정상적인 경로로 접근한 경우 이전 페이지 주소는
@@ -132,10 +132,6 @@ public class ProfessorController {
         professor.setPosition(position);
         professor.setSal(sal);
         professor.setHireDate(hireDate);
-        // NULL일때 값 X
-        if (comm == null) {
-            professor.setComm(null);
-        }
         professor.setComm(comm);
         professor.setDeptNo(deptNo);
         
@@ -228,7 +224,7 @@ public class ProfessorController {
         @RequestParam("position") String position,
         @RequestParam("sal") int sal,
         @RequestParam("hireDate") String hireDate,
-        @RequestParam(value = "comm", required = false) Integer comm,
+        @RequestParam(value = "comm", defaultValue = "") Integer comm,
         @RequestParam("deptNo") int deptNo) {
         
         // 수정에 사용될 값을 Beans에 담는다.
@@ -239,10 +235,6 @@ public class ProfessorController {
         professor.setPosition(position);
         professor.setSal(sal);
         professor.setHireDate(hireDate);
-        // NULL일때 값 X
-        if (comm == null) {
-            professor.setComm(null);
-        }
         professor.setComm(comm);
         professor.setDeptNo(deptNo);
 

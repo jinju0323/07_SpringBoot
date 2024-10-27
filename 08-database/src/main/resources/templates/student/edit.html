@@ -36,13 +36,13 @@
           <tr>
             <th>학생 학년</th>
             <td class="text-left field">
-              <input type="text" name="grade" th:value="${student.grade}" />
+              <input type="number" name="grade" th:value="${student.grade}" />
             </td>
           </tr>
           <tr>
             <th>학생 주민번호</th>
             <td class="text-left field">
-              <input type="text" name="idNum" th:value="${student.idNum}" />
+              <input type="date" name="idNum" th:value="${student.idNum}" />
             </td>
           </tr>
           <tr>
@@ -64,25 +64,25 @@
           <tr>
             <th>학생 키</th>
             <td class="text-left field">
-              <input type="text" name="height" th:value="${student.height}" />
+              <input type="number" name="height" th:value="${student.height}" />
             </td>
           </tr>
           <tr>
             <th>학생 몸무게</th>
             <td class="text-left field">
-              <input type="text" name="weight" th:value="${student.weight}" />
+              <input type="number" name="weight" th:value="${student.weight}" />
             </td>
           </tr>
           <tr>
             <th>학생 학과번호</th>
             <td class="text-left field">
-              <input type="text" name="deptNo" th:value="${student.deptNo}" />
+              <input type="number" name="deptNo" th:value="${student.deptNo}" />
             </td>
           </tr>
           <tr>
-            <th>담당교수의 일련번호</th>
+            <th>담당교수 번호</th>
             <td class="text-left field">
-              <input type="text" name="profNo" th:value="${student.profNo}" />
+              <input type="number" name="profNo" th:value="${student.profNo}" />
             </td>
           </tr>
         </tbody>

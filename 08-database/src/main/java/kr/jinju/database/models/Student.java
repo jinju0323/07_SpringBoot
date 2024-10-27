@@ -16,5 +16,5 @@ public class Student {
     private int height;     // 키
     private int weight;     // 몸무게
     private int deptNo;     // 학과번호
-    private int profNo;     // 담당교수의 일련번호
+    private Integer profNo; // 담당교수 번호
 }

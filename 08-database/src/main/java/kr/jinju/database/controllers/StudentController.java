@@ -115,7 +115,7 @@ public class StudentController {
         @RequestParam("height") int height,
         @RequestParam("weight") int weight,
         @RequestParam("deptNo") int deptNo,
-        @RequestParam("profNo") int profNo) {
+        @RequestParam(value = "profNo", defaultValue = "") Integer profNo) {
         
         // 정상적인 경로로 접근한 경우 이전 페이지 주소는
         // 1) http://localhost/student
@@ -234,7 +234,7 @@ public class StudentController {
         @RequestParam("height") int height,
         @RequestParam("weight") int weight,
         @RequestParam("deptNo") int deptNo,
-        @RequestParam("profNo") int profNo) {
+        @RequestParam(value = "profNo", defaultValue = "") Integer profNo) {
         
         // 수정에 사용될 값을 Beans에 담는다.
         Student student = new Student();
