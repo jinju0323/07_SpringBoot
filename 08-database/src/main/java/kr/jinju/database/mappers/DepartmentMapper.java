@@ -76,8 +76,7 @@ public interface DepartmentMapper {
      * @return 조회한 데이터 수
      */
     // 학과 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
-    @Select("SELECT deptno, dname, loc FROM department " +
-            "ORDER BY deptno DESC")
+    @Select("SELECT deptno, dname, loc FROM department")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("departmentMap")
     public List<Department> selectList(Department input);
