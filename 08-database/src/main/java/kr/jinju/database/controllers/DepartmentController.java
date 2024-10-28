@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
 import kr.jinju.database.exceptions.ServiceNoResultException;
+import kr.jinju.database.helpers.Pagination;
 import kr.jinju.database.helpers.WebHelper;
 import kr.jinju.database.models.Department;
 import kr.jinju.database.services.DepartmentService;
@@ -38,13 +39,38 @@ public class DepartmentController {
      * @param model 모델
      * @return 학과 목록 화면을 구현한 View 경로
      */
-    @GetMapping("/department")
-    public String index(Model model) {
+    @GetMapping({"/", "/department"})
+    public String index(Model model, 
+        // 검색어 파라미터 (페이지가 처음 열릴 때는 값 없음. 필수(required)가 아님)
+        @RequestParam(value = "keyword", required = false) String keyword,
+        // 페이지 구현에서 사용할 페이지 번호
+        @RequestParam(value = "page", defaultValue = "1") int nowPage) {
 
-        List<Department> departments = null;
+        int totalCount = 0; // 전체 게시글 수
+        int listCount = 10; // 한 페이지당 표시할 목록 수
+        int pageCount = 5;  // 한 그룹당 표시할 페이지 번호 수
+
+        // 페이지 번호를 계산한 결과가 저장될 객체
+        Pagination pagination = null;
+        
+        // 조회 조건에 사용할 객체
+        Department input = new Department();
+        input.setDname(keyword);
+        input.setLoc(keyword);
+
+        List<Department> output = null;
 
         try {
-            departments = departmentService.getList(null);
+            //전체 게시글 수 조회
+            totalCount = departmentService.getCount(input);
+            // 페이지 번호 계산 --> 계산결과를 로그로 출력될 것이다.
+            pagination = new Pagination(nowPage, totalCount, listCount, pageCount);
+
+            // SQL의 LIMIT절에서 사용될 값을 Beans의 sataic 변수에 저장
+            Department.setOffset(pagination.getOffset());
+            Department.setListCount(pagination.getListCount());
+
+            output = departmentService.getList(input);
         } catch (ServiceNoResultException e) {
             webHelper.serverError(e);
             return null;
@@ -53,7 +79,10 @@ public class DepartmentController {
             return null;
         }
         // attributeName은 호출할 것과 이름 같게 하는게 안헷갈림
-        model.addAttribute("departments", departments);
+        model.addAttribute("departments", output);
+        model.addAttribute("keyword", keyword);
+        model.addAttribute("pagination", pagination);
+        
         return "/department/index";
     }
     

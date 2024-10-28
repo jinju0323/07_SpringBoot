@@ -85,4 +85,8 @@ public class DepartmentServiceImpl implements DepartmentService {
         return departmentMapper.selectList(input);
     }
     
+    @Override
+    public int getCount(Department input) throws Exception {
+        return departmentMapper.selectCount(input);
+    }
 }

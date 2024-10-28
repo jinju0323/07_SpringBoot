@@ -105,11 +105,32 @@ public interface ProfessorMapper {
      * @return 조회한 데이터 수
      */
     // 교수 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
-    @Select("SELECT " + 
+    @Select("<script>" +
+            "SELECT " + 
                 "profno, name, userid, position, sal, " + 
-                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, deptno " + 
-            "FROM professor")
+                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, " + 
+                "p.deptno AS deptno, dname  " + 
+            "FROM professor p " +
+            "INNER JOIN department d ON p.deptno = d.deptno " +  
+            "<where>" + 
+            "<if test='name != null'>name LIKE concat('%', #{name}, '%')</if>" + 
+            "<if test='userId != null'>OR userId LIKE concat('%', #{userId}, '%')</if>" + 
+            "</where>" +
+            "ORDER BY profno DESC " + 
+            "<if test='listCount > 0'>LIMIT #{offset}, #{listCount}</if>" + 
+            "</script>")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("professorMap")
     public List<Professor> selectList(Professor input);
+
+    @Select("<script>" +
+            "SELECT COUNT(*) AS cnt " + 
+            "FROM professor p " +
+            "INNER JOIN department d ON p.deptno = d.deptno " +  
+            "<where>" + 
+            "<if test='name != null'>name LIKE concat('%', #{name}, '%')</if> " + 
+            "<if test='userId != null'>OR userId LIKE concat('%', #{userId}, '%')</if> " + 
+            "</where>" + 
+            "</script>")
+    public int selectCount(Professor input);
 }

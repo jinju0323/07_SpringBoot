@@ -77,12 +77,14 @@ public interface StudentMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    @Select("SELECT " + 
+    @Select("<script>" +
+            "SELECT " + 
                 "studno, name, userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
-                "tel, height, weight, deptno, profno " + 
-            "FROM student " + 
-            "WHERE studno=#{studNo}")
+                "tel, height, weight, s.deptno AS deptno, s.profno AS profno " + 
+            "FROM student s " + 
+            "WHERE studno=#{studNo}" + 
+            "</script>")
 
     @Results(id = "studentMap", value = {
         @Result(property = "studNo", column = "studno"),

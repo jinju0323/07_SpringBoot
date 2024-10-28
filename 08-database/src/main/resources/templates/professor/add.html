@@ -19,45 +19,64 @@
         </colgroup>
         <tbody>
           <tr>
-            <th>교수 이름</th>
+            <th>교수이름</th>
             <td class="text-left field">
               <input type="text" name="name" />
             </td>
           </tr>
           <tr>
-            <th>교수 아이디</th>
+            <th>아이디</th>
             <td class="text-left field">
               <input type="text" name="userId" />
             </td>
           </tr>
           <tr>
-            <th>교수 직급</th>
+            <th>직급</th>
             <td class="text-left field">
-              <input type="text" name="position" />
+              <label>
+                <input type="radio" name="position" value="교수" />
+                교수
+              </label>
+              <label>
+                <input type="radio" name="position" value="부교수" />
+                부교수
+              </label>
+              <label>
+                <input type="radio" name="position" value="조교" />
+                조교
+              </label>
             </td>
           </tr>
           <tr>
-            <th>교수 연봉</th>
+            <th>급여</th>
             <td class="text-left field">
-              <input type="number" name="sal" />
+              <input type="number" name="sal" step="1" min="0" />
             </td>
           </tr>
           <tr>
-            <th>교수 입사일</th>
+            <th>입사일</th>
             <td class="text-left field">
               <input type="date" name="hireDate" />
             </td>
           </tr>
           <tr>
-            <th>교수 추가수당</th>
+            <th>보직수당</th>
             <td class="text-left field">
-              <input type="number" name="comm" />
+              <input type="number" name="comm" step="1" min="0" />
             </td>
           </tr>
           <tr>
-            <th>학과번호</th>
+            <th>소속학과</th>
             <td class="text-left field">
-              <input type="number" name="deptNo" />
+              <!--<input type="number" name="deptNo" />-->
+              <select name="deptNo">
+                <option value="">-----소속학과 선택-----</option>
+                <option
+                  th:each="dept : ${departments}"
+                  th:value="${dept.deptNo}"
+                  th:text="${dept.dname}"
+                ></option>
+              </select>
             </td>
           </tr>
         </tbody>
