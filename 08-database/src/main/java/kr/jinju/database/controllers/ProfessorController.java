@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
-import kr.jinju.database.exceptions.ServiceNoResultException;
 import kr.jinju.database.helpers.Pagination;
 import kr.jinju.database.helpers.WebHelper;
 import kr.jinju.database.models.Department;
@@ -79,14 +78,11 @@ public class ProfessorController {
             Professor.setListCount(pagination.getListCount());
 
             output = professorService.getList(input);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
-            return null;
         } catch (Exception e) {
             webHelper.serverError(e);
             return null;
         }
-        // attributeName은 호출할 것과 이름 같게 하는게 안헷갈림
+        
         model.addAttribute("professors", output);
         model.addAttribute("keyword", keyword);
         model.addAttribute("pagination", pagination);
@@ -105,15 +101,13 @@ public class ProfessorController {
         @PathVariable("profNo") int profNo) {
 
         // 조회 조건에 사용할 변수를 Beans에 저장
-        Professor params = new Professor();
-        params.setProfNo(profNo);
+        Professor input = new Professor();
+        input.setProfNo(profNo);
 
         // 조회 결과를 저장할 객체 선언
         Professor professor = null;
         try {
-            professor = professorService.getItem(params);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
+            professor = professorService.getItem(input);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -139,6 +133,7 @@ public class ProfessorController {
         }
 
         model.addAttribute("departments", output);
+
         return "/professor/add";
     }
 
@@ -184,8 +179,6 @@ public class ProfessorController {
         
         try {
             professorService.addItem(professor);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -217,8 +210,6 @@ public class ProfessorController {
 
         try {
             professorService.deleteItem(professor);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -230,7 +221,7 @@ public class ProfessorController {
     /**
      * 교수 수정 페이지
      * @param model     - Model 객체
-     * @param profNo    - 교수 번호
+     * @param deptNo    - 교수 번호
      * @return View 페이지의 경로
      */
     @GetMapping("/professor/edit/{profNo}")
@@ -239,18 +230,16 @@ public class ProfessorController {
 
         // 파라미터로 받은 PK값을 beans객체에 담는다.
         // -> 검색조건으로 사용하기 위함
-        Professor params = new Professor();
-        params.setProfNo(profNo);
+        Professor input = new Professor();
+        input.setProfNo(profNo);
 
         // 수정할 데이터의 현재 값을 조회한다.
         Professor output = null;
         List<Department> output2 = null;
 
         try {
-            output = professorService.getItem(params);
+            output = professorService.getItem(input);
             output2 = departmentService.getList(null);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -292,8 +281,6 @@ public class ProfessorController {
         // 데이터를 수정한다.
         try {
             professorService.editItem(professor);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }

@@ -6,9 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
-import kr.jinju.database.exceptions.ServiceNoResultException;
+import kr.jinju.database.helpers.Pagination;
 import kr.jinju.database.helpers.WebHelper;
+import kr.jinju.database.models.Department;
+import kr.jinju.database.models.Professor;
 import kr.jinju.database.models.Student;
+import kr.jinju.database.services.DepartmentService;
+import kr.jinju.database.services.ProfessorService;
 import kr.jinju.database.services.StudentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,9 +27,17 @@ import jakarta.servlet.http.HttpServletRequest;
 @Controller
 public class StudentController {
     
-    /** 객체 주입 */
+    /** 학생 관리 서비스 객체 주입 */
     @Autowired
     private StudentService studentService;
+
+    /** 교수 관리 서비스 객체 주입 */
+    @Autowired
+    private ProfessorService professorService;
+
+    /** 학과 관리 서비스 객체 주입 */
+    @Autowired
+    private DepartmentService departmentService;
 
     @Autowired
     private WebHelper webHelper;
@@ -38,22 +50,47 @@ public class StudentController {
      * @param model 모델
      * @return 학생 목록 화면을 구현한 View 경로
      */
-    @GetMapping("/student")
-    public String index(Model model) {
+    @GetMapping({"/", "/student"})
+    public String index(Model model,
+            // 검색어 파라미터 (페이지가 처음 열릴 때는 값 없음. 필수(required)가 아님)
+            @RequestParam(value = "keyword", required = false) String keyword,
+            // 페이지 구현에서 사용할 페이지 번호
+            @RequestParam(value = "page", defaultValue = "1") int nowPage) {
+        
+        int totalCount = 0; // 전체 게시글 수
+        int listCount = 10; // 한 페이지당 표시할 목록 수
+        int pageCount = 5;  // 한 그룹당 표시할 페이지 번호 수
+        
+        // 페이지 번호를 계산한 결과가 저장될 객체
+        Pagination pagination = null;
 
-        List<Student> students = null;
+        // 조회 조건에 사용할 객체
+        Student input = new Student();
+        input.setName(keyword);
+        input.setUserId(keyword);
+
+        List<Student> output = null;
 
         try {
-            students = studentService.getList(null);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
-            return null;
+            //전체 게시글 수 조회
+            totalCount = studentService.getCount(input);
+            // 페이지 번호 계산 --> 계산결과를 로그로 출력될 것이다.
+            pagination = new Pagination(nowPage, totalCount, listCount, pageCount);
+
+            // SQL의 LIMIT절에서 사용될 값을 Beans의 sataic 변수에 저장
+            Student.setOffset(pagination.getOffset());
+            Student.setListCount(pagination.getListCount());
+
+            output = studentService.getList(input);
         } catch (Exception e) {
             webHelper.serverError(e);
             return null;
         }
-        // attributeName은 호출할 것과 이름 같게 하는게 안헷갈림
-        model.addAttribute("students", students);
+        
+        model.addAttribute("students", output);
+        model.addAttribute("keyword", keyword);
+        model.addAttribute("pagination", pagination);
+
         return "/student/index";
     }
     
@@ -68,15 +105,13 @@ public class StudentController {
         @PathVariable("studNo") int studNo) {
 
         // 조회 조건에 사용할 변수를 Beans에 저장
-        Student params = new Student();
-        params.setStudNo(studNo);
+        Student input = new Student();
+        input.setStudNo(studNo);
 
         // 조회 결과를 저장할 객체 선언
         Student student = null;
         try {
-            student = studentService.getItem(params);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
+            student = studentService.getItem(input);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -91,7 +126,22 @@ public class StudentController {
      * @return 학생 등록 화면을 구현한 View 경로
      */
     @GetMapping("/student/add")
-    public String add() {
+    public String add(Model model) {
+        // 모든 학과 목록을 조회하여 View에 전달한다.
+        List<Department> output = null;
+        // 모든 담당교수 목록을 조회하여 View에 전달한다.
+        List<Professor> output2 = null;
+
+        try {
+            output = departmentService.getList(null);
+            output2 = professorService.getList(null);
+        } catch (Exception e) {
+            webHelper.serverError(e);
+        }
+
+        model.addAttribute("departments", output);
+        model.addAttribute("professors", output2);
+        
         return "/student/add";
     }
 
@@ -143,8 +193,6 @@ public class StudentController {
         
         try {
             studentService.addItem(student);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -176,8 +224,6 @@ public class StudentController {
 
         try {
             studentService.deleteItem(student);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
@@ -198,21 +244,25 @@ public class StudentController {
 
         // 파라미터로 받은 PK값을 beans객체에 담는다.
         // -> 검색조건으로 사용하기 위함
-        Student params = new Student();
-        params.setStudNo(studNo);
+        Student input = new Student();
+        input.setStudNo(studNo);
 
-        // 수정할 데이터의 현재 값을 조회한다.
-        Student student = null;
+        // 수정할 데이터와 모든 학과 목록과 담당교수 목록을 조회한다.
+        Student output = null;
+        List<Department> output2 = null;
+        List<Professor> output3 = null;
         try {
-            student = studentService.getItem(params);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
+            output = studentService.getItem(input);
+            output2 = departmentService.getList(null);
+            output3 = professorService.getList(null);
         } catch (Exception e) {
             webHelper.serverError(e);
         }
         
         // View에 데이터 전달
-        model.addAttribute("student", student);
+        model.addAttribute("student", output);
+        model.addAttribute("departments", output2);
+        model.addAttribute("professors", output3);
 
         return "/student/edit";
     }
@@ -253,8 +303,6 @@ public class StudentController {
         // 데이터를 수정한다.
         try {
             studentService.editItem(student);
-        } catch (ServiceNoResultException e) {
-            webHelper.serverError(e);
         } catch (Exception e) {
             webHelper.serverError(e);
         }

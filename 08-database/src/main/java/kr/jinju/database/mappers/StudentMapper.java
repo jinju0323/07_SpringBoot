@@ -77,14 +77,14 @@ public interface StudentMapper {
      * @param input - 조회할 데이터에 대한 모델 객체
      * @return 조회한 데이터 수
      */
-    @Select("<script>" +
-            "SELECT " + 
-                "studno, name, userid, grade, idnum, " + 
+    @Select("SELECT " + 
+                "studno, s.name AS name, userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
-                "tel, height, weight, s.deptno AS deptno, s.profno AS profno " + 
+                "tel, height, weight, dname, p.name AS pname " + 
             "FROM student s " + 
-            "WHERE studno=#{studNo}" + 
-            "</script>")
+            "INNER JOIN department d ON s.deptno = d.deptno " +
+            "INNER JOIN professor p ON s.profno = p.profno " + 
+            "WHERE studno=#{studNo}")
 
     @Results(id = "studentMap", value = {
         @Result(property = "studNo", column = "studno"),
@@ -97,7 +97,9 @@ public interface StudentMapper {
         @Result(property = "height", column = "height"),
         @Result(property = "weight", column = "weight"),
         @Result(property = "deptNo", column = "deptNo"),
-        @Result(property = "profNo", column = "profNo")
+        @Result(property = "profNo", column = "profNo"),
+        @Result(property = "dname", column = "dname"),
+        @Result(property = "pname", column = "pname")
     })
     public Student selectItem(Student input);
 
@@ -108,12 +110,40 @@ public interface StudentMapper {
      * @return 조회한 데이터 수
      */
     // 학생 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
-    @Select("SELECT " + 
-                "studno, name, userid, grade, idnum, " + 
+    @Select("<script>" +
+            "SELECT " + 
+                "studno, s.name AS name, userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
-                "tel, height, weight, deptno, profno " + 
-            "FROM student")
+                "tel, height, weight, dname, p.name AS pname " + 
+            "FROM student s " + 
+            "INNER JOIN department d ON s.deptno = d.deptno " +
+            "INNER JOIN professor p ON s.profno = p.profno " +
+            "<where>" +
+            "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
+            "<if test='userid != null'>OR userid LIKE concat('%', #{userId}, '%')</if>" +
+            "</where>" +
+            "ORDER BY studno DESC " +
+            "<if test='listCount > 0'>LIMIT #{offset}, #{listCount}</if> " +
+            "</script>")
     // 조회 결과와 MODEL의 맵핑이 이전 규칙과 동일한 경우 id 값으로 이전 규칙을 재사용
     @ResultMap("studentMap")
     public List<Student> selectList(Student input);
+
+    /**
+     * 검색 결과의 수를 조회하는 메서드
+     * 목록 조회와 동일한 검색 조건을 적용해야 한다.
+     * @param input - 조회할 데이터에 대한 모델 객체
+     * @return 조회 결과 수
+     */
+    @Select("<script>" +
+            "SELECT COUNT(*) AS cnt " + 
+            "FROM student s " +
+            "INNER JOIN department d ON s.deptno = d.deptno " +
+            "INNER JOIN professor p ON s.profno = p.profno " +
+            "<where>" + 
+            "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
+            "<if test='userid != null'>OR userid LIKE concat('%', #{userId}, '%')</if>" +
+            "</where>" + 
+            "</script>")
+    public int selectCount(Student input);
 }

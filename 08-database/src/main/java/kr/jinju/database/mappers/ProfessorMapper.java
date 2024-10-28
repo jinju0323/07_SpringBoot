@@ -75,8 +75,10 @@ public interface ProfessorMapper {
      */
     @Select("SELECT " + 
                 "profno, name, userid, position, sal, " + 
-                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, deptno " + 
-            "FROM professor " + 
+                "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, " + 
+                "p.deptno AS deptno, dname " + 
+            "FROM professor p " +
+            "INNER JOIN department d ON p.deptno = d.deptno " +  
             "WHERE profno=#{profNo}")
     // 조회 결과와 리턴할 MODEL 객체를 연결하기 위한 규칙 정의
     // property : MODEL 객체의 멤버변수 이름
@@ -94,7 +96,8 @@ public interface ProfessorMapper {
         @Result(property = "sal", column = "sal"),
         @Result(property = "hireDate", column = "hiredate"),
         @Result(property = "comm", column = "comm"),
-        @Result(property = "deptNo", column = "deptno")
+        @Result(property = "deptNo", column = "deptno"),
+        @Result(property = "dname", column = "dname")
     })
     public Professor selectItem(Professor input);
 
@@ -109,7 +112,7 @@ public interface ProfessorMapper {
             "SELECT " + 
                 "profno, name, userid, position, sal, " + 
                 "DATE_FORMAT(hiredate, '%Y-%m-%d') AS hiredate, comm, " + 
-                "p.deptno AS deptno, dname  " + 
+                "p.deptno AS deptno, dname " + 
             "FROM professor p " +
             "INNER JOIN department d ON p.deptno = d.deptno " +  
             "<where>" + 

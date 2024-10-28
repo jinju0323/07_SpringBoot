@@ -20,6 +20,7 @@ public class Student {
     private int deptNo;     // 학과번호
     private Integer profNo; // 담당교수 번호 --> Null 허용이므로 Integer로 선언
     private String dname;   // 학과명 (조인을 통해 조회된 값)
+    private String pname;   // 교수명 (조인을 통해 조회된 값)
 
     @Getter
     @Setter

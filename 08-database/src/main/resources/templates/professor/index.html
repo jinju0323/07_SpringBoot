@@ -18,7 +18,7 @@
       <!-- 3) submit은 컨트롤러에게 검색어를 전송한다 -->
       <!-- 4) 컨트롤러는 전송받은 검색어롤 다시 View에게 전달하여 자동완성 시켜야한다. -->
       <form method="get" th:action="@{/professor}">
-        <input type="search" name="keyword" placeholder="학과명 or 위치 검색" th:value="${keyword}">
+        <input type="search" name="keyword" placeholder="교수명 or 아이디 검색" th:value="${keyword}">
         <button type="submit" class="mybutton gray">검색</button>
       </form>
       <a class="mybutton blue" th:href="@{/professor/add}">새 교수 등록</a>
@@ -26,8 +26,8 @@
     <table class="mytable">
       <thead>
         <tr>
-          <th>번호</th>
-          <th>이름</th>
+          <th>교수번호</th>
+          <th>교수이름</th>
           <th>아이디</th>
           <th>직급</th>
           <th>급여</th>
@@ -61,7 +61,7 @@
           <td th:text="${#numbers.formatInteger(professor.sal, 1, 'COMMA')}"></td>
           <td th:text="${professor.hireDate}"></td>
           <td th:text="${#numbers.formatInteger(professor.comm, 1, 'COMMA')}"></td>
-          <td th:text="${professor.deptNo}"></td>
+          <td th:text="${professor.dname}"></td>
 
           <td>
             <a th:href="@{/professor/edit/{profNo}(profNo=${professor.profNo})}">수정</a>
