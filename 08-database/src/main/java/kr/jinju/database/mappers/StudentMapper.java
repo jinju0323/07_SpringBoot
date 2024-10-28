@@ -23,7 +23,6 @@ public interface StudentMapper {
      * @return 입력된 데이터 수
      */
 
-    // @Insert 하고 import. ()안에 ""문자열로 감쌈. 마지막에 ;세미콜론 빼도된다.
     @Insert("INSERT INTO student (" + 
                 "name, userid, grade, idnum, birthdate, " + 
                 "tel, height, weight, deptno, profno" + 
@@ -35,7 +34,7 @@ public interface StudentMapper {
     public int insert(Student input);
 
     /**
-     * UPDATE문을 수행하는 메서드 정의
+     * 학생 정보를 수정한다.
      * @param input - 수정할 데이터에 대한 모델 객체
      * @return 수정한 데이터 수
      */
@@ -55,7 +54,7 @@ public interface StudentMapper {
 
 
     /**
-     * DELETE문을 수행하는 메서드 정의
+     * 학생 정보를 삭제한다. 
      * @param input - 삭제할 데이터에 대한 모델 객체
      * @return 삭제한 데이터 수
      */
@@ -78,7 +77,7 @@ public interface StudentMapper {
      * @return 조회한 데이터 수
      */
     @Select("SELECT " + 
-                "studno, s.name AS name, userid, grade, idnum, " + 
+                "studno, s.name AS name, s.userid AS userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
                 "tel, height, weight, dname, p.name AS pname " + 
             "FROM student s " + 
@@ -96,8 +95,8 @@ public interface StudentMapper {
         @Result(property = "tel", column = "tel"),
         @Result(property = "height", column = "height"),
         @Result(property = "weight", column = "weight"),
-        @Result(property = "deptNo", column = "deptNo"),
-        @Result(property = "profNo", column = "profNo"),
+        @Result(property = "deptNo", column = "deptno"),
+        @Result(property = "profNo", column = "profno"),
         @Result(property = "dname", column = "dname"),
         @Result(property = "pname", column = "pname")
     })
@@ -112,7 +111,7 @@ public interface StudentMapper {
     // 학생 순으로 정렬. 구문이 길면 -> 띄어쓰기" + "로 추가한다.
     @Select("<script>" +
             "SELECT " + 
-                "studno, s.name AS name, userid, grade, idnum, " + 
+                "studno, s.name AS name, s.userid AS userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
                 "tel, height, weight, dname, p.name AS pname " + 
             "FROM student s " + 
@@ -120,7 +119,7 @@ public interface StudentMapper {
             "INNER JOIN professor p ON s.profno = p.profno " +
             "<where>" +
             "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
-            "<if test='userid != null'>OR userid LIKE concat('%', #{userId}, '%')</if>" +
+            "<if test='userid != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
             "</where>" +
             "ORDER BY studno DESC " +
             "<if test='listCount > 0'>LIMIT #{offset}, #{listCount}</if> " +
@@ -142,7 +141,7 @@ public interface StudentMapper {
             "INNER JOIN professor p ON s.profno = p.profno " +
             "<where>" + 
             "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
-            "<if test='userid != null'>OR userid LIKE concat('%', #{userId}, '%')</if>" +
+            "<if test='userid != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
             "</where>" + 
             "</script>")
     public int selectCount(Student input);

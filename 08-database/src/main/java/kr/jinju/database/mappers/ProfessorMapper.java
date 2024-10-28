@@ -126,6 +126,12 @@ public interface ProfessorMapper {
     @ResultMap("professorMap")
     public List<Professor> selectList(Professor input);
 
+    /**
+     * 검색 결과의 수를 조회하는 메서드
+     * 목록 조회와 동일한 검색 조건을 적용해야 한다.
+     * @param input - 조회할 데이터에 대한 모델 객체
+     * @return 조회 결과 수
+     */
     @Select("<script>" +
             "SELECT COUNT(*) AS cnt " + 
             "FROM professor p " +

@@ -46,7 +46,7 @@ public class ProfessorController {
      * @param model 모델
      * @return 교수 목록 화면을 구현한 View 경로
      */
-    @GetMapping({"/","/professor"})
+    @GetMapping("/professor")
     public String index(Model model,
             // 검색어 파라미터 (페이지가 처음 열릴 때는 값 없음. 필수(required)가 아님)
             @RequestParam(value = "keyword", required = false) String keyword,

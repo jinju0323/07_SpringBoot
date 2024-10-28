@@ -39,9 +39,11 @@ public class StudentController {
     @Autowired
     private DepartmentService departmentService;
 
+    /** WebHelper 주입 */
     @Autowired
     private WebHelper webHelper;
 
+    /** HttpServletRequest 주입  */
     @Autowired
     private HttpServletRequest request;
 
@@ -50,7 +52,7 @@ public class StudentController {
      * @param model 모델
      * @return 학생 목록 화면을 구현한 View 경로
      */
-    @GetMapping({"/", "/student"})
+    @GetMapping("/student")
     public String index(Model model,
             // 검색어 파라미터 (페이지가 처음 열릴 때는 값 없음. 필수(required)가 아님)
             @RequestParam(value = "keyword", required = false) String keyword,
