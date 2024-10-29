@@ -79,10 +79,11 @@ public interface StudentMapper {
     @Select("SELECT " + 
                 "studno, s.name AS name, s.userid AS userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
-                "tel, height, weight, dname, p.name AS pname " + 
+                "tel, height, weight, dname, p.name AS pname, " + 
+                "s.deptno AS deptno, s.profno AS profno " + 
             "FROM student s " + 
             "INNER JOIN department d ON s.deptno = d.deptno " +
-            "INNER JOIN professor p ON s.profno = p.profno " + 
+            "LEFT OUTER JOIN professor p ON s.profno = p.profno " + 
             "WHERE studno=#{studNo}")
 
     @Results(id = "studentMap", value = {
@@ -113,13 +114,14 @@ public interface StudentMapper {
             "SELECT " + 
                 "studno, s.name AS name, s.userid AS userid, grade, idnum, " + 
                 "DATE_FORMAT(birthdate, '%Y-%m-%d') AS birthdate, " + 
-                "tel, height, weight, dname, p.name AS pname " + 
+                "tel, height, weight, dname, p.name AS pname, " + 
+                "s.deptno AS deptno, s.profno AS profno " + 
             "FROM student s " + 
             "INNER JOIN department d ON s.deptno = d.deptno " +
-            "INNER JOIN professor p ON s.profno = p.profno " +
+            "LEFT OUTER JOIN professor p ON s.profno = p.profno " +
             "<where>" +
             "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
-            "<if test='userid != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
+            "<if test='userId != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
             "</where>" +
             "ORDER BY studno DESC " +
             "<if test='listCount > 0'>LIMIT #{offset}, #{listCount}</if> " +
@@ -138,10 +140,10 @@ public interface StudentMapper {
             "SELECT COUNT(*) AS cnt " + 
             "FROM student s " +
             "INNER JOIN department d ON s.deptno = d.deptno " +
-            "INNER JOIN professor p ON s.profno = p.profno " +
+            "LEFT OUTER JOIN professor p ON s.profno = p.profno " +
             "<where>" + 
             "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
-            "<if test='userid != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
+            "<if test='userId != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
             "</where>" + 
             "</script>")
     public int selectCount(Student input);

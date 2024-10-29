@@ -96,7 +96,7 @@
                   th:each="dept : ${departments}"
                   th:value="${dept.deptNo}"
                   th:text="${dept.dname}"
-                  th:selected="${dept.deptNo} == professor.deptno"
+                  th:selected="${dept.deptNo == professor.deptNo}"
                 ></option>
               </select>
             </td>

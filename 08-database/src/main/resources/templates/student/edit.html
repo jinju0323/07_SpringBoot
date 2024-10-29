@@ -41,7 +41,7 @@
                   type="radio"
                   name="grade"
                   value="1"
-                  th:checked="${student.grade == '1'}"
+                  th:checked="${student.grade == 1}"
                 />
                 1
               </label>
@@ -49,8 +49,8 @@
                 <input
                   type="radio"
                   name="grade"
-                  value="1"
-                  th:checked="${student.grade == '2'}"
+                  value="2"
+                  th:checked="${student.grade == 2}"
                 />
                 2
               </label>
@@ -58,8 +58,8 @@
                 <input
                   type="radio"
                   name="grade"
-                  value="1"
-                  th:checked="${student.grade == '3'}"
+                  value="3"
+                  th:checked="${student.grade == 3}"
                 />
                 3
               </label>
@@ -67,8 +67,8 @@
                 <input
                   type="radio"
                   name="grade"
-                  value="1"
-                  th:checked="${student.grade == '4'}"
+                  value="4"
+                  th:checked="${student.grade == 4}"
                 />
                 4
               </label>
@@ -77,7 +77,7 @@
           <tr>
             <th>주민번호</th>
             <td class="text-left field">
-              <input type="date" name="idNum" th:value="${student.idNum}" />
+              <input type="number" name="idNum" th:value="${student.idNum}" />
             </td>
           </tr>
           <tr>
@@ -117,7 +117,7 @@
                   th:each="dept : ${departments}"
                   th:value="${dept.deptNo}"
                   th:text="${dept.dname}"
-                  th:selected="${dept.deptNo} == student.deptno"
+                  th:selected="${dept.deptNo == student.deptNo}"
                 ></option>
               </select>
             </td>
@@ -125,13 +125,13 @@
           <tr>
             <th>담당교수</th>
             <td class="text-left field">
-              <select name="deptNo">
+              <select name="profNo">
                 <option value="">-----담당교수 선택-----</option>
                 <option
                   th:each="prof : ${professors}"
-                  th:value="${prof.deptNo}"
-                  th:text="${prof.pname}"
-                  th:selected="${prof.deptNo} == student.deptno"
+                  th:value="${prof.profNo}"
+                  th:text="${prof.name}"
+                  th:selected="${prof.profNo == student.profNo}"
                 ></option>
               </select>
             </td>
