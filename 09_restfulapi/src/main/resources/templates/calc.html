@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Ajax 계산기</h1>
+    <form id="calcform" action="/my_calc">
+      <input type="text" name="x" placeholer="x" />
+      <select name="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="text" name="y" placeholer="y" />
+      <input type="submit" value="계산" />
+    </form>
+    <ul id="result"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/assets/js/calc.js"></script>
+  </body>
+</html>
