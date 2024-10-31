@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            #loading {
+                width: 100px;
+                height: 100px;
+                background: url(img/loading.gif) no-repeat center/cover;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 9999999999;
+                display: none;
+            }
+
+            #loading.active {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="loading"></div>
+        <h1>Department Item</h1>
+
+        <dl>
+            <dt>학과번호</dt>
+            <dd class="id"></dd>
+            <dt>학과명</dt>
+            <dd class="dname"></dd>
+            <dt>학과위치</dt>
+            <dd class="loc"></dd>
+        </dl>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+            (async () => {
+                // 로딩바 표시하기
+                const loading = document.querySelector('#loading');
+                loading.classList.add('active');
+
+                // 검색결과를 저장할 빈 변수
+                let response = null;
+
+                try {
+                    response = await axios.get(`http://localhost:8080/api/department/101`);
+                    console.log(response.data);
+                } catch (error) {
+                    // ------- 어제 수정한 코드 적용 -------
+                    return;
+                } finally {
+                    // 로딩바 닫기
+                    loading.classList.remove('active');
+                }
+
+
+                // Ajax의 응답결과를 구조분해하여 개별 변수로 추출
+                const { deptNo, dname, loc } = response.data.item;
+
+                // 추출한 결과를 미리 준비한 HTML 구조에 출력하고 컨테이너를 화면에 표시함
+                document.querySelector('.id').innerHTML = deptNo;
+                document.querySelector('.dname').innerHTML = dname;
+                document.querySelector('.loc').innerHTML = loc;
+            })();
+        </script>
+    </body>
+</html>
