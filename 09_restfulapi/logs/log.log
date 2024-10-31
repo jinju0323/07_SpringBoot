@@ -310,3 +310,75 @@
 [INFO ] 24-10-30 16:31:14 [MyInterceptor:88] - param <-- y = 2
 [INFO ] 24-10-30 16:31:14 [MyInterceptor:97] - - REFERER : time=1637, url=http://localhost:8080/calc
 [INFO ] 24-10-30 16:31:14 [MyInterceptor:118] - running time : 41(ms)
+[INFO ] 24-10-30 20:28:10 [RestfulapiApplication:50] - Starting RestfulapiApplication using Java 17.0.2 with PID 764 (D:\jinju\07_SpringBoot\09_restfulapi\build\classes\java\main started by tlawl in D:\jinju\07_SpringBoot\09_restfulapi)
+[DEBUG] 24-10-30 20:28:10 [RestfulapiApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-10-30 20:28:10 [RestfulapiApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-10-30 20:28:11 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-10-30 20:28:11 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.restfulapi]' package. Please check your configuration.
+[INFO ] 24-10-30 20:28:13 [RestfulapiApplication:56] - Started RestfulapiApplication in 3.487 seconds (process running for 4.111)
+[INFO ] 24-10-30 20:28:35 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:28:35 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:28:35 [MyInterceptor:81] - [GET] http://localhost:8080/mail_form
+[INFO ] 24-10-30 20:28:35 [MyInterceptor:118] - running time : 216(ms)
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:81] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- sender-name = 심진주
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- receiver-name = 민떠니
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- receiver-email = sungmm@naver.com
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- subject = 아빠최고
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:88] - param <-- content = <p>따봉민선 최고아빠</p>
+[INFO ] 24-10-30 20:29:21 [MyInterceptor:97] - - REFERER : time=46154, url=http://localhost:8080/mail_form
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:129] - ----------------------------------------------
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:130] - SenderName: 심진주
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:131] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:132] - ReceiverName: 민떠니
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:133] - ReceiverEmail: sungmm@naver.com
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:134] - subject: 아빠최고
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:135] - content: <p>따봉민선 최고아빠</p>
+[DEBUG] 24-10-30 20:29:21 [SimpleRestfulController:136] - ----------------------------------------------
+[INFO ] 24-10-30 20:29:22 [MyInterceptor:118] - running time : 1015(ms)
+[INFO ] 24-10-30 20:31:17 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:31:17 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:31:17 [MyInterceptor:81] - [GET] http://localhost:8080/mail_form
+[INFO ] 24-10-30 20:31:17 [MyInterceptor:118] - running time : 58(ms)
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:81] - [POST] http://localhost:8080/sendmail
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- sender-name = 심진주
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- sender-email = tlawlswn28@naver.com
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- receiver-name = 민떠니
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- receiver-email = sungmmu@naver.com
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- subject = 이번엔 진짜임.
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:88] - param <-- content = <p>최고민선 ㅋㅋ</p><figure class="image"><img src="https://velog.velcdn.com/images/tlawlswn28/post/12874f85-09bd-4e8f-8fdb-0e937bdacddc/image.png"></figure><figure class="image"><img src="https://velog.velcdn.com/images/tlawlswn28/profile/3ec46560-8ec9-4a3c-9331-4fa6f708a5a5/image.jpg" alt="profile"></figure><p><a href="https://velog.io/@tlawlswn28/posts"><strong>심진주</strong></a></p>
+[INFO ] 24-10-30 20:33:36 [MyInterceptor:97] - - REFERER : time=139053, url=http://localhost:8080/mail_form
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:129] - ----------------------------------------------
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:130] - SenderName: 심진주
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:131] - SenderEmail: tlawlswn28@naver.com
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:132] - ReceiverName: 민떠니
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:133] - ReceiverEmail: sungmmu@naver.com
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:134] - subject: 이번엔 진짜임.
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:135] - content: <p>최고민선 ㅋㅋ</p><figure class="image"><img src="https://velog.velcdn.com/images/tlawlswn28/post/12874f85-09bd-4e8f-8fdb-0e937bdacddc/image.png"></figure><figure class="image"><img src="https://velog.velcdn.com/images/tlawlswn28/profile/3ec46560-8ec9-4a3c-9331-4fa6f708a5a5/image.jpg" alt="profile"></figure><p><a href="https://velog.io/@tlawlswn28/posts"><strong>심진주</strong></a></p>
+[DEBUG] 24-10-30 20:33:36 [SimpleRestfulController:136] - ----------------------------------------------
+[INFO ] 24-10-30 20:33:37 [MyInterceptor:118] - running time : 593(ms)
+[INFO ] 24-10-30 20:37:06 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:37:06 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:37:06 [MyInterceptor:81] - [GET] http://localhost:8080/calc
+[INFO ] 24-10-30 20:37:06 [MyInterceptor:118] - running time : 34(ms)
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:81] - [GET] http://localhost:8080/my_calc?x=123&op=%2B&y=777
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:88] - param <-- x = 123
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:88] - param <-- op = +
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:88] - param <-- y = 777
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:97] - - REFERER : time=13143, url=http://localhost:8080/calc
+[INFO ] 24-10-30 20:37:19 [MyInterceptor:118] - running time : 54(ms)
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:81] - [DELETE] http://localhost:8080/my_calc
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:88] - param <-- x = 123
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:88] - param <-- op = /
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:88] - param <-- y = 0
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:97] - - REFERER : time=7267, url=http://localhost:8080/calc
+[INFO ] 24-10-30 20:37:26 [MyInterceptor:118] - running time : 25(ms)
