@@ -120,6 +120,8 @@ public interface StudentMapper {
             "INNER JOIN department d ON s.deptno = d.deptno " +
             "LEFT OUTER JOIN professor p ON s.profno = p.profno " +
             "<where>" +
+            "<if test='deptNo != 0'>p.deptNo = #{deptNo}</if>" +
+            "<if test='profNo != 0'>p.profNo = #{profNo}</if>" +
             "<if test='name != null'>s.name LIKE concat('%', #{name}, '%')</if>" +
             "<if test='userId != null'>OR s.userid LIKE concat('%', #{userId}, '%')</if>" +
             "</where>" +

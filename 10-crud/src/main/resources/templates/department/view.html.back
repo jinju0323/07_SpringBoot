@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/assets/css/style.css}" />
+
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <h1>학과관리</h1>
+            <hr />
+        </header>
+        <!-- body -->
+         <section>
+            <dl>
+                <dt>학과번호</dt>
+                <dd class="deptNo"></dd>
+                <dt>학과명</dt>
+                <dd class="dname"></dd>
+                <dt>학과위치</dt>
+                <dd class="loc"></dd>
+            </dl>
+            <a th:href="@{/department}">목록보기</a> | 
+            <a href="#" class="btn-edit">수정하기</a> |
+            <a href="#" class="btn-delete">삭제하기</a>
+         </section>
+         <!-- footer -->
+          <footer>
+            <hr />
+            <address>copyright&copy;2024. megastudy</address>
+          </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script th:src="@{/assets/js/axiosHelper.js}"></script>
+    <script>
+        (async () => {
+            
+            const deptNo = [[${deptNo}]];
+
+           let data = await axiosHelper.get(`/api/department/${deptNo}`)
+
+           if (data) {
+            document.querySelector('.deptNo').innerHTML = data.item.deptNo;
+            document.querySelector('.dname').innerHTML = data.item.dname;
+            document.querySelector('.loc').innerHTML = data.item.loc;
+
+            document.querySelector('.btn-edit').setAttribute('href', `/department/edit/${data.item.deptNo}`);
+
+            const btnDelete = document.querySelector('.btn-delete');
+            btnDelete.dataset.deptNo = data.item.deptNo;
+            btnDelete.dataset.dname = data.item.dname;
+           }  
+        })();
+
+        // 삭제버튼에 대한 클릭 이벤트
+        document.querySelector('.btn-delete').addEventListener('click', async (e) => {
+                    e.preventDefault();
+
+                    const current = e.currentTarget;
+                    const deptNo = current.dataset.deptNo;
+                    const dname = current.dataset.dname;
+
+                    if (confirm(`정말 ${dname}(을)를 삭제하시겠습니다?`)) {
+                        
+                        const data = await axiosHelper.delete(`/api/department/${deptNo}`);
+                        
+                        if (data) {
+                            alert('삭제되었습니다.')    
+                            window.location = "[[@{/department}]]";
+                        }
+                    }
+                });
+    </script>
+</body>
+</html>

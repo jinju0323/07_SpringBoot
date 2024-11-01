@@ -16,7 +16,7 @@ public class Professor {
     private String hireDate;    // 교수 입사일
     private Integer comm;       // 교수 보직수당 --> Null 허용이므로 Integer로 선언
     private int deptNo;         // 학과 번호
-    private String dname;       // 학과명 (조인을 통해 조회된 값)
+    private String dname;       // 소속학과 (조인을 통해 조회된 값)
 
     @Getter
     @Setter

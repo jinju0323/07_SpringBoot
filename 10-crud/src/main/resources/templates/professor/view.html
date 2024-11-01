@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Spring</title>
+    <link rel="stylesheet" th:href="@{/assets/css/common.css}" />
+  </head>
+  <body>
+    <h2>교수 관리</h2>
+    <hr />
+    <table class="mytable">
+      <colgroup>
+        <col width="150" />
+        <col />
+      </colgroup>
+      <tbody>
+        <tr>
+          <th>교수번호</th>
+          <td class="text-left" th:text="${professor.profNo}"></td>
+        </tr>
+        <tr>
+          <th>교수이름</th>
+          <td class="text-left" th:text="${professor.name}"></td>
+        </tr>
+        <tr>
+          <th>아이디</th>
+          <td class="text-left" th:text="${professor.userId}"></td>
+        </tr>
+        <tr>
+          <th>직급</th>
+          <td class="text-left" th:text="${professor.position}"></td>
+        </tr>
+        <tr>
+          <th>급여</th>
+          <td
+            class="text-left"
+            th:text="${#numbers.formatInteger(professor.sal, 1, 'COMMA')}"
+          ></td>
+        </tr>
+        <tr>
+          <th>입사일</th>
+          <td class="text-left" th:text="${professor.hireDate}"></td>
+        </tr>
+        <tr>
+          <th>보직수당</th>
+          <td
+            class="text-left"
+            th:text="${#numbers.formatInteger(professor.comm, 1, 'COMMA')}"
+          ></td>
+        </tr>
+        <tr>
+          <th>소속학과</th>
+          <td class="text-left" th:text="${professor.dname}"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="button-container">
+      <a class="mybutton green" th:href="@{/professor}">목록보기</a>
+
+      <a
+        class="mybutton blue"
+        th:href="@{/professor/edit/{profNo}(profNo=${professor.profNo})}"
+        >수정하기</a
+      >
+
+      <a
+        class="mybutton red"
+        th:href="@{/professor/delete/{profNo}(profNo=${professor.profNo})}"
+        >삭제하기</a
+      >
+    </div>
+
+    <table class="mytable">
+      <thead>
+        <tr>
+          <th>학생번호</th>
+          <th>학생이름</th>
+          <th>아이디</th>
+          <th>학년</th>
+          <th>주민번호</th>
+          <th>생년월일</th>
+          <th>전화번호</th>
+          <th>키</th>
+          <th>몸무게</th>
+          <th>소속학과</th>
+          <th>담당교수</th>
+          <th>-</th>
+      </thead>
+      <tbody>
+        <tr th:each="student : ${students}">
+          <td th:text="${student.studNo}"></td>
+
+          <td><a th:href="@{/student/detail/{studNo}(studNo=${student.studNo})}"
+                  th:text="${student.name}"></td>
+                  
+          <td th:text="${student.userId}"></td>
+          <td th:text="${student.grade}"></td>
+          <td th:text="${student.idNum}"></td>
+          <td th:text="${student.birthDate}"></td>
+          <td th:text="${student.tel}"></td>
+          <td th:text="${student.height}"></td>
+          <td th:text="${student.weight}"></td>
+          <td th:text="${student.dname}"></td>
+          <td th:text="${student.pname}"></td>
+
+          <td>
+            <a th:href="@{/student/edit/{studNo}(studNo=${student.studNo})}">수정</a>
+            <a th:href="@{/student/delete/{studNo}(studNo=${student.studNo})}">삭제</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
