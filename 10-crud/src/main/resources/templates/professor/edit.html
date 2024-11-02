@@ -35,39 +35,50 @@
                 <div class="form-group">
                     <label for="position"> 직급 </label>
                     <div>
-                        <input type="text" name="position" id="position">
+                        <label>
+                            <input type="radio" name="position" value="교수" />
+                            교수
+                          </label>
+                          <label>
+                            <input type="radio" name="position" value="부교수" />
+                            부교수
+                          </label>
+                          <label>
+                            <input type="radio" name="position" value="조교" />
+                            조교
+                          </label>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="sal"> 급여 </label>
                     <div>
-                        <input type="text" name="sal" id="sal">
+                        <input type="number" name="sal" id="sal">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="hireDate"> 입사일 </label>
                     <div>
-                        <input type="text" name="hireDate" id="hireDate">
+                        <input type="date" name="hireDate" id="hireDate">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="comm"> 보직수당 </label>
                     <div>
-                        <input type="text" name="comm" id="comm">
+                        <input type="number" name="comm" id="comm">
                     </div>
                 </div>
-                <!--
                 <div class="form-group">
                     <label for="deptNo"> 소속학과 </label>
                     <div>
-                        <input type="text" name="deptNo" id="deptNo">
-                    </div>
-                </div>
-            -->
-                <div class="form-group">
-                    <label for="dname"> 학과명 </label>
-                    <div>
-                        <input type="text" name="dname" id="dname">
+                        <select name="deptNo">
+                            <option value="">-----소속학과 선택-----</option>
+                            <option
+                              th:each="dept : ${departments}"
+                              th:value="${dept.deptNo}"
+                              th:text="${dept.dname}"
+                              th:selected="${dept.deptNo == professor.deptNo}"
+                            ></option>
+                          </select>
                     </div>
                 </div>
                 <hr/>
@@ -105,7 +116,7 @@
                 document.querySelector('#sal').value = data.item.sal;
                 document.querySelector('#hireDate').value = data.item.hireDate;
                 document.querySelector('#comm').value = data.item.comm;
-                //document.querySelector('#deptNo').value = data.item.deptNo;
+                document.querySelector('#deptNo').value = data.item.deptNo;
                 document.querySelector('#dname').value = data.item.dname;
                 
             }

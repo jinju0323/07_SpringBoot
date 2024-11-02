@@ -16,7 +16,7 @@
         </header>
         <!-- body -->
         <section>
-            <form name="form" id="department-form">
+            <form name="form" id="professor-form">
                 <div class="form-group">
                     <label for="name"> 교수이름 <span class="text-danger">*</span> </label>
                     <div>
@@ -32,37 +32,49 @@
                 <div class="form-group">
                     <label for="position"> 직급 </label>
                     <div>
-                        <input type="text" name="position" id="position">
+                        <label>
+                            <input type="radio" name="position" value="교수" />
+                            교수
+                          </label>
+                          <label>
+                            <input type="radio" name="position" value="부교수" />
+                            부교수
+                          </label>
+                          <label>
+                            <input type="radio" name="position" value="조교" />
+                            조교
+                          </label>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="sal"> 급여 </label>
                     <div>
-                        <input type="text" name="sal" id="sal">
+                        <input type="number" name="sal" id="sal">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="hireDate"> 입사일 </label>
                     <div>
-                        <input type="text" name="hireDate" id="hireDate">
+                        <input type="date" name="hireDate" id="hireDate">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="comm"> 보직수당 </label>
                     <div>
-                        <input type="text" name="comm" id="comm">
+                        <input type="number" name="comm" id="comm">
                     </div>
                 </div>
-                <!--<div class="form-group">
+                <div class="form-group">
                     <label for="deptNo"> 소속학과 </label>
                     <div>
-                        <input type="text" name="deptNo" id="deptNo">
-                    </div>
-                </div>-->
-                <div class="form-group">
-                    <label for="dname"> 학과명 </label>
-                    <div>
-                        <input type="text" name="dname" id="dname">
+                        <select name="deptNo">
+                            <option value="">-----소속학과 선택-----</option>
+                            <option
+                              th:each="dept : ${departments}"
+                              th:value="${dept.deptNo}"
+                              th:text="${dept.dname}"
+                            ></option>
+                          </select>
                     </div>
                 </div>
                 <hr/>
@@ -93,7 +105,7 @@
             const sal = document.querySelector('#sal').value;
             const hireDate = document.querySelector('#hireDate').value;
             const comm = document.querySelector('#comm').value;
-            //const deptNo = document.querySelector('#deptNo').value;
+            const deptNo = document.querySelector('#deptNo').value;
             const dname = document.querySelector('#dname').value;
 
             // 입력값에 대한 유효성 검사 진행...(이 예제에서는 생략)
