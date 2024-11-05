@@ -44,6 +44,7 @@ public class SimpleUploadController {
      * Spring 순정 업로드 기능 구현
      * - 업로드가 되는 과정에서 다루어야 하는 값들을 확인하기 위한 예제
      */
+    @SuppressWarnings("null")
     @PostMapping("/simple/upload_single_ok")
     public String uploadOk(Model model,
             @RequestParam(value = "subject", required = false) String subject,
