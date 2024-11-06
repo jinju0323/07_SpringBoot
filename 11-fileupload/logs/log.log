@@ -204,3 +204,119 @@
 [INFO ] 24-11-06 11:08:06 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308588857000_640x640.png
 [INFO ] 24-11-06 11:08:06 [MyInterceptor:97] - - REFERER : time=5, url=http://localhost:8080/ajax/upload
 [INFO ] 24-11-06 11:08:06 [MyInterceptor:118] - running time : 44(ms)
+[INFO ] 24-11-06 15:30:41 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:30:41 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:30:41 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:30:42 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:30:42 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:30:44 [FileuploadApplication:56] - Started FileuploadApplication in 3.766 seconds (process running for 4.58)
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:118] - running time : 179(ms)
+[INFO ] 24-11-06 15:32:00 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:32:00 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:32:00 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 15:32:01 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:32:02 [FileuploadApplication:56] - Started FileuploadApplication in 2.77 seconds (process running for 82.881)
+[INFO ] 24-11-06 15:32:05 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:32:05 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:32:05 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 15:32:06 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:32:07 [FileuploadApplication:56] - Started FileuploadApplication in 1.813 seconds (process running for 87.219)
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:118] - running time : 339(ms)
+[INFO ] 24-11-06 15:36:02 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 24476 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:36:02 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:36:02 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:36:04 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:36:04 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:36:06 [FileuploadApplication:56] - Started FileuploadApplication in 4.379 seconds (process running for 5.683)
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:118] - running time : 191(ms)
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:97] - - REFERER : time=4377, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:22 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 13652 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:38:22 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:38:22 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:38:23 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:38:23 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:38:25 [FileuploadApplication:56] - Started FileuploadApplication in 3.614 seconds (process running for 4.814)
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:81] - [GET] http://localhost:8080/multi/upload
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:118] - running time : 202(ms)
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:97] - - REFERER : time=2154, url=http://localhost:8080/multi/upload
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:118] - running time : 68(ms)
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:97] - - REFERER : time=7090, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:118] - running time : 71(ms)
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:97] - - REFERER : time=3533, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:43 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 14808 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:47:43 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:47:43 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:47:45 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:47:45 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:47:46 [FileuploadApplication:56] - Started FileuploadApplication in 3.61 seconds (process running for 4.915)
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:118] - running time : 181(ms)
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:97] - - REFERER : time=3931, url=http://localhost:8080/ajax/upload_multi
+[DEBUG] 24-11-06 15:47:56 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756766490.png
+[DEBUG] 24-11-06 15:47:56 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756766490.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:56 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756766490_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=01-axios-helper.js.png, contentType=image/png, fileSize=915326, filePath=/2024/11/06/17308756766490.png, fileUrl=/files/2024/11/06/17308756766490.png, thumbnailPath=/2024/11/06/17308756766490_640x640.png, thumbnailUrl=/files/2024/11/06/17308756766490_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756772580.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756772580.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756772580_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=02-AjaxUploadController.java.png, contentType=image/png, fileSize=178277, filePath=/2024/11/06/17308756772580.png, fileUrl=/files/2024/11/06/17308756772580.png, thumbnailPath=/2024/11/06/17308756772580_640x640.png, thumbnailUrl=/files/2024/11/06/17308756772580_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756773780.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756773780.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756773780_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=03-UploadRestController.java.png, contentType=image/png, fileSize=724543, filePath=/2024/11/06/17308756773780.png, fileUrl=/files/2024/11/06/17308756773780.png, thumbnailPath=/2024/11/06/17308756773780_640x640.png, thumbnailUrl=/files/2024/11/06/17308756773780_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756777200.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756777200.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756777200_640x640.png
+[DEBUG] 24-11-06 15:47:58 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=04-upload_multi.html.png, contentType=image/png, fileSize=670255, filePath=/2024/11/06/17308756777200.png, fileUrl=/files/2024/11/06/17308756777200.png, thumbnailPath=/2024/11/06/17308756777200_640x640.png, thumbnailUrl=/files/2024/11/06/17308756777200_640x640.png)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 1513(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756766490_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756772580_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=27, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=27, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 105(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 108(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756773780_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=-108, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756777200_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 131(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=-131, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 143(ms)
