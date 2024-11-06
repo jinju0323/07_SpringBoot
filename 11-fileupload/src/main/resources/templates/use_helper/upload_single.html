@@ -53,7 +53,7 @@
     <script>
       document
         .querySelector("#profile-photo")
-        .addEventListener("change", (e) => {
+        .addEventListener("change", (event) => {
           const file = event.target.file[0];
           const imgUrl = URL.createObjectURL(file);
           document.querySelector(".preview").src = imgUrl;
