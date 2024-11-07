@@ -1,11 +1,5 @@
 const axiosHelper = {
-  ajax: async function (
-    url,
-    method,
-    formData,
-    headers = {},
-    isMultipart = false
-  ) {
+  ajax: async function (url, method, formData, headers = {}, isMultipart = false) {
     let response = null;
 
     if (isMultipart) {
@@ -15,8 +9,15 @@ const axiosHelper = {
     try {
       switch (method.toLowerCase()) {
         case "get":
+          let data = null;
+          try {
+            data = Object.fromEntries(formData);
+          } catch (e) {
+            data = formData;
+          }
+
           response = await axios.get(url, {
-            params: formData && Object.fromEntries(formData),
+            params: data,
             headers: headers,
           });
           break;
@@ -38,12 +39,15 @@ const axiosHelper = {
           break;
       }
     } catch (error) {
+      let alertTitle = null;
       let alertMsg = null;
       console.log(error);
 
       // SpringBoot로부터 전달받은 에러 메시지가 있다면?
       if (error.response?.data) {
         const data = error.response.data;
+
+        alertTitle = `${data.status} Error`;
         // 메시지 창에 표시할 내용
         alertMsg = data.message;
 
@@ -64,7 +68,8 @@ const axiosHelper = {
         console.error(`[${error.code}] ${error.message}`);
       }
       // 메시지박스로 에러 내용 표시
-      alert(alertMsg);
+      //alert(alertMsg);
+      await utilHelper.alertDanger(alertTitle, alertMsg);
     }
     // catch에서 return을 하더라도 finally가 수행된 후 실행이 취소된다.
     return response?.data;

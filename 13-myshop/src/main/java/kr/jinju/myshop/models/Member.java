@@ -12,6 +12,7 @@ public class Member {
     private int id;
     private String name;
     private String email;
+    private String userId;
     private String userPw;
     private String gender;
     private String birthDate;

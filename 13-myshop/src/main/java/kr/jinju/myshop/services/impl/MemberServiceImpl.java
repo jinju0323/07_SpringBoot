@@ -24,6 +24,7 @@ public class MemberServiceImpl implements MemberService {
     @Override
     public Member addItem(Member input) throws Exception {
         int rows = 0;
+
         try {
             rows = memberMapper.insert(input);
 
@@ -41,7 +42,6 @@ public class MemberServiceImpl implements MemberService {
     public Member editItem(Member input) throws Exception {
         int rows = 0;
 
-
         try {
             rows = memberMapper.update(input);
 
@@ -58,8 +58,6 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public int deleteItem(Member input) throws Exception {
-        
-        // 회원 삭제
         int rows = 0;
 
         try {
@@ -77,6 +75,7 @@ public class MemberServiceImpl implements MemberService {
         return rows;
     }
 
+    /** 단일 조회 */
     @Override
     public Member getItem(Member input) throws Exception {
         Member output = null;
@@ -95,6 +94,7 @@ public class MemberServiceImpl implements MemberService {
         return output;
     }
 
+    /** 다중 조회 */
     @Override
     public List<Member> getList(Member input) throws Exception {
         List<Member> output = null;
@@ -107,6 +107,7 @@ public class MemberServiceImpl implements MemberService {
         return output;
     }
     
+    /** 단일 조회 */
     @Override
     public int getCount(Member input) throws Exception {
         int output = 0;
@@ -119,5 +120,43 @@ public class MemberServiceImpl implements MemberService {
         }
 
         return output;
+    }
+
+    @Override
+    public void isUniqueUserId(String userId) throws Exception {
+        Member input = new Member();
+        input.setUserId(userId);
+
+        int output = 0;
+
+        try {
+            output = memberMapper.selectCount(input);
+
+            if (output > 0) {
+                throw new Exception("사용할 수 없는 아이디 입니다.");
+            }
+        } catch (Exception e) {
+            log.error("아이디 중복검사에 실패했습니다.", e);
+            throw e;
+        }
+    }
+
+    @Override
+    public void isUniqueEmail(String email) throws Exception {
+        Member input = new Member();
+        input.setEmail(email);
+
+        int output = 0;
+
+        try {
+            output = memberMapper.selectCount(input);
+
+            if (output > 0) {
+                throw new Exception("사용할 수 없는 이메일 입니다.");
+            }
+        } catch (Exception e) {
+            log.error("이메일 중복검사에 실패했습니다.", e);
+            throw e;
+        }
     }
 }

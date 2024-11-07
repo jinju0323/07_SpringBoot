@@ -68,4 +68,8 @@ public interface MemberService {
      * @throws Exception - SQL 처리 실패한 경우
      */
     public int getCount(Member input) throws Exception;
+
+    public void isUniqueUserId(String userId) throws Exception;
+
+    public void isUniqueEmail(String email) throws Exception;
 }

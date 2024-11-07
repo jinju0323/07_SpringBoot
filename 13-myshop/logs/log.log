@@ -1,0 +1,9 @@
+[INFO ] 24-11-07 16:46:13 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 10064 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 16:46:13 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 16:46:13 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 16:46:15 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 16:46:16 [MyshopApplication:56] - Started MyshopApplication in 3.408 seconds (process running for 4.078)
+[INFO ] 24-11-07 16:46:16 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-07 16:46:17 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 16:46:17 [MyInterceptor:81] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 16:46:17 [MyInterceptor:118] - running time : 163(ms)
