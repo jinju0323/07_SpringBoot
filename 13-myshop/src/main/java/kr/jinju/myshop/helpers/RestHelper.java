@@ -1,28 +1,37 @@
 package kr.jinju.myshop.helpers;
 
+import java.util.Map;
+import java.util.LinkedHashMap;
+import java.time.LocalDateTime;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import jakarta.servlet.http.HttpServletResponse;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.time.LocalDateTime;
-import java.util.LinkedHashMap;
-import java.util.Map;;
 
-@Component
+@Component  // <-- 스프링에게 이 클래스가 빈(Bean)임을 알려줌.
 public class RestHelper {
-
+    
     @Autowired
     private HttpServletResponse response;
 
+    /**
+     * JSON 형식의 응답을 출력하기 위한 메서드
+     * @param status - HTTP 상태 코드
+     * @param message - 결과 메시지
+     * @param data - JSON으로 변환할 데이터 컬렉션
+     * @param error - 에러 메시지
+     * @return Map<String, Object>
+     */
+    
     public Map<String, Object> sendJson(int status, String message, Map<String, Object> data, Exception error) {
-        
         /** 1) JSON 형식 출력을 위한 HTTP 헤더 설정 */
         // JSON 형식임을 명시함
-        response.setContentType("application/json; charset=UTF-8");
-
+        response.setContentType("application/json; charset = UTF-8");
+        
         // HTTP 상태 코드 설정 (200, 404, 500 등)
         response.setStatus(status);
 
@@ -34,20 +43,20 @@ public class RestHelper {
         response.setHeader("Access-Control-Allow-Headers", "x-requested-with");
         response.setHeader("Access-Control-Allow-Origin", "*");
 
-        /** 2) JSON으로 변환될 Map 객체 구성 */
+       /** 3) JSON으로 변환될 Map객체 구성 */
         Map<String, Object> result = new LinkedHashMap<String, Object>();
-
+        
         result.put("timestamp", LocalDateTime.now().toString());
         result.put("status", status);
         result.put("message", message);
 
-        // data가 전달되었다면 result에 병합한다
-        if (data != null) {
+        // data가 전달되었다면 result에 병합한다.
+        if(data != null) {
             result.putAll(data);
         }
 
         // error가 전달되었다면 result에 포함한다.
-        if (error != null) {
+        if(error != null) {
             result.put("error", error.getClass().getName());
             result.put("message", error.getMessage());
 
@@ -74,8 +83,7 @@ public class RestHelper {
 
     /**
      * JSON 형식의 응답을 출력하기 위한 메서드
-     * 특별한 결과값 없이 요청에 대한 성공 여부만을 알리기 위해 사용(Ex.로그인)
-     * @param data - JSON으로 변환할 데이터 컬렉션
+     * 특별한 결과값 없이 요청에 대한 성공 여부만을 알리기 위해 사용한다.
      * @return Map<String, Object>
      */
     public Map<String, Object> sendJson() {
@@ -91,13 +99,14 @@ public class RestHelper {
      */
     public Map<String, Object> sendError(int status, String message) {
         Exception error = new Exception(message);
-        return this.sendJson(status, null, null, error);
+        return this.sendJson(status, null,null, error);
     }
 
     /**
-     * JSON 형식의 에러 메시지를 리턴한다.
+     * JSON 형식으로 에러 메시지를 리턴한다.
      * HTTP 상태코드는 400으로 설정하고, 결과 메시지는 파라미터로 전달되는 값을 설정한다.
      * 파라미터 유효성 검사 실패 등의 경우에 사용한다.
+     * 
      * @param message - 에러 메시지
      * @return Map<String, Object>
      */
@@ -106,10 +115,8 @@ public class RestHelper {
     }
 
     /**
-     * JSON 형식의 에러 메시지를 리턴한다.
-     * HTTP 상태코드는 400으로 설정하고, 결과 메시지는 파라미터로 전달되는 error 객체를 사용한다.
-     * 파라미터 유효성 검사 실패 등의 경우에 사용한다.
-     * @param message - 에러 객체
+     * JSON 형식으로 에러 메시지를 리턴한다.
+     * @param error - 에러 객체
      * @return Map<String, Object>
      */
     public Map<String, Object> badRequest(Exception error) {
@@ -117,20 +124,21 @@ public class RestHelper {
     }
 
     /**
-     * JSON 형식의 에러 메시지를 리턴한다.
+     * JSON 형식으로 에러 메시지를 리턴한다.
      * HTTP 상태코드는 500으로 설정하고, 결과 메시지는 파라미터로 전달되는 값을 설정한다.
-     * 400 에러 이외의 모든 경우에 사용한다. 주로 DB연동 등의 처리에서 발생하는 에러를 처리한다.
-     * @param message - 에러 객체
+     * 400 에러 이외의 모든 경우에 사용한다. 주로 DB연동 등의 처리에서 발생한 에러를 처리한다.
+     * @param message - 에러 메시지
      * @return Map<String, Object>
      */
     public Map<String, Object> serverError(String message) {
         return this.sendError(500, message);
     }
 
+    
     /**
-     * JSON 형식의 에러 메시지를 리턴한다.
+     * JSON 형식으로 에러 메시지를 리턴한다.
      * HTTP 상태코드는 500으로 설정하고, 결과 메시지는 파라미터로 전달되는 error 객체를 사용한다.
-     * 400 에러 이외의 모든 경우에 사용한다. 주로 DB연동 등의 처리에서 발생하는 에러를 처리한다.
+     * 400 에러 이외의 모든 경우에 사용한다. 주로 DB연동 등의 처리에서 발생한 에러를 처리한다.
      * @param message - 에러 객체
      * @return Map<String, Object>
      */

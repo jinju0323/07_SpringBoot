@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
   <head>
-    <th:block th:replace="~{_fragments/_head :: my-head('회원가입')}"></th:block>
+    <th:block th:replace="~{/_fragments/_head :: my-head('회원가입')}" />
     <link rel="stylesheet" th:href="@{/assets/css/account.css}" />
   </head>
   <body>
@@ -22,7 +22,7 @@
 
         <!-- 이름 -->
         <div class="input-container">
-          <input type="text" id="user_name" class="input-field" placeholder="이름" required />
+          <input type="text" id="name" class="input-field" placeholder="이름" required />
         </div>
 
         <!-- 이메일 -->
@@ -83,9 +83,10 @@
       </div>
     </div>
 
-    <th:block th:replace="~{_fragments/_scripts :: my-scripts}"></th:block>
-    <!-- 다음 우편번호 검색 -->
+    <th:block th:replace="~{_fragments/_scripts :: my-scripts}" />
+    <!-- 다음 우편번호 검색 : https://postcode.map.daum.net/guide -->
     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
     <script>
       // 우편번호
       document.querySelector("#find-postcode").addEventListener("click", (e) => {
@@ -93,53 +94,57 @@
         utilHelper.findPostCode();
       });
 
+      document.getElementById("signup-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("회원가입 처리 기능이 실행됩니다.");
+
+        axiosHelper.post("/");
+      });
+
       // 아이디를 중복검사
-      document.querySelector("#id-unique-check"),
-        addEventListener("click", async (e) => {
-          e.preventDefault();
+      document.querySelector("#id-unique-check").addEventListener("click", async (e) => {
+        e.preventDefault();
 
-          try {
-            regexHelper.value("#user_id", "아이디를 입력하세요.");
-          } catch (e) {
-            await utilHelper.alertDanger(e.message);
-            return;
-          }
+        try {
+          regexHelper.value("#user_id", "아이디를 입력하세요");
+        } catch (e) {
+          await utilHelper.alertDanger(e.message);
+          return;
+        }
 
-          const userId = document.querySelector("#user_id").value;
-          const data = await axiosHelper.get(`/api/account/id_unique_check`, {
-            user_id: userId,
-          });
-
-          if (data) {
-            await utilHelper.alertSuccess("사용 가능한 아이디 입니다.");
-            document.querySelector("#id-check").value = "Y";
-          }
+        const userId = document.querySelector("#user_id").value;
+        const data = await axiosHelper.get(`/api/account/id_unique_check`, {
+          user_id: userId,
         });
+
+        if (data) {
+          await utilHelper.alertSuccess("사용 가능한 아이디 입니다.");
+          document.querySelector("#id-check").value = "Y";
+        }
+      });
 
       // 이메일 중복검사
-      document.querySelector("#email-unique-check"),
-        addEventListener("click", async (e) => {
-          e.preventDefault();
+      document.querySelector("#email-unique-check").addEventListener("click", async (e) => {
+        e.preventDefault();
 
-          try {
-            regexHelper.value("#email", "이메일을 입력하세요.");
-          } catch (e) {
-            await utilHelper.alertDanger(e.message);
-            return;
-          }
+        try {
+          regexHelper.value("#email", "이메일을 입력하세요");
+        } catch (e) {
+          await utilHelper.alertDanger(e.message);
+          return;
+        }
 
-          const email = document.querySelector("#email").value;
-          const data = await axiosHelper.get(`/api/account/email_unique_check`, {
-            email: email,
-          });
-
-          if (data) {
-            await utilHelper.alertSuccess("사용 가능한 이메일 입니다.");
-            document.querySelector("#email-check").value = "Y";
-          }
+        const email = document.querySelector("#email").value;
+        const data = await axiosHelper.get(`/api/account/email_unique_check`, {
+          email: email,
         });
 
-      // 회원가입 처리
+        if (data) {
+          await utilHelper.alertSuccess("사용 가능한 이메일 입니다.");
+          document.querySelector("#email-check").value = "Y";
+        }
+      });
+
       document.getElementById("signup-form").addEventListener("submit", async (event) => {
         event.preventDefault();
 

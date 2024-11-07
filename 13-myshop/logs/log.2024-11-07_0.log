@@ -1,0 +1,870 @@
+[INFO ] 24-11-07 15:13:23 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 8956 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 15:13:23 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 15:13:23 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 15:13:24 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 15:13:25 [MyshopApplication:56] - Started MyshopApplication in 2.86 seconds (process running for 3.706)
+[INFO ] 24-11-07 15:13:28 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:13:28 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:13:28 [MyInterceptor:80] - [GET] http://localhost:8080/account/after
+[INFO ] 24-11-07 15:13:28 [MyInterceptor:117] - running time: 184(ms)
+[INFO ] 24-11-07 15:13:39 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:13:39 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:13:39 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:13:39 [MyInterceptor:117] - running time: 60(ms)
+[INFO ] 24-11-07 15:24:32 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 1820 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 15:24:32 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 15:24:32 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 15:24:33 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 15:24:35 [MyshopApplication:56] - Started MyshopApplication in 3.102 seconds (process running for 3.949)
+[INFO ] 24-11-07 15:24:47 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:24:48 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:24:48 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:24:48 [MyInterceptor:117] - running time: 176(ms)
+[INFO ] 24-11-07 15:29:30 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:29:30 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:29:30 [MyInterceptor:80] - [GET] http://localhost:8080/account/after
+[INFO ] 24-11-07 15:29:30 [MyInterceptor:117] - running time: 75(ms)
+[INFO ] 24-11-07 15:29:38 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:29:38 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:29:38 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:29:38 [MyInterceptor:117] - running time: 51(ms)
+[INFO ] 24-11-07 15:33:03 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 8916 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 15:33:03 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 15:33:03 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 15:33:04 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 15:33:06 [MyshopApplication:56] - Started MyshopApplication in 2.909 seconds (process running for 3.812)
+[INFO ] 24-11-07 15:33:12 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:33:12 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:33:12 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:33:12 [MyInterceptor:117] - running time: 177(ms)
+[INFO ] 24-11-07 15:35:55 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 11440 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 15:35:55 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 15:35:55 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 15:35:56 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 15:35:57 [MyshopApplication:56] - Started MyshopApplication in 2.935 seconds (process running for 3.694)
+[INFO ] 24-11-07 15:36:10 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:36:10 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:36:10 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:36:10 [MyInterceptor:117] - running time: 184(ms)
+[INFO ] 24-11-07 15:45:03 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 4944 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 15:45:03 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 15:45:03 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 15:45:04 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 15:45:05 [MyshopApplication:56] - Started MyshopApplication in 2.896 seconds (process running for 3.553)
+[INFO ] 24-11-07 15:45:37 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 15:45:37 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 15:45:37 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 15:45:37 [MyInterceptor:117] - running time: 178(ms)
+[INFO ] 24-11-07 17:18:10 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9820 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:18:10 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:18:10 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:18:11 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:18:13 [MyshopApplication:56] - Started MyshopApplication in 3.155 seconds (process running for 3.726)
+[INFO ] 24-11-07 17:18:26 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:18:26 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:18:26 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:18:26 [MyInterceptor:117] - running time: 185(ms)
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:87] - (param) <-- user_id = jiye
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:96] -  - REFERER : time = 3823, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:18:30 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:18:30 [selectCount:135] - ==> Parameters: jiye(String)
+[INFO ] 24-11-07 17:18:30 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye'
+
+[INFO ] 24-11-07 17:18:30 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|4        |
+|---------|
+
+[DEBUG] 24-11-07 17:18:30 [selectCount:135] - <==      Total: 1
+[ERROR] 24-11-07 17:18:30 [MembersServiceImpl:91] - 이메일 중복검사에 실패했습니다.
+java.lang.Exception: 사용할 수 없는 아이디 입니다.
+	at kr.jiye.myshop.services.impl.MembersServiceImpl.isUniqueUserId(MembersServiceImpl.java:88)
+	at kr.jiye.myshop.controllers.AccountController.idUniqueCheck(AccountController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:18:30 [MyInterceptor:117] - running time: 465(ms)
+[ERROR] 24-11-07 17:18:30 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-10] Exception processing template "api/account/id_unique_check": Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-11-07 17:18:30 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:22:00 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 11036 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:22:00 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:22:00 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:22:01 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:22:02 [MyshopApplication:56] - Started MyshopApplication in 3.073 seconds (process running for 3.922)
+[INFO ] 24-11-07 17:22:17 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:22:17 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:22:17 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:22:17 [MyInterceptor:117] - running time: 177(ms)
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:87] - (param) <-- user_id = jiye
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:96] -  - REFERER : time = 4728, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:22:22 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:22:22 [selectCount:135] - ==> Parameters: jiye(String)
+[INFO ] 24-11-07 17:22:22 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye'
+
+[INFO ] 24-11-07 17:22:22 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|4        |
+|---------|
+
+[DEBUG] 24-11-07 17:22:22 [selectCount:135] - <==      Total: 1
+[ERROR] 24-11-07 17:22:22 [MembersServiceImpl:91] - 이메일 중복검사에 실패했습니다.
+java.lang.Exception: 사용할 수 없는 아이디 입니다.
+	at kr.jiye.myshop.services.impl.MembersServiceImpl.isUniqueUserId(MembersServiceImpl.java:88)
+	at kr.jiye.myshop.controllers.AccountController.idUniqueCheck(AccountController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:22:22 [MyInterceptor:117] - running time: 456(ms)
+[ERROR] 24-11-07 17:22:22 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-7] Exception processing template "api/account/id_unique_check": Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-11-07 17:22:22 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:28:52 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 1140 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:28:52 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:28:52 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:28:53 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:28:54 [MyshopApplication:56] - Started MyshopApplication in 3.191 seconds (process running for 4.117)
+[INFO ] 24-11-07 17:29:37 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:29:37 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:29:37 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:29:37 [MyInterceptor:117] - running time: 172(ms)
+[INFO ] 24-11-07 17:29:45 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:29:45 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:29:45 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye12
+[INFO ] 24-11-07 17:29:45 [MyInterceptor:87] - (param) <-- user_id = jiye12
+[INFO ] 24-11-07 17:29:45 [MyInterceptor:96] -  - REFERER : time = 8629, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:29:46 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:29:46 [selectCount:135] - ==> Parameters: jiye12(String)
+[INFO ] 24-11-07 17:29:46 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye12'
+
+[INFO ] 24-11-07 17:29:46 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 17:29:46 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 17:29:46 [MyInterceptor:117] - running time: 444(ms)
+[ERROR] 24-11-07 17:29:46 [TemplateEngine:1141] - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "api/account/id_unique_check": Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 24-11-07 17:29:46 [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [api/account/id_unique_check], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:33:30 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 1968 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:33:30 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:33:30 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:33:31 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:33:32 [MyshopApplication:56] - Started MyshopApplication in 2.968 seconds (process running for 3.893)
+[INFO ] 24-11-07 17:33:41 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:33:42 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:33:42 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:33:42 [MyInterceptor:117] - running time: 194(ms)
+[INFO ] 24-11-07 17:33:51 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:33:51 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:33:51 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:33:51 [MyInterceptor:117] - running time: 65(ms)
+[INFO ] 24-11-07 17:36:41 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6064 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:36:41 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:36:41 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:36:42 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:36:44 [MyshopApplication:56] - Started MyshopApplication in 3.036 seconds (process running for 3.984)
+[INFO ] 24-11-07 17:36:51 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:36:51 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:36:51 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/email_unique_check
+[WARN ] 24-11-07 17:36:51 [DefaultHandlerExceptionResolver:247] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'email' for method parameter type String is not present]
+[INFO ] 24-11-07 17:42:53 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 10504 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:42:53 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:42:53 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:42:54 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:42:56 [MyshopApplication:56] - Started MyshopApplication in 3.129 seconds (process running for 3.946)
+[INFO ] 24-11-07 17:43:09 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6756 (D:\jiye\08_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 17:43:09 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 17:43:09 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 17:43:10 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 17:43:11 [MyshopApplication:56] - Started MyshopApplication in 2.997 seconds (process running for 3.795)
+[INFO ] 24-11-07 17:43:21 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:43:21 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:43:21 [MyInterceptor:80] - [GET] http://localhost:8080/account/join
+[INFO ] 24-11-07 17:43:21 [MyInterceptor:117] - running time: 187(ms)
+[INFO ] 24-11-07 17:43:25 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:43:25 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:43:25 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye123
+[INFO ] 24-11-07 17:43:25 [MyInterceptor:87] - (param) <-- user_id = jiye123
+[INFO ] 24-11-07 17:43:25 [MyInterceptor:96] -  - REFERER : time = 4393, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:43:26 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:43:26 [selectCount:135] - ==> Parameters: jiye123(String)
+[INFO ] 24-11-07 17:43:26 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye123'
+
+[INFO ] 24-11-07 17:43:26 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 17:43:26 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 17:43:26 [MyInterceptor:117] - running time: 486(ms)
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye123
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:87] - (param) <-- user_id = jiye123
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:96] -  - REFERER : time = 7487, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:43:33 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:43:33 [selectCount:135] - ==> Parameters: jiye123(String)
+[INFO ] 24-11-07 17:43:33 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye123'
+
+[INFO ] 24-11-07 17:43:33 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 17:43:33 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 17:43:33 [MyInterceptor:117] - running time: 44(ms)
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye123
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:87] - (param) <-- user_id = jiye123
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:96] -  - REFERER : time = 36501, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:44:10 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:44:10 [selectCount:135] - ==> Parameters: jiye123(String)
+[INFO ] 24-11-07 17:44:10 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye123'
+
+[INFO ] 24-11-07 17:44:10 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 17:44:10 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 17:44:10 [MyInterceptor:117] - running time: 50(ms)
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye123
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:87] - (param) <-- user_id = jiye123
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:96] -  - REFERER : time = 145358, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:46:35 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:46:35 [selectCount:135] - ==> Parameters: jiye123(String)
+[INFO ] 24-11-07 17:46:35 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye123'
+
+[INFO ] 24-11-07 17:46:35 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 17:46:35 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 17:46:35 [MyInterceptor:117] - running time: 46(ms)
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:87] - (param) <-- user_id = jiye
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:96] -  - REFERER : time = 55881, url = http://localhost:8080/account/join 
+[DEBUG] 24-11-07 17:47:31 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 17:47:31 [selectCount:135] - ==> Parameters: jiye(String)
+[INFO ] 24-11-07 17:47:31 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye'
+
+[INFO ] 24-11-07 17:47:31 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|4        |
+|---------|
+
+[DEBUG] 24-11-07 17:47:31 [selectCount:135] - <==      Total: 1
+[ERROR] 24-11-07 17:47:31 [MembersServiceImpl:91] - 이메일 중복검사에 실패했습니다.
+java.lang.Exception: 사용할 수 없는 아이디 입니다.
+	at kr.jiye.myshop.services.impl.MembersServiceImpl.isUniqueUserId(MembersServiceImpl.java:88)
+	at kr.jiye.myshop.controllers.AccountRestController.idUniqueCheck(AccountRestController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 24-11-07 17:47:31 [MyInterceptor:117] - running time: 50(ms)
+[INFO ] 24-11-07 23:00:38 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 13724 (D:\Jiye\08_SpringBoot\13-myshop\bin\main started by cg252 in D:\Jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 23:00:38 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 23:00:38 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 23:00:41 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 23:00:44 [MyshopApplication:56] - Started MyshopApplication in 6.889 seconds (process running for 7.956)
+[INFO ] 24-11-07 23:01:01 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:01:02 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:01:02 [MyInterceptor:80] - [GET] http://localhost:8080/account/join?vscodeBrowserReqId=1730988061498
+[INFO ] 24-11-07 23:01:02 [MyInterceptor:87] - (param) <-- vscodeBrowserReqId = 1730988061498
+[INFO ] 24-11-07 23:01:02 [MyInterceptor:117] - running time: 362(ms)
+[INFO ] 24-11-07 23:01:13 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:01:13 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:01:13 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye1234
+[INFO ] 24-11-07 23:01:13 [MyInterceptor:87] - (param) <-- user_id = jiye1234
+[INFO ] 24-11-07 23:01:13 [MyInterceptor:96] -  - REFERER : time = 11250, url = http://localhost:8080/account/join?vscodeBrowserReqId=1730988061498 
+[DEBUG] 24-11-07 23:01:14 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 23:01:14 [selectCount:135] - ==> Parameters: jiye1234(String)
+[INFO ] 24-11-07 23:01:14 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye1234'
+
+[INFO ] 24-11-07 23:01:14 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 23:01:14 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 23:01:14 [MyInterceptor:117] - running time: 1079(ms)
+[INFO ] 24-11-07 23:14:42 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6772 (D:\Jiye\08_SpringBoot\13-myshop\bin\main started by cg252 in D:\Jiye\08_SpringBoot\13-myshop)
+[DEBUG] 24-11-07 23:14:42 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-07 23:14:42 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-07 23:14:44 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-07 23:14:47 [MyshopApplication:56] - Started MyshopApplication in 6.192 seconds (process running for 7.357)
+[INFO ] 24-11-07 23:15:02 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:15:02 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:15:02 [MyInterceptor:80] - [GET] http://localhost:8080/account/join?vscodeBrowserReqId=1730988902002
+[INFO ] 24-11-07 23:15:02 [MyInterceptor:87] - (param) <-- vscodeBrowserReqId = 1730988902002
+[INFO ] 24-11-07 23:15:02 [MyInterceptor:117] - running time: 391(ms)
+[INFO ] 24-11-07 23:15:09 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:15:09 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:15:09 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/id_unique_check?user_id=jiye1234
+[INFO ] 24-11-07 23:15:09 [MyInterceptor:87] - (param) <-- user_id = jiye1234
+[INFO ] 24-11-07 23:15:09 [MyInterceptor:96] -  - REFERER : time = 6571, url = http://localhost:8080/account/join?vscodeBrowserReqId=1730988902002 
+[DEBUG] 24-11-07 23:15:10 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE user_id = ?
+[DEBUG] 24-11-07 23:15:10 [selectCount:135] - ==> Parameters: jiye1234(String)
+[INFO ] 24-11-07 23:15:10 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE user_id = 'jiye1234'
+
+[INFO ] 24-11-07 23:15:10 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 23:15:10 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 23:15:10 [MyInterceptor:117] - running time: 1116(ms)
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/email_unique_check?email=cg2522
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:87] - (param) <-- email = cg2522
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:96] -  - REFERER : time = 24620, url = http://localhost:8080/account/join?vscodeBrowserReqId=1730988902002 
+[DEBUG] 24-11-07 23:15:34 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE email = ?
+[DEBUG] 24-11-07 23:15:34 [selectCount:135] - ==> Parameters: cg2522(String)
+[INFO ] 24-11-07 23:15:34 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE email = 'cg2522'
+
+[INFO ] 24-11-07 23:15:34 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 23:15:34 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 23:15:34 [MyInterceptor:117] - running time: 81(ms)
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:80] - [GET] http://localhost:8080/api/account/email_unique_check?email=cg2522%40naver.com
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:87] - (param) <-- email = cg2522@naver.com
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:96] -  - REFERER : time = 8873, url = http://localhost:8080/account/join?vscodeBrowserReqId=1730988902002 
+[DEBUG] 24-11-07 23:15:43 [selectCount:135] - ==>  Preparing: SELECT COUNT(*) FROM members WHERE email = ?
+[DEBUG] 24-11-07 23:15:43 [selectCount:135] - ==> Parameters: cg2522@naver.com(String)
+[INFO ] 24-11-07 23:15:43 [sqlonly:228] - SELECT COUNT(*) FROM members
+ WHERE email = 'cg2522@naver.com'
+
+[INFO ] 24-11-07 23:15:43 [resultsettable:610] - 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+[DEBUG] 24-11-07 23:15:43 [selectCount:135] - <==      Total: 1
+[INFO ] 24-11-07 23:15:43 [MyInterceptor:117] - running time: 67(ms)
+[INFO ] 24-11-07 23:15:59 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-07 23:15:59 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Electron 29.4
+[INFO ] 24-11-07 23:15:59 [MyInterceptor:80] - [GET] http://localhost:8080/account/login
+[INFO ] 24-11-07 23:15:59 [MyInterceptor:96] -  - REFERER : time = 15941, url = http://localhost:8080/account/join?vscodeBrowserReqId=1730988902002 

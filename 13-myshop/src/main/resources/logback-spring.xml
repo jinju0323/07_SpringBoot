@@ -75,9 +75,8 @@
         <appender-ref ref="FILE" />
         <appender-ref ref="Error" />
     </logger>
-    
 
-    <!-- 데이터베이스 관련 패키지에 대한 로그 레벨 설정 -->
+       <!-- 데이터베이스 관련 패키지에 대한 로그 레벨 설정 -->
     <logger name="jdbc.sqlonly" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="FILE" />
@@ -113,8 +112,7 @@
         <appender-ref ref="FILE" />
         <appender-ref ref="Error" />
     </logger>
-
-
+    
     <!-- 프로젝트 패키지 이름을 지정해야 함 -->
     <logger name="kr.jinju.myshop" level="DEBUG" additivity="false">
         <appender-ref ref="CONSOLE" />
