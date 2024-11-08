@@ -1,5 +1,5 @@
 const axiosHelper = {
-  ajax: async function (url, method, formData, headers = {}, isMultipart = false) {
+  ajax: async function (url, method, formData, headers={}, isMultipart=false) {
     let response = null;
 
     if (isMultipart) {
@@ -19,23 +19,23 @@ const axiosHelper = {
 
           response = await axios.get(url, {
             params: data,
-            headers: headers,
+            headers: headers
           });
           break;
         case "post":
           response = await axios.post(url, formData, {
-            headers: headers,
+            headers: headers
           });
           break;
         case "put":
           response = await axios.put(url, formData, {
-            headers: headers,
+            headers: headers
           });
           break;
         case "delete":
           response = await axios.delete(url, {
             data: formData,
-            headers: headers,
+            headers: headers
           });
           break;
       }
@@ -76,29 +76,29 @@ const axiosHelper = {
     return response?.data;
   },
 
-  get: async function (url, formData, headers = {}, isMultipart = false) {
+  get: async function (url, formData, headers={}, isMultipart=false) {
     return await this.ajax(url, "get", formData, headers, isMultipart);
   },
-  post: async function (url, formData, headers = {}, isMultipart = false) {
+  post: async function (url, formData, headers={}, isMultipart=false) {
     return await this.ajax(url, "post", formData, headers, isMultipart);
   },
-  put: async function (url, formData, headers = {}, isMultipart = false) {
+  put: async function (url, formData, headers={}, isMultipart=false) {
     return await this.ajax(url, "put", formData, headers, isMultipart);
   },
-  delete: async function (url, formData, headers = {}, isMultipart = false) {
+  delete: async function (url, formData, headers={}, isMultipart=false) {
     return await this.ajax(url, "delete", formData, headers, isMultipart);
   },
 
-  getMultipart: async function (url, formData, headers = {}) {
+  getMultipart: async function (url, formData, headers={}) {
     return await this.get(url, formData, headers, true);
   },
-  postMultipart: async function (url, formData, headers = {}) {
+  postMultipart: async function (url, formData, headers={}) {
     return await this.post(url, formData, headers, true);
   },
-  putMultipart: async function (url, formData, headers = {}) {
+  putMultipart: async function (url, formData, headers={}) {
     return await this.put(url, formData, headers, true);
   },
-  deleteMultipart: async function (url, formData, headers = {}) {
+  deleteMultipart: async function (url, formData, headers={}) {
     return await this.delete(url, formData, headers, true);
-  },
+  }
 };

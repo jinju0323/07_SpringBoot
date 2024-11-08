@@ -39,7 +39,7 @@ class RegexHelper {
      * @param {*} len 
      * @param {*} msg 
      */
-    maxLenght(selector,len,msg) {
+    maxLength(selector,len,msg) {
         this.value(selector,msg);
 
         const content = document.querySelector(selector).value;
@@ -57,7 +57,7 @@ class RegexHelper {
      * @param {*} len 
      * @param {*} msg 
      */
-    minLenght(selector,len,msg) {
+    minLength(selector,len,msg) {
         this.value(selector,msg);
 
         let content = document.querySelector(selector).value;
