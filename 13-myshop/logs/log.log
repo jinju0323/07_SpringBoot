@@ -1,42 +1,288 @@
-[INFO ] 24-11-11 12:24:18 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9120 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:24:18 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:24:18 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-11-11 12:24:19 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-11-11 12:24:20 [MyshopApplication:56] - Started MyshopApplication in 3.103 seconds (process running for 3.806)
-[INFO ] 24-11-11 12:25:18 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9120 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:25:18 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:25:18 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-11-11 12:25:19 [MyshopApplication:56] - Started MyshopApplication in 1.313 seconds (process running for 62.409)
-[INFO ] 24-11-11 12:25:20 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9120 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:25:20 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:25:20 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-11-11 12:25:22 [MyshopApplication:56] - Started MyshopApplication in 1.219 seconds (process running for 65.169)
-[INFO ] 24-11-11 12:26:33 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9120 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:26:33 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:26:33 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-11-11 12:26:37 [MyshopApplication:56] - Started MyshopApplication in 4.51 seconds (process running for 140.813)
-[INFO ] 24-11-11 12:26:39 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 9120 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:26:39 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:26:39 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-11-11 12:26:39 [MyshopApplication:56] - Started MyshopApplication in 0.747 seconds (process running for 142.959)
-[INFO ] 24-11-11 12:27:29 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 11276 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:27:29 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:27:29 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-11-11 12:27:33 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-11-11 12:27:37 [MyshopApplication:56] - Started MyshopApplication in 8.753 seconds (process running for 10.982)
-[INFO ] 24-11-11 12:28:22 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 16868 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:28:22 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:28:22 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[DEBUG] 24-11-11 12:28:23 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[INFO ] 24-11-11 12:28:25 [MyshopApplication:56] - Started MyshopApplication in 3.186 seconds (process running for 3.851)
-[INFO ] 24-11-11 12:28:27 [MyInterceptor:44] - -------- new client connect ----------
-[INFO ] 24-11-11 12:28:28 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
-[INFO ] 24-11-11 12:28:28 [MyInterceptor:80] - [GET] http://localhost:8080/account/find_id
-[INFO ] 24-11-11 12:28:28 [MyInterceptor:117] - running time: 183(ms)
-[INFO ] 24-11-11 12:29:05 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 16868 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:29:05 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:29:05 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 24-11-11 12:29:07 [MyshopApplication:56] - Started MyshopApplication in 1.841 seconds (process running for 45.697)
-[INFO ] 24-11-11 12:29:08 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 16868 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
-[DEBUG] 24-11-11 12:29:08 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
-[INFO ] 24-11-11 12:29:08 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:96] -  - REFERER : time = 1187629, url = http://localhost:8080/account/reset_pw 
+[DEBUG] 24-11-11 15:19:16 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:19:16 [resetPw:135] - ==> Parameters: l#g7QT0Q(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:19:16 [sqlonly:228] - UPDATE members SET user_pw = MD5('l#g7QT0Q') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:19:16 [resetPw:135] - <==    Updates: 1
+[INFO ] 24-11-11 15:19:16 [MyInterceptor:117] - running time: 59(ms)
+[INFO ] 24-11-11 15:25:46 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 13616 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:25:46 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:25:46 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-11-11 15:25:48 [MyshopApplication:56] - Started MyshopApplication in 1.297 seconds (process running for 1614.966)
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[DEBUG] 24-11-11 15:25:50 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:25:50 [resetPw:135] - ==> Parameters: l9N4KeE&(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:25:50 [sqlonly:228] - UPDATE members SET user_pw = MD5('l9N4KeE&') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:25:50 [resetPw:135] - <==    Updates: 1
+[INFO ] 24-11-11 15:25:50 [MyInterceptor:117] - running time: 121(ms)
+[INFO ] 24-11-11 15:25:59 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6808 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:25:59 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:25:59 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-11 15:26:00 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-11 15:26:02 [MyshopApplication:56] - Started MyshopApplication in 3.138 seconds (process running for 4.023)
+[INFO ] 24-11-11 15:26:35 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:26:35 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:26:35 [MyInterceptor:80] - [GET] http://localhost:8080/account/reset_pw
+[INFO ] 24-11-11 15:26:35 [MyInterceptor:117] - running time: 158(ms)
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[INFO ] 24-11-11 15:26:56 [MyInterceptor:96] -  - REFERER : time = 20686, url = http://localhost:8080/account/reset_pw 
+[DEBUG] 24-11-11 15:26:56 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:26:57 [resetPw:135] - ==> Parameters: @i$b$FVQ(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:26:57 [sqlonly:228] - UPDATE members SET user_pw = MD5('@i$b$FVQ') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:26:57 [resetPw:135] - <==    Updates: 1
+[INFO ] 24-11-11 15:26:57 [MyInterceptor:117] - running time: 416(ms)
+[INFO ] 24-11-11 15:28:52 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6808 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:28:52 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:28:52 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-11-11 15:28:53 [MyshopApplication:56] - Started MyshopApplication in 1.543 seconds (process running for 175.217)
+[INFO ] 24-11-11 15:28:54 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:28:54 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:28:54 [MyInterceptor:80] - [GET] http://localhost:8080/account/reset_pw
+[INFO ] 24-11-11 15:28:54 [MyInterceptor:117] - running time: 64(ms)
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:62] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:96] -  - REFERER : time = 11190, url = http://localhost:8080/account/reset_pw 
+[DEBUG] 24-11-11 15:29:05 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:29:05 [resetPw:135] - ==> Parameters: ?F!j9?UB(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:29:05 [sqlonly:228] - UPDATE members SET user_pw = MD5('?F!j9?UB') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:29:05 [resetPw:135] - <==    Updates: 1
+[INFO ] 24-11-11 15:29:05 [MyInterceptor:117] - running time: 107(ms)
+[INFO ] 24-11-11 15:33:04 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 6808 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:33:04 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:33:04 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-11-11 15:33:06 [MyshopApplication:56] - Started MyshopApplication in 1.854 seconds (process running for 427.803)
+[INFO ] 24-11-11 15:33:52 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 22608 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:33:52 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:33:52 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-11 15:33:54 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[INFO ] 24-11-11 15:33:55 [MyshopApplication:56] - Started MyshopApplication in 3.272 seconds (process running for 4.101)
+[INFO ] 24-11-11 15:33:55 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:33:56 [MyInterceptor:62] - [Client] 127.0.0.1, Other, Other null, Other null
+[INFO ] 24-11-11 15:33:56 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:33:56 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:33:56 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[DEBUG] 24-11-11 15:33:56 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:33:56 [resetPw:135] - ==> Parameters: tv3NYli#(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:33:56 [sqlonly:228] - UPDATE members SET user_pw = MD5('tv3NYli#') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:33:56 [resetPw:135] - <==    Updates: 1
+[INFO ] 24-11-11 15:33:56 [MyInterceptor:117] - running time: 543(ms)
+[INFO ] 24-11-11 15:34:25 [MyshopApplication:50] - Starting MyshopApplication using Java 17.0.2 with PID 22608 (D:\jinju\07_SpringBoot\13-myshop\build\classes\java\main started by user in D:\jinju\07_SpringBoot\13-myshop)
+[DEBUG] 24-11-11 15:34:25 [MyshopApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-11 15:34:25 [MyshopApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 24-11-11 15:34:26 [MyshopApplication:56] - Started MyshopApplication in 1.358 seconds (process running for 35.302)
+[INFO ] 24-11-11 15:34:28 [MyInterceptor:44] - -------- new client connect ----------
+[INFO ] 24-11-11 15:34:28 [MyInterceptor:62] - [Client] 127.0.0.1, Other, Other null, Other null
+[INFO ] 24-11-11 15:34:28 [MyInterceptor:80] - [PUT] http://localhost:8080/api/account/reset_pw
+[INFO ] 24-11-11 15:34:28 [MyInterceptor:87] - (param) <-- user_id = jinju12345
+[INFO ] 24-11-11 15:34:28 [MyInterceptor:87] - (param) <-- email = tlawlswn28@naver.com
+[DEBUG] 24-11-11 15:34:28 [resetPw:135] - ==>  Preparing: UPDATE members SET user_pw = MD5(?) WHERE user_id = ? AND email = ?
+[DEBUG] 24-11-11 15:34:28 [resetPw:135] - ==> Parameters: z*s@8mC!(String), jinju12345(String), tlawlswn28@naver.com(String)
+[INFO ] 24-11-11 15:34:28 [sqlonly:228] - UPDATE members SET user_pw = MD5('z*s@8mC!') WHERE user_id = 'jinju12345' AND email = 'tlawlswn28@naver.com'
+
+[DEBUG] 24-11-11 15:34:28 [resetPw:135] - <==    Updates: 1
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:43] - -----------------------------------------------
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:44] - RecvName: null
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:45] - RecvEmail: tlawlswn28@naver.com
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:46] - Subject: jinju12345님의 비밀번호가 재성정 되었습니다.
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:47] - Content: <!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비밀번호 재설정 알림</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .email-header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .email-body {
+        padding: 20px;
+        color: #333;
+      }
+
+      .email-body h1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      .email-body p {
+        font-size: 16px;
+        line-height: 1.5px;
+        margin-bottom: 20px;
+      }
+
+      .email-body p.newpw {
+        font-size: 24px;
+        font-weight: bold;
+        color: red;
+      }
+
+      .email-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .email-footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .logo-img {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .logo-img img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">
+        <h1>비밀번호가 변경되었습니다.</h1>
+      </div>
+      <div class="email-body">
+        <p class="logo-img">
+          <img src="#" />
+        </p>
+        <h1>안녕하세요, jinju12345님!</h1>
+        <p>jinju12345님의 비밀번호가 다음과 같이 변경되었습니다.</p>
+        <p class="newpw">z*s@8mC!</p>
+      </div>
+      <div class="email-footer">
+        <p>2024 메가스터디 IT 아카데미. All right reserved.</p>
+        <p><a href="#">이용약관</a> | <a href="#">개인정보처리방침</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+[DEBUG] 24-11-11 15:34:28 [Mailhelper:48] - -----------------------------------------------
+[ERROR] 24-11-11 15:34:29 [Mailhelper:73] - 알 수 없는 오류.
+org.springframework.mail.MailSendException: Mail server connection failed. Failed messages: jakarta.mail.MessagingException: Could not connect to SMTP host: smtp.naver.com, port: 587;
+  nested exception is:
+	javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:410)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350)
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101)
+	at kr.jinju.myshop.helpers.Mailhelper.sendMail(Mailhelper.java:65)
+	at kr.jinju.myshop.helpers.Mailhelper.sendMail(Mailhelper.java:87)
+	at kr.jinju.myshop.controllers.apis.AccountRestController.resetPw(AccountRestController.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: jakarta.mail.MessagingException: Could not connect to SMTP host: smtp.naver.com, port: 587
+	at org.eclipse.angus.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2245)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:729)
+	at jakarta.mail.Service.connect(Service.java:345)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:480)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:399)
+	... 59 common frames omitted
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:451)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421)
+	at org.eclipse.angus.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:662)
+	at org.eclipse.angus.mail.util.SocketFetcher.createSocket(SocketFetcher.java:409)
+	at org.eclipse.angus.mail.util.SocketFetcher.getSocket(SocketFetcher.java:243)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2193)
+	... 63 common frames omitted
+[INFO ] 24-11-11 15:34:29 [MyInterceptor:117] - running time: 591(ms)

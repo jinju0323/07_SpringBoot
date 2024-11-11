@@ -1,9 +1,11 @@
-package kr.jinju.myshop.controllers.restcontrollers;
+package kr.jinju.myshop.controllers.apis;
 
+import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,10 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import kr.jinju.myshop.helpers.FileHelper;
+import kr.jinju.myshop.helpers.Mailhelper;
 import kr.jinju.myshop.helpers.RestHelper;
+import kr.jinju.myshop.helpers.UtilHelper;
 import kr.jinju.myshop.models.Member;
 import kr.jinju.myshop.models.UploadItem;
 import kr.jinju.myshop.services.MemberService;
+import org.springframework.web.bind.annotation.PutMapping;
+
 
 @RestController
 public class AccountRestController {
@@ -26,6 +32,12 @@ public class AccountRestController {
 
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    private UtilHelper utilHelper;
+
+    @Autowired
+    private Mailhelper mailhelper;
 
     @GetMapping("/api/account/id_unique_check")
     public Map<String, Object> idUniqueCheck(@RequestParam("user_id") String userId) {
@@ -139,5 +151,57 @@ public class AccountRestController {
         data.put("item", output.getUserId());
 
         return restHelper.sendJson(data);
+    }
+
+    @PutMapping("/api/account/reset_pw")
+    public Map<String, Object> resetPw(
+        @RequestParam("user_id") String userId,
+        @RequestParam("email") String email) {
+        
+        /** 1) 임시 비밀번호 DB에 갱신하기 */
+        String newPassword = utilHelper.randomPassword(8);
+        Member input = new Member();
+        input.setUserId(userId);
+        input.setEmail(email);
+        input.setUserPw(newPassword);
+
+        try {
+            memberService.resetPw(input);
+        } catch (Exception e) {
+            return restHelper.serverError(e);
+        }
+
+        /** 2) 이메일 발송을 위한 템플릿 처리 */
+        // 메일 템플릿 파일 경로
+        ClassPathResource resource = new ClassPathResource("mail_templates/reset_pw.html");
+        String mailTemplatePath = null;
+        try {
+            mailTemplatePath = resource.getFile().getAbsolutePath();
+        } catch (IOException e) {
+            return restHelper.serverError("메일 템플릿을 찾을 수 없습니다.");
+        }
+
+        // 메일 템플릿 파일 가져오기.
+        String template = null;
+        try {
+            template = fileHelper.readString(mailTemplatePath);
+        } catch (Exception e) {
+            return restHelper.serverError("메일 템플릿을 읽을 수 없습니다.");
+        }
+
+        // 메일 템플릿 안의 치환자 처리
+        template = template.replace("{{userId}}", userId);
+        template = template.replace("{{password}}", newPassword);
+
+        /** 3) 메일 발송 */
+        String subject = userId + "님의 비밀번호가 재성정 되었습니다.";
+        
+        try {
+            mailhelper.sendMail(email, subject, template);
+        } catch (Exception e) {
+            return restHelper.serverError(e);
+        }
+        
+        return restHelper.sendJson();
     }
 }

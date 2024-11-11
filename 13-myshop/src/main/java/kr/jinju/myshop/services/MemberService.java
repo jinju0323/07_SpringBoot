@@ -74,4 +74,6 @@ public interface MemberService {
     public void isUniqueEmail(String email) throws Exception;
 
     public Member findId(Member input) throws Exception;
+
+    public void resetPw(Member input) throws Exception;
 }
