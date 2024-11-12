@@ -61,13 +61,47 @@ public interface MemberMapper {
             "</script>")
     public int selectCount(Member input);
 
+    /**
+     * 아이디 찾기
+     * @param input
+     * @return
+     */
     @Select("SELECT user_id FROM members " + 
             "WHERE user_name = #{userName} AND email = #{email}")
     @ResultMap("memberMap")
     public Member findId(Member input);
 
+    /**
+     * 비밀번호 재설정
+     * @param input
+     * @return
+     */
     @Update("UPDATE members SET user_pw = MD5(#{userPw}) " + 
             "WHERE user_id = #{userId} AND email = #{email}")
     public int resetPw(Member input);
+
+    /**
+     * 로그인 시 아이디와 비밀번호 일치 확인
+     * @param input
+     * @return
+     */
+    @Select("SELECT " + 
+            "id, user_id, user_pw, user_name, email, " + 
+            "phone, birthday, gender, postcode, addr1, " + 
+            "addr2, photo, is_out, is_admin, login_date, " + 
+            "reg_date, edit_date " + 
+            "FROM members " + 
+            "WHERE user_id = #{userId} AND user_pw = MD5(#{userPw})")
+    @ResultMap("memberMap")
+    public Member login(Member input);
+
+    /**
+     * 로그인 세션 현재시간 남기기
+     * @param input
+     * @return
+     */
+    @Update("UPDATE members SET login_date=NOW() " + 
+            "WHERE id = #{id}")
+    public int updateLoginDate(Member input);
 }
 

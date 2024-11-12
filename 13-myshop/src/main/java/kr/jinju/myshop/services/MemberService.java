@@ -76,4 +76,6 @@ public interface MemberService {
     public Member findId(Member input) throws Exception;
 
     public void resetPw(Member input) throws Exception;
+
+    public Member login(Member input) throws Exception;
 }

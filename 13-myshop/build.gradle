@@ -44,6 +44,10 @@ dependencies {
 	//test
 	testAnnotationProcessor 'org.projectlombok:lombok'
 	testCompileOnly 'org.projectlombok:lombok'
+
+	/** Spring Session */
+	// 프로젝트 생성 후 아래 구문을 직접 등록한다.
+	implementation 'org.springframework.session:spring-session-jdbc'
 }
 
 tasks.named('test') {

@@ -163,7 +163,13 @@ public class FileHelper {
     }
 
 
-    // 추가내용
+    /**
+     * 파일 단일 업로드
+     * @param multipartFile
+     * @return
+     * @throws NullPointerException
+     * @throws Exception
+     */
     @SuppressWarnings("null")
     public UploadItem saveMultipartFile (MultipartFile multipartFile)
             throws NullPointerException, Exception {
@@ -268,6 +274,15 @@ public class FileHelper {
         return item;
     }
 
+    /**
+     * 썸네일 생성
+     * @param path
+     * @param width
+     * @param height
+     * @param crop
+     * @return
+     * @throws Exception
+     */
     public String createThumbnail(String path, int width, int height, boolean crop) throws Exception{
         /**1) 썸네일 생성 정보를 로그로 기록하기 */
             log.debug(String.format("[Thumbnail] path:%s, size: %dx%d, crop: %s" ,
@@ -322,8 +337,14 @@ public class FileHelper {
         return thumbnailPath;
     }
     
-    // 추가 내용
 
+    /**
+     * 파일 다중 업로드
+     * @param uploadFiles
+     * @return
+     * @throws NullPointerException
+     * @throws Exception
+     */
     public List<UploadItem> saveMultipartFile(MultipartFile[] uploadFiles)
             throws NullPointerException, Exception {
         if (uploadFiles.length < 1) {
@@ -353,5 +374,23 @@ public class FileHelper {
         }
 
         return uploadList;
+    }
+
+    /**
+     * 파일 경로 앞에 URL_prefix를 덧붙여 리턴
+     * @param path - 파일 경로
+     * @return - 웹 상에 노출 가능한 절대 경로
+     */
+    public String getUrl(String path) {
+        if (path == null) {
+            return null;
+        }
+
+        StringBuilder builder = new StringBuilder();
+        builder.append(this.uploadUrl);     // "/files"
+        builder.append(path.trim());        // "/2024/11/12/photo.png"
+
+        /** /files/2024/11/12/photo.png */
+        return builder.toString();
     }
 }

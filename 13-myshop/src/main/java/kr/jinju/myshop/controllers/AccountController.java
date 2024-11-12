@@ -5,7 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class AccountController {
-
+    @GetMapping("/account")
+    public String index() {
+        return "account/index";
+    }
     
     @GetMapping("/account/after")
     public String after() {
@@ -48,5 +51,6 @@ public class AccountController {
         return "account/reset_pw";
     }
     
+
 
 }
