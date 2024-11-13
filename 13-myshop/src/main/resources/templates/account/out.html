@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>회원탈퇴</title>
+    <th:block th:replace="~{/_fragments/_head :: my-head('회원탈퇴')}" />
     <link rel="stylesheet" th:href="@{/assets/css/account.css}" />
   </head>
   <body>
@@ -14,7 +12,7 @@
       <form id="delete-account-form">
         <!-- 비밀번호 입력 -->
         <div class="input-container">
-          <input type="password" id="user_pw" class="input-field" placeholder="비밀번호" required />
+          <input type="password" name="password" id="user_pw" class="input-field" placeholder="비밀번호" required />
         </div>
 
         <!-- 회원탈퇴 버튼 -->
@@ -27,16 +25,32 @@
     </div>
 
     <script>
-      document.getElementById("delete-account-form").addEventListener("submit", function (event) {
-        event.preventDefault();
-        const confirmation = confirm("정말로 탈퇴하시겠습니까? 탈퇴 후에는 복구할 수 없습니다.");
-        if (confirmation) {
-          alert("회원탈퇴가 처리되었습니다.");
-          // 실제 회원탈퇴 처리 로직을 여기에 추가
-        } else {
-          alert("회원탈퇴가 취소되었습니다.");
+      document.getElementById("delete-account-form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const current = e.currentTarget;
+
+        try {
+          regexHelper.value("#user_pw", "비밀번호를 입력하세요.");
+        } catch (err) {
+          await utilHelper.alertDanger(err.message);
+          // 알럿창 닫는 애니메이션 이후에 포커스 실행
+          setTimeout(() => err.element.focus(), 300);
+          return;
+        }
+
+        const result = await utilHelper.confirmWarning("탈퇴확인", "정말 탈퇴하시겠습니까? 탈퇴 후에는 복구할 수 없습니다.");
+
+        if (result.value) {
+          const data = await axiosHelper.delete("[[@{/api/account/out}]]", new FormData(current));
+
+          if (data) {
+            await utilHelper.alertSuccess("탈퇴가 완료되었습니다.");
+            window.location = "[[@{/account}]]";
+          }
         }
       });
     </script>
+
+    <th:block th:replace="~{/_fragments/_scripts :: my-scripts}" />
   </body>
 </html>

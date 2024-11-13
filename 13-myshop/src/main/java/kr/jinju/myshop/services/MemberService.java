@@ -78,4 +78,8 @@ public interface MemberService {
     public void resetPw(Member input) throws Exception;
 
     public Member login(Member input) throws Exception;
+
+    public int out(Member input) throws Exception;
+
+    public List<Member> processOutMembers() throws Exception;
 }

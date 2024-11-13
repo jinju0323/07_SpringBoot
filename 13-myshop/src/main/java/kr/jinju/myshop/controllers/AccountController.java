@@ -50,7 +50,5 @@ public class AccountController {
     public String resetPw() {
         return "account/reset_pw";
     }
-    
-
 
 }

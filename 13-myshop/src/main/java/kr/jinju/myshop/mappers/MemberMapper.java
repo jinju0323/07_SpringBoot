@@ -67,7 +67,7 @@ public interface MemberMapper {
      * @return
      */
     @Select("SELECT user_id FROM members " + 
-            "WHERE user_name = #{userName} AND email = #{email}")
+            "WHERE user_name = #{userName} AND email = #{email} AND is_out = 'N'")
     @ResultMap("memberMap")
     public Member findId(Member input);
 
@@ -77,7 +77,7 @@ public interface MemberMapper {
      * @return
      */
     @Update("UPDATE members SET user_pw = MD5(#{userPw}) " + 
-            "WHERE user_id = #{userId} AND email = #{email}")
+            "WHERE user_id = #{userId} AND email = #{email} AND is_out = 'N'")
     public int resetPw(Member input);
 
     /**
@@ -91,7 +91,7 @@ public interface MemberMapper {
             "addr2, photo, is_out, is_admin, login_date, " + 
             "reg_date, edit_date " + 
             "FROM members " + 
-            "WHERE user_id = #{userId} AND user_pw = MD5(#{userPw})")
+            "WHERE user_id = #{userId} AND user_pw = MD5(#{userPw}) AND is_out = 'N'")
     @ResultMap("memberMap")
     public Member login(Member input);
 
@@ -101,7 +101,37 @@ public interface MemberMapper {
      * @return
      */
     @Update("UPDATE members SET login_date=NOW() " + 
-            "WHERE id = #{id}")
+            "WHERE id = #{id} AND is_out = 'N'")
     public int updateLoginDate(Member input);
+
+    /**
+     * 회원탈퇴 UPDATE : is_out='Y', edit_date=NOW()
+     * @param input
+     * @return
+     */
+    @Update("UPDATE members " + 
+            "SET is_out='Y', edit_date=NOW() " + 
+            "WHERE id = #{id} AND user_pw = MD5(#{userPw}) AND is_out = 'N'")
+    public int out(Member input);
+
+    /**
+     * 회원탈퇴 전 회원이 업로드한 PHOTO 삭제
+     * @return
+     */
+    @Select("SELECT photo FROM members " + 
+            "WHERE is_out = 'Y' AND " + 
+            "edit_date < DATE_ADD(NOW(), interval -1 minute) AND " +
+            "photo IS NOT NULL")
+    @ResultMap("memberMap")
+    public List<Member> selectOutMemberPhoto();
+
+    /**
+     * 회원탈퇴 DELETE : 수정시간에서 1분 이후 회원 삭제
+     * @return
+     */
+    @Delete("DELETE FROM members " + 
+            "WHERE is_out = 'Y' AND " + 
+            "edit_date < DATE_ADD(NOW(), interval -1 minute)")
+    public int deleteOutMembers();
 }
 
