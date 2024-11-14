@@ -51,4 +51,8 @@ public class AccountController {
         return "account/reset_pw";
     }
 
+    @GetMapping("/account/edit")
+    public String edit() {
+        return "account/edit";
+    }
 }

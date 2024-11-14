@@ -45,8 +45,9 @@ public class MemberServiceImpl implements MemberService {
         try {
             rows = memberMapper.update(input);
 
+            // WHERE절 조건에 맞는 데이터가 없는 경우 --> 비밀번호 잘못됨
             if (rows == 0) {
-                throw new Exception("수정된 데이터가 없습니다.");
+                throw new Exception("현재 비밀번호를 확인하세요.");
             }
         } catch (Exception e) {
             log.error("데이터 수정에 실패했습니다.", e);
@@ -142,9 +143,9 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Override
-    public void isUniqueEmail(String email) throws Exception {
-        Member input = new Member();
-        input.setEmail(email);
+    public void isUniqueEmail(Member input) throws Exception {
+        //Member input = new Member();
+        //input.setEmail(email);
 
         int output = 0;
 

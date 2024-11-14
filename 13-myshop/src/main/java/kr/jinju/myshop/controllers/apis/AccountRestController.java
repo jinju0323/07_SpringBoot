@@ -45,6 +45,11 @@ public class AccountRestController {
     @Autowired
     private Mailhelper mailhelper;
 
+    /**
+     * 아이디 중복 검사
+     * @param userId
+     * @return
+     */
     @GetMapping("/api/account/id_unique_check")
     public Map<String, Object> idUniqueCheck(@RequestParam("user_id") String userId) {
         try {
@@ -56,10 +61,27 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
 
+    /**
+     * 이메일 중복 검사
+     * @param email
+     * @return
+     */
     @GetMapping("/api/account/email_unique_check")
-    public Map<String, Object> EmailUniqueCheck(@RequestParam("email") String email) {
+    public Map<String, Object> EmailUniqueCheck(
+        @SessionAttribute(value = "memberInfo", required = false) Member memberInfo,
+        @RequestParam("email") String email) {
+
+        Member input = new Member();
+        input.setEmail(email);
+
+        // 로그인 중이라면 현재 회원의 일련번호를 함께 전달한다.
+        if (memberInfo != null) {
+            input.setId(memberInfo.getId());
+            
+        }
+        
         try {
-            memberService.isUniqueEmail(email);
+            memberService.isUniqueEmail(input);
         } catch (Exception e) {
             return restHelper.badRequest(e);
         }
@@ -93,8 +115,11 @@ public class AccountRestController {
         }
 
         // 3) 이메일 중복 검사
+        Member input = new Member();
+        input.setEmail(email);
+
         try {
-            memberService.isUniqueEmail(email);
+            memberService.isUniqueEmail(input);
         } catch (Exception e) {
             return restHelper.badRequest(e);
         }
@@ -271,6 +296,74 @@ public class AccountRestController {
         // 로그아웃을 위해 세션을 삭제한다.
         HttpSession session = request.getSession();
         session.invalidate();
+
+        return restHelper.sendJson();
+    }
+
+    @PutMapping("/api/account/edit")
+    public Map<String, Object> putMethodName(
+        HttpServletRequest request,                         // 세션 갱신용
+        @SessionAttribute("memberInfo") Member memberInfo,  // 현재 세션 정보 확인용
+        @RequestParam("user_pw") String userPw,             // 현재 비밀번호 (정보 확인용)
+        @RequestParam("new_user_pw") String newUserPw,      // 신규 비밀번호 (정보 변경용)
+        @RequestParam("user_name") String userName,
+        @RequestParam("email") String email,
+        @RequestParam("phone") String phone,
+        @RequestParam("birthday") String birthday,
+        @RequestParam("gender") String gender,
+        @RequestParam("postcode") String postcode,
+        @RequestParam("addr1") String addr1,
+        @RequestParam("addr2") String addr2,
+        @RequestParam(value = "delete_photo", defaultValue = "N") String deletePhoto,
+        @RequestParam(value = "photo", required = false) MultipartFile photo) {
+
+        /** 1) 유효성 검사 생략 */
+
+        /** 2) 이메일 중복 검사 */
+        Member input = new Member();
+        input.setEmail(email);
+        input.setId(memberInfo.getId());
+
+        try {
+            memberService.isUniqueEmail(input);
+        } catch (Exception e) {
+            return restHelper.badRequest(e);
+        }
+
+        /** 3) 업로드 받기 */
+        // 다음 단계에서 구현
+
+        /** 4) 정보를 Service에 전달하기 위한 객체 구성 */
+        // 아이디는 수정할 필요가 없으므로 설정하지 않는다.
+        Member member = new Member();
+        member.setId(memberInfo.getId());   // 증요: WHERE절에 사용할 PK설정
+        member.setUserPw(userPw);           // 현재 비밀번호 -> WHERE절 사용
+        member.setNewUserPw(newUserPw);     // 신규 비밀번호 -> 값이 있을 경우만 갱신
+        member.setUserName(userName);
+        member.setEmail(email);
+        member.setPhone(phone);
+        member.setBirthday(birthday);
+        member.setGender(gender);
+        member.setPostcode(postcode);
+        member.setAddr1(addr1);
+        member.setAddr2(addr2);
+
+        // 이 단계에서는 photo는 제외
+
+        /** 5) DB에 저장 */
+        Member output = null;
+
+        try {
+            output = memberService.editItem(member);
+        } catch (Exception e) {
+            return restHelper.serverError(e);
+        }
+
+        // 프로필 사진의 경로를 URL로 변환
+        output.setPhoto(fileHelper.getUrl(output.getPhoto()));
+
+        /** 6) 변경된 정보로 세션 갱신 */
+        request.getSession().setAttribute("memberInfo", output);
 
         return restHelper.sendJson();
     }

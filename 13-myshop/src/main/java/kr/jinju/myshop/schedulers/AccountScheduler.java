@@ -32,7 +32,7 @@ public class AccountScheduler {
     private MemberService memberService;
     
     //@Scheduled(cron= "0 0 4 * * ?") // 매일 오전 4시에 자동 실행
-    @Scheduled(cron= "15 * * * * ?") // 매 분마다 15초에 실행
+    @Scheduled(cron= "0 0 4 * * ?") 
     public void processOutMembers() throws InterruptedException {
         log.debug("탈퇴 회원 정리 시작");
         

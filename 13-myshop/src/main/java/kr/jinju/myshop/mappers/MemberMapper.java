@@ -21,7 +21,29 @@ public interface MemberMapper {
     @Options(useGeneratedKeys = true, keyProperty = "id", keyColumn = "id")
     int insert(Member input);
 
-    @Update("UPDATE members SET user_id=#{userId}, user_pw=MD5(#{userPw}), user_name=#{userName}, email=#{email}, phone=#{phone}, birthday=#{birthday}, gender=#{gender}, postcode=#{postcode}, addr1=#{addr1}, addr2=#{addr2}, photo=#{photo},edit_date=now() WHERE id=#{id}")
+    @Update("<script>" +
+            "UPDATE members " + 
+            "SET " + 
+
+            // 아이디는 수정하지 않는다.
+
+            "user_name = #{userName}, " + 
+
+            // 신규 비밀번호가 입력 된 경우만 UPDATE절에 추가함.
+            "<if test='newUserPw != null and newUserPw != \"\"'>user_pw = MD5(#{newUserPw}),</if> " + 
+            
+            "email=#{email}, " + 
+            "phone=#{phone}, " + 
+            "birthday=#{birthday}, " + 
+            "gender=#{gender}, " + 
+            "postcode=#{postcode}, " + 
+            "addr1=#{addr1}, " + 
+            "addr2=#{addr2}, " + 
+            //"photo=#{photo}, " + 
+            "edit_date=now() " + 
+            // 세션의 일련번호와 입력한 비밀번호가 일치할 경우만 수정
+            "WHERE id=#{id} AND user_pw = MD5(#{userPw})" + 
+            "</script>")
     int update(Member input);
 
     @Delete("DELETE FROM members WHERE id=#{id}")
@@ -57,6 +79,7 @@ public interface MemberMapper {
             "<where>" + 
             "<if test='userId != null'>user_id = #{userId}</if>" + 
             "<if test='email != null'>email = #{email}</if>" + 
+            "<if test='id != 0'>AND id != #{id}</if>" + 
             "</where>" + 
             "</script>")
     public int selectCount(Member input);
