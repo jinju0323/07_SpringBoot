@@ -1,6 +1,5 @@
 package kr.jinju.myshop.schedulers;
 
-import java.io.File;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import kr.jinju.myshop.helpers.FileHelper;
 import kr.jinju.myshop.models.Member;
 import kr.jinju.myshop.services.MemberService;
 import lombok.extern.slf4j.Slf4j;
@@ -30,6 +30,9 @@ public class AccountScheduler {
 
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    private FileHelper fileHelper;
     
     //@Scheduled(cron= "0 0 4 * * ?") // 매일 오전 4시에 자동 실행
     @Scheduled(cron= "0 0 4 * * ?") 
@@ -53,20 +56,7 @@ public class AccountScheduler {
 
         for (int i = 0; i<outMembers.size(); i++) {
             Member m = outMembers.get(i);
-
-            // 사용자가 업로드한 프로필 사진의 실제 경로
-            File f = new File(uploadDir, m.getPhoto());
-            log.debug("파일 삭제 >>> " + f.getAbsolutePath());
-
-            if (f.exists()) {
-                try {
-                    f.delete();
-                    log.debug("파일 삭제 성공");
-                } catch (Exception e) {
-                    log.debug("파일 삭제 실패");
-                }
-                
-            }
+            fileHelper.deleteUploadFile(m.getPhoto());
         }
 
     }

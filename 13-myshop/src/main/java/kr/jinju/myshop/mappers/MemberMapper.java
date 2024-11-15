@@ -32,17 +32,17 @@ public interface MemberMapper {
             // 신규 비밀번호가 입력 된 경우만 UPDATE절에 추가함.
             "<if test='newUserPw != null and newUserPw != \"\"'>user_pw = MD5(#{newUserPw}),</if> " + 
             
-            "email=#{email}, " + 
-            "phone=#{phone}, " + 
-            "birthday=#{birthday}, " + 
-            "gender=#{gender}, " + 
-            "postcode=#{postcode}, " + 
-            "addr1=#{addr1}, " + 
-            "addr2=#{addr2}, " + 
-            //"photo=#{photo}, " + 
-            "edit_date=now() " + 
+            "email = #{email}, " + 
+            "phone = #{phone}, " + 
+            "birthday = #{birthday}, " + 
+            "gender = #{gender}, " + 
+            "postcode = #{postcode}, " + 
+            "addr1 = #{addr1}, " + 
+            "addr2 = #{addr2}, " + 
+            "photo = #{photo}, " + 
+            "edit_date = NOW() " + 
             // 세션의 일련번호와 입력한 비밀번호가 일치할 경우만 수정
-            "WHERE id=#{id} AND user_pw = MD5(#{userPw})" + 
+            "WHERE id = #{id} AND user_pw = MD5(#{userPw})" + 
             "</script>")
     int update(Member input);
 

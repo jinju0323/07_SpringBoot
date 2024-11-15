@@ -301,7 +301,7 @@ public class AccountRestController {
     }
 
     @PutMapping("/api/account/edit")
-    public Map<String, Object> putMethodName(
+    public Map<String, Object> edit(
         HttpServletRequest request,                         // 세션 갱신용
         @SessionAttribute("memberInfo") Member memberInfo,  // 현재 세션 정보 확인용
         @RequestParam("user_pw") String userPw,             // 현재 비밀번호 (정보 확인용)
@@ -330,8 +330,18 @@ public class AccountRestController {
             return restHelper.badRequest(e);
         }
 
-        /** 3) 업로드 받기 */
-        // 다음 단계에서 구현
+        /** 3) 업로드 처리 */
+        UploadItem uploadItem = null;
+
+        try {
+            uploadItem = fileHelper.saveMultipartFile(photo);
+        } catch (NullPointerException e) {
+            // 업로드 된 항목이 있는 경우는 에러가 아니므로 계속
+        } catch (Exception e) {
+            // 업로드 된 항목이 있으나, 이를 처리하다가 에러가 발생한 경우
+            return restHelper.serverError(e);
+        }
+
 
         /** 4) 정보를 Service에 전달하기 위한 객체 구성 */
         // 아이디는 수정할 필요가 없으므로 설정하지 않는다.
@@ -348,7 +358,41 @@ public class AccountRestController {
         member.setAddr1(addr1);
         member.setAddr2(addr2);
 
-        // 이 단계에서는 photo는 제외
+        // 현재 프로필 사진값을 가져온다.
+        String currentPhoto = memberInfo.getPhoto();
+
+        // 현재 프로필 사진이 있는 경우
+        if (currentPhoto != null && !currentPhoto.equals("")) {
+            // 로그인 시에 DB에서 가져온 이미지 파일 경로에 "/files"를 붙여 놨으므로,
+            // 이 값을 제거해야 한다.
+            currentPhoto = fileHelper.getFilePath(currentPhoto);
+
+            // 기존 사진의 삭제가 요청되었다면?
+            if (deletePhoto.equals("Y")) {
+                fileHelper.deleteUploadFile(currentPhoto);
+
+                // 업로드 된 사진이 있다면 Beans에 포함한다.
+                // 기존 파일이 있을 경우에는 삭제없이는 정보를 갱신하면 안된다.
+                if (uploadItem != null) {
+                    member.setPhoto(uploadItem.getFilePath());
+                } else {
+                    // 삭제만 하고 새로운 파일은 업로드 하지 않은 경우
+                    // -> Member 클래스에서 photo는 String
+                    // -> 기본값이 null이란 으미ㅣ
+                    // -> 별도로 처리하지 않는 한 member객체의 photo는 null이란 의미
+                    member.setPhoto(null);
+                }
+            } else {
+                // 삭제 요청이 없는 경우는 세션의 사진 경로(=기존 정보)를 기대로 적용하여
+                // 기존 사진을 유지하도록 한다.
+                member.setPhoto(currentPhoto);
+            }
+        } else {
+            // 업로드 된 사진이 있다면 Beans에 포함한다.
+            if (uploadItem != null) {
+                member.setPhoto(uploadItem.getFilePath());
+            }
+        }
 
         /** 5) DB에 저장 */
         Member output = null;
