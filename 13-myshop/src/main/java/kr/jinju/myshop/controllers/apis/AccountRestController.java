@@ -14,6 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.SessionAttribute;
 import org.springframework.web.multipart.MultipartFile;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.Parameters;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import kr.jinju.myshop.helpers.FileHelper;
@@ -29,6 +37,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
+@Tag(name = "Account API", description = "회원가입, 로그인, 로그아웃, 회원정보 수정, 회원탈퇴 등 회원 관련 API")
 public class AccountRestController {
     @Autowired
     private RestHelper restHelper;
@@ -51,6 +60,17 @@ public class AccountRestController {
      * @return
      */
     @GetMapping("/api/account/id_unique_check")
+    @Operation(
+        summary = "아이디 중복 검사",
+        description = "파라미터로 받은 아이디의 중복 여부를 검사합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "사용 가능한 아이디입니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "이미 사용중인 아이디입니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_id", description = "검사할 아이디", schema = @Schema(type = "string"), required = true) 
+    })
     public Map<String, Object> idUniqueCheck(@RequestParam("user_id") String userId) {
         try {
             memberService.isUniqueUserId(userId);
@@ -67,6 +87,17 @@ public class AccountRestController {
      * @return
      */
     @GetMapping("/api/account/email_unique_check")
+    @Operation(
+        summary = "이메일 중복 검사",
+        description = "파라미터로 받은 이메일의 중복 여부를 검사합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "사용 가능한 이메일입니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "이미 사용중인 이메일입니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "email", description = "검사할 이메일", schema = @Schema(type = "string"), required = true) 
+    })
     public Map<String, Object> EmailUniqueCheck(
         @SessionAttribute(value = "memberInfo", required = false) Member memberInfo,
         @RequestParam("email") String email) {
@@ -89,7 +120,43 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
 
+    /**
+     * 회원가입
+     * @param userId
+     * @param userPw
+     * @param userName
+     * @param email
+     * @param phone
+     * @param birthday
+     * @param gender
+     * @param postcode
+     * @param addr1
+     * @param addr2
+     * @param photo
+     * @return
+     */
     @PostMapping("/api/account/join")
+    @Operation(
+        summary = "회원가입",
+        description = "회원가입을 처리합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "회원가입이 되었습니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "회원가입 처리에 실패했습니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_id", description = "검사할 아이디", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "user_pw", description = "검사할 비밀번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "user_name", description = "검사할 이름", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "email", description = "검사할 이메일", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "phone", description = "검사할 전화번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "birthday", description = "검사할 생년월일", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "gender", description = "검사할 성별", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "postcode", description = "검사할 우편번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "addr1", description = "검사할 주소1", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "addr2", description = "검사할 주소2", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "photo", description = "검사할 프로필 사진", schema = @Schema(type = "string"), required = false)
+    })
     public Map<String, Object> join(
         @RequestParam("user_id") String userId,
         @RequestParam("user_pw") String userPw,
@@ -161,7 +228,25 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
 
+    /**
+     * 아이디 찾기
+     * @param userName
+     * @param email
+     * @return
+     */
     @PostMapping("/api/account/find_id")
+    @Operation(
+        summary = "아이디 찾기",
+        description = "회원의 이름과 이메일을 입력받아 아이디를 찾습니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "아이디 찾기 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "일치하는 정보가 없습니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_name", description = "검사할 이름", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "email", description = "검사할 이메일", schema = @Schema(type = "string"), required = true) 
+    })
     public Map<String, Object> findId(
         @RequestParam("user_name") String userName,
         @RequestParam("email") String email) {
@@ -184,7 +269,25 @@ public class AccountRestController {
         return restHelper.sendJson(data);
     }
 
+    /**
+     * 비밀번호 찾기
+     * @param userId
+     * @param email
+     * @return
+     */
     @PutMapping("/api/account/reset_pw")
+    @Operation(
+        summary = "비밀번호 찾기",
+        description = "회원의 아이디와 이메일을 입력받아 임시 비밀번호를 발급합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "임시 비밀번호 발급 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "일치하는 정보가 없습니다.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_id", description = "검사할 아이디", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "email", description = "검사할 이메일", schema = @Schema(type = "string"), required = true) 
+    })
     public Map<String, Object> resetPw(
         @RequestParam("user_id") String userId,
         @RequestParam("email") String email) {
@@ -236,7 +339,26 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
 
+    /**
+     * 로그인
+     * @param request
+     * @param user_id
+     * @param user_pw
+     * @return
+     */
     @PostMapping("/api/account/login")
+    @Operation(
+        summary = "로그인",
+        description = "로그인을 처리합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "로그인 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "로그인 실패", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_id", description = "검사할 아이디", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "user_pw", description = "검사할 비밀번호", schema = @Schema(type = "string"), required = true) 
+    })
     public Map<String, Object> login(
         // 세션을 사용해야 하므로 request 객체가 필요하다.
         HttpServletRequest request,
@@ -271,14 +393,45 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
     
+    /**
+     * 로그아웃
+     * @param request
+     * @return
+     */
     @GetMapping("/api/account/logout")
+    @Operation(
+        summary = "로그아웃",
+        description = "로그아웃을 처리합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "로그아웃 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "로그아웃 실패", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
     public Map<String, Object> logout(HttpServletRequest request) {
         HttpSession session = request.getSession();
         session.invalidate();
         return restHelper.sendJson();
     }
     
+    /**
+     * 회원탈퇴
+     * @param request
+     * @param memberInfo
+     * @param password
+     * @return
+     */
     @DeleteMapping("/api/account/out")
+    @Operation(
+        summary = "회원탈퇴",
+        description = "회원탈퇴를 처리합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "회원탈퇴 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "회원탈퇴 실패", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "password", description = "검사할 비밀번호", schema = @Schema(type = "string"), required = true)
+    })
     public Map<String, Object> out(
         HttpServletRequest request,
         @SessionAttribute("memberInfo") Member memberInfo,
@@ -300,7 +453,46 @@ public class AccountRestController {
         return restHelper.sendJson();
     }
 
+    /**
+     * 회원정보 수정
+     * @param request
+     * @param memberInfo
+     * @param userPw
+     * @param newUserPw
+     * @param userName
+     * @param email
+     * @param phone
+     * @param birthday
+     * @param gender
+     * @param postcode
+     * @param addr1
+     * @param addr2
+     * @param deletePhoto
+     * @param photo
+     * @return
+     */
     @PutMapping("/api/account/edit")
+    @Operation(
+        summary = "회원정보 수정",
+        description = "회원정보를 수정합니다."
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "회원정보 수정 성공", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class))),
+        @ApiResponse(responseCode = "400", description = "회원정보 수정 실패", content = @Content(mediaType = "application/json", schema = @Schema(implementation = Map.class)))
+    })
+    @Parameters({
+        @Parameter(name = "user_pw", description = "현재 비밀번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "new_user_pw", description = "신규 비밀번호", schema = @Schema(type = "string"), required = false),
+        @Parameter(name = "user_name", description = "검사할 이름", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "email", description = "검사할 이메일", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "phone", description = "검사할 전화번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "birthday", description = "검사할 생년월일", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "postcode", description = "검사할 우편번호", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "addr1", description = "검사할 주소1", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "addr2", description = "검사할 주소2", schema = @Schema(type = "string"), required = true),
+        @Parameter(name = "delete_photo", description = "삭제할 프로필 사진 여부", schema = @Schema(type = "string"), required = false),
+        @Parameter(name = "photo", description = "검사할 프로필 사진", schema = @Schema(type = "string"), required = false)
+    })
     public Map<String, Object> edit(
         HttpServletRequest request,                         // 세션 갱신용
         @SessionAttribute("memberInfo") Member memberInfo,  // 현재 세션 정보 확인용

@@ -1,0 +1,322 @@
+[INFO ] 24-11-06 10:00:53 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 500 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:00:53 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:00:53 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 10:00:54 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 10:00:54 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:00:55 [FileuploadApplication:56] - Started FileuploadApplication in 3.253 seconds (process running for 3.995)
+[INFO ] 24-11-06 10:01:00 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:01:00 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:01:00 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:01:00 [MyInterceptor:118] - running time : 184(ms)
+[INFO ] 24-11-06 10:01:11 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:01:11 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:01:11 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_ok
+[INFO ] 24-11-06 10:01:11 [MyInterceptor:97] - - REFERER : time=10930, url=http://localhost:8080/ajax/upload
+[DEBUG] 24-11-06 10:01:11 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308548716170.png
+[DEBUG] 24-11-06 10:01:11 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308548716170.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 10:01:11 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308548716170_640x640.png
+[DEBUG] 24-11-06 10:01:11 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=02-SimpleUploadController.java.png, contentType=image/png, fileSize=152580, filePath=/2024/11/06/17308548716170.png, fileUrl=/files/2024/11/06/17308548716170.png, thumbnailPath=/2024/11/06/17308548716170_640x640.png, thumbnailUrl=/files/2024/11/06/17308548716170_640x640.png)
+[INFO ] 24-11-06 10:01:11 [MyInterceptor:118] - running time : 364(ms)
+[INFO ] 24-11-06 10:41:58 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 12760 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:41:58 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:41:58 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 10:41:59 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 10:41:59 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:42:01 [FileuploadApplication:56] - Started FileuploadApplication in 3.136 seconds (process running for 5.747)
+[INFO ] 24-11-06 10:42:20 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:42:21 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:42:21 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:42:21 [MyInterceptor:118] - running time : 179(ms)
+[INFO ] 24-11-06 10:42:27 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:42:27 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:42:27 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_ok
+[INFO ] 24-11-06 10:42:27 [MyInterceptor:97] - - REFERER : time=6240, url=http://localhost:8080/ajax/upload
+[DEBUG] 24-11-06 10:42:27 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308573474010.png
+[DEBUG] 24-11-06 10:42:27 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308573474010.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 10:42:27 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308573474010_640x640.png
+[DEBUG] 24-11-06 10:42:27 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=01-application.properties(추가).png, contentType=image/png, fileSize=230043, filePath=/2024/11/06/17308573474010.png, fileUrl=/files/2024/11/06/17308573474010.png, thumbnailPath=/2024/11/06/17308573474010_640x640.png, thumbnailUrl=/files/2024/11/06/17308573474010_640x640.png)
+[INFO ] 24-11-06 10:42:27 [MyInterceptor:118] - running time : 328(ms)
+[INFO ] 24-11-06 10:43:45 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 12760 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:43:45 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:43:45 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:43:46 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:43:46 [FileuploadApplication:56] - Started FileuploadApplication in 1.55 seconds (process running for 111.107)
+[INFO ] 24-11-06 10:44:26 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 12760 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:44:26 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:44:26 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:44:27 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:44:27 [FileuploadApplication:56] - Started FileuploadApplication in 0.885 seconds (process running for 152.185)
+[INFO ] 24-11-06 10:45:02 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:45:02 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:45:03 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:45:03 [MyInterceptor:118] - running time : 283(ms)
+[INFO ] 24-11-06 10:45:22 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:45:22 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:45:22 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:45:22 [MyInterceptor:97] - - REFERER : time=19481, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:45:30 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:45:30 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:45:30 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:45:30 [MyInterceptor:97] - - REFERER : time=27301, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:49:26 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:49:26 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:49:26 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 10:49:27 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 10:49:27 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:49:28 [FileuploadApplication:56] - Started FileuploadApplication in 3.019 seconds (process running for 3.712)
+[INFO ] 24-11-06 10:49:31 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:49:31 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:49:31 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:49:31 [MyInterceptor:118] - running time : 191(ms)
+[INFO ] 24-11-06 10:49:34 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:49:34 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:49:34 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:49:34 [MyInterceptor:97] - - REFERER : time=2991, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:50:50 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:50:50 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:50:50 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:51:44 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:51:44 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:51:44 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:51:45 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:51:45 [FileuploadApplication:56] - Started FileuploadApplication in 1.398 seconds (process running for 140.405)
+[INFO ] 24-11-06 10:51:47 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:51:47 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:51:47 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:51:47 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:51:48 [FileuploadApplication:56] - Started FileuploadApplication in 1.202 seconds (process running for 143.135)
+[INFO ] 24-11-06 10:51:51 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:51:51 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:51:51 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:52:14 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:52:14 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:52:14 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:52:15 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:52:16 [FileuploadApplication:56] - Started FileuploadApplication in 1.371 seconds (process running for 171.001)
+[INFO ] 24-11-06 10:52:17 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:52:17 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:52:17 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:52:18 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:52:19 [FileuploadApplication:56] - Started FileuploadApplication in 1.434 seconds (process running for 173.918)
+[INFO ] 24-11-06 10:53:20 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:53:21 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:53:21 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:53:24 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:53:25 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:53:25 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:53:25 [MyInterceptor:118] - running time : 30(ms)
+[INFO ] 24-11-06 10:53:27 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:53:27 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:53:27 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:53:28 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:53:29 [FileuploadApplication:56] - Started FileuploadApplication in 1.745 seconds (process running for 243.986)
+[INFO ] 24-11-06 10:53:29 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:53:29 [MyInterceptor:63] - [Client] 127.0.0.1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:53:29 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:53:45 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 7340 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:53:45 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:53:45 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 10:53:45 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:53:46 [FileuploadApplication:56] - Started FileuploadApplication in 1.032 seconds (process running for 260.864)
+[INFO ] 24-11-06 10:55:22 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:55:22 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:55:22 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:55:33 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:55:33 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:55:33 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:55:33 [MyInterceptor:118] - running time : 68(ms)
+[INFO ] 24-11-06 10:55:37 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:55:37 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:55:37 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:55:37 [MyInterceptor:97] - - REFERER : time=3469, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:58:43 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 6572 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 10:58:43 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 10:58:43 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 10:58:44 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 10:58:44 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 10:58:45 [FileuploadApplication:56] - Started FileuploadApplication in 3.069 seconds (process running for 3.707)
+[INFO ] 24-11-06 10:58:50 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:58:50 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:58:50 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 10:58:50 [MyInterceptor:118] - running time : 171(ms)
+[INFO ] 24-11-06 10:58:54 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 10:58:54 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 10:58:54 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 10:58:54 [MyInterceptor:97] - - REFERER : time=3323, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:00:07 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 6572 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 11:00:07 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 11:00:07 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 11:00:08 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 11:00:09 [FileuploadApplication:56] - Started FileuploadApplication in 1.702 seconds (process running for 87.222)
+[INFO ] 24-11-06 11:00:10 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 6572 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 11:00:10 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 11:00:10 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 11:00:11 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 11:00:12 [FileuploadApplication:56] - Started FileuploadApplication in 1.485 seconds (process running for 90.181)
+[INFO ] 24-11-06 11:00:13 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:00:13 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:00:13 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:00:13 [MyInterceptor:118] - running time : 98(ms)
+[INFO ] 24-11-06 11:00:18 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:00:18 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:00:18 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 11:00:18 [MyInterceptor:97] - - REFERER : time=5409, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:02:31 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 18560 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 11:02:31 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 11:02:31 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 11:02:32 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 11:02:32 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 11:02:33 [FileuploadApplication:56] - Started FileuploadApplication in 3.103 seconds (process running for 3.768)
+[INFO ] 24-11-06 11:02:43 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:02:43 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:02:43 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:02:43 [MyInterceptor:118] - running time : 174(ms)
+[INFO ] 24-11-06 11:02:47 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:02:47 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:02:47 [MyInterceptor:81] - [POST] http://localhost:8080/ajax/api/upload_ok
+[INFO ] 24-11-06 11:02:47 [MyInterceptor:97] - - REFERER : time=3326, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:07:44 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 18560 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 11:07:44 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 11:07:44 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 11:07:45 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 11:07:45 [FileuploadApplication:56] - Started FileuploadApplication in 1.103 seconds (process running for 315.47)
+[INFO ] 24-11-06 11:07:58 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 6820 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 11:07:58 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 11:07:58 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 11:07:59 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 11:07:59 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 11:08:01 [FileuploadApplication:56] - Started FileuploadApplication in 3.027 seconds (process running for 3.863)
+[INFO ] 24-11-06 11:08:03 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:08:03 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:08:03 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:08:03 [MyInterceptor:118] - running time : 174(ms)
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_ok
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:97] - - REFERER : time=2328, url=http://localhost:8080/ajax/upload
+[DEBUG] 24-11-06 11:08:05 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308588857000.png
+[DEBUG] 24-11-06 11:08:05 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308588857000.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 11:08:05 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308588857000_640x640.png
+[DEBUG] 24-11-06 11:08:05 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=01-application.properties(추가).png, contentType=image/png, fileSize=230043, filePath=/2024/11/06/17308588857000.png, fileUrl=/files/2024/11/06/17308588857000.png, thumbnailPath=/2024/11/06/17308588857000_640x640.png, thumbnailUrl=/files/2024/11/06/17308588857000_640x640.png)
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:118] - running time : 325(ms)
+[INFO ] 24-11-06 11:08:05 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 11:08:06 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 11:08:06 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308588857000_640x640.png
+[INFO ] 24-11-06 11:08:06 [MyInterceptor:97] - - REFERER : time=5, url=http://localhost:8080/ajax/upload
+[INFO ] 24-11-06 11:08:06 [MyInterceptor:118] - running time : 44(ms)
+[INFO ] 24-11-06 15:30:41 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:30:41 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:30:41 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:30:42 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:30:42 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:30:44 [FileuploadApplication:56] - Started FileuploadApplication in 3.766 seconds (process running for 4.58)
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:30:52 [MyInterceptor:118] - running time : 179(ms)
+[INFO ] 24-11-06 15:32:00 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:32:00 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:32:00 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 15:32:01 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:32:02 [FileuploadApplication:56] - Started FileuploadApplication in 2.77 seconds (process running for 82.881)
+[INFO ] 24-11-06 15:32:05 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 10336 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:32:05 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:32:05 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 24-11-06 15:32:06 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:32:07 [FileuploadApplication:56] - Started FileuploadApplication in 1.813 seconds (process running for 87.219)
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:32:10 [MyInterceptor:118] - running time : 339(ms)
+[INFO ] 24-11-06 15:36:02 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 24476 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:36:02 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:36:02 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:36:04 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:36:04 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:36:06 [FileuploadApplication:56] - Started FileuploadApplication in 4.379 seconds (process running for 5.683)
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:36:15 [MyInterceptor:118] - running time : 191(ms)
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:36:19 [MyInterceptor:97] - - REFERER : time=4377, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:22 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 13652 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:38:22 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:38:22 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:38:23 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:38:23 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:38:25 [FileuploadApplication:56] - Started FileuploadApplication in 3.614 seconds (process running for 4.814)
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:81] - [GET] http://localhost:8080/multi/upload
+[INFO ] 24-11-06 15:38:34 [MyInterceptor:118] - running time : 202(ms)
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:97] - - REFERER : time=2154, url=http://localhost:8080/multi/upload
+[INFO ] 24-11-06 15:38:36 [MyInterceptor:118] - running time : 68(ms)
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:38:43 [MyInterceptor:97] - - REFERER : time=7090, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:38:56 [MyInterceptor:118] - running time : 71(ms)
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:39:00 [MyInterceptor:97] - - REFERER : time=3533, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:43 [FileuploadApplication:50] - Starting FileuploadApplication using Java 17.0.2 with PID 14808 (D:\jinju\07_SpringBoot\11-fileupload\build\classes\java\main started by user in D:\jinju\07_SpringBoot\11-fileupload)
+[DEBUG] 24-11-06 15:47:43 [FileuploadApplication:51] - Running with Spring Boot v3.3.5, Spring v6.1.14
+[INFO ] 24-11-06 15:47:43 [FileuploadApplication:654] - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 24-11-06 15:47:45 [LogFactory:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[WARN ] 24-11-06 15:47:45 [ClassPathMapperScanner:44] - No MyBatis mapper was found in '[kr.jinju.fileupload]' package. Please check your configuration.
+[INFO ] 24-11-06 15:47:46 [FileuploadApplication:56] - Started FileuploadApplication in 3.61 seconds (process running for 4.915)
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:81] - [GET] http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:52 [MyInterceptor:118] - running time : 181(ms)
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:81] - [POST] http://localhost:8080/api/upload_multi_ok
+[INFO ] 24-11-06 15:47:56 [MyInterceptor:97] - - REFERER : time=3931, url=http://localhost:8080/ajax/upload_multi
+[DEBUG] 24-11-06 15:47:56 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756766490.png
+[DEBUG] 24-11-06 15:47:56 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756766490.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:56 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756766490_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=01-axios-helper.js.png, contentType=image/png, fileSize=915326, filePath=/2024/11/06/17308756766490.png, fileUrl=/files/2024/11/06/17308756766490.png, thumbnailPath=/2024/11/06/17308756766490_640x640.png, thumbnailUrl=/files/2024/11/06/17308756766490_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756772580.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756772580.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756772580_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=02-AjaxUploadController.java.png, contentType=image/png, fileSize=178277, filePath=/2024/11/06/17308756772580.png, fileUrl=/files/2024/11/06/17308756772580.png, thumbnailPath=/2024/11/06/17308756772580_640x640.png, thumbnailUrl=/files/2024/11/06/17308756772580_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756773780.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756773780.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756773780_640x640.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=03-UploadRestController.java.png, contentType=image/png, fileSize=724543, filePath=/2024/11/06/17308756773780.png, fileUrl=/files/2024/11/06/17308756773780.png, thumbnailPath=/2024/11/06/17308756773780_640x640.png, thumbnailUrl=/files/2024/11/06/17308756773780_640x640.png)
+[DEBUG] 24-11-06 15:47:57 [FileHelper:228] - 업로드 된 파일의 경로: D:/jinju/07_SpringBoot/upload/2024/11/06/17308756777200.png
+[DEBUG] 24-11-06 15:47:57 [FileHelper:287] - [Thumbnail] path: /2024/11/06/17308756777200.png, size: 640x640, crop: true
+[DEBUG] 24-11-06 15:47:57 [FileHelper:305] - [Thumbnail] saveFile: D:\jinju\07_SpringBoot\upload\2024\11\06\17308756777200_640x640.png
+[DEBUG] 24-11-06 15:47:58 [FileHelper:269] - UploadItem(fieldName=profile-photo, originName=04-upload_multi.html.png, contentType=image/png, fileSize=670255, filePath=/2024/11/06/17308756777200.png, fileUrl=/files/2024/11/06/17308756777200.png, thumbnailPath=/2024/11/06/17308756777200_640x640.png, thumbnailUrl=/files/2024/11/06/17308756777200_640x640.png)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 1513(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:45] - -------------- new client connect --------------
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756766490_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756772580_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=27, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=27, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 105(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 108(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756773780_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:63] - [Client] 0:0:0:0:0:0:0:1, Other, Windows 10, Chrome 130.0
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=-108, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:81] - [GET] http://localhost:8080/files/2024/11/06/17308756777200_640x640.png
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 131(ms)
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:97] - - REFERER : time=-131, url=http://localhost:8080/ajax/upload_multi
+[INFO ] 24-11-06 15:47:58 [MyInterceptor:118] - running time : 143(ms)
